@@ -1,0 +1,149 @@
+{
+    "nodes": [
+        {
+            "id": "attributes",
+            "url": "./../attributes",
+            "category": "root",
+            "title": "attributes",
+            "content": "```yaml\n---\ntitle: Attributes\n---\n```\n\n## category\n\n- dirs\n- nodes\n- root"
+        },
+        {
+            "id": "dirs",
+            "url": "./../dirs/dirs",
+            "category": "dirs",
+            "title": "directories",
+            "content": "```yaml\n---\ntitle: Directories # you may put the course name here\n---\n```\n\n<ul>\n   {% for item in site.data.dirs-list%}\n      <li><a href=\"{{ item._link }}\">{{ item.title }}</a></li>\n   {% endfor %}\n</ul>"
+        },
+        {
+            "id": "example",
+            "url": "./../nodes/example",
+            "category": "nodes",
+            "title": "github pages example",
+            "content": "```yaml\n---\ntitle:  \"Github Pages Example\"\n---\n```\n\n{% include mermaid.html %}\n{% include mathjax.html %}\n## Welcome to GitHub Pages\n\nYou can use the [editor on GitHub](https://github.com/yjmantilla/yjmantilla.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.\n\nWhenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.\n\n### Markdown\n\nMarkdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for\n\n```markdown\nSyntax highlighted code block\n\n# Header 1\n## Header 2\n### Header 3\n\n- Bulleted\n- List\n\n1. Numbered\n2. List\n\n**Bold** and _Italic_ and `Code` text\n\n[Link](url) and ![Image](src)\n```\n\nFor more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).\n\n### Jekyll Themes\n\nYour Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/yjmantilla/yjmantilla.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.\n\n### Support or Contact\n\nHaving trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we\u2019ll help you sort it out.\n\n### Mermaid\n\n```mermaid\ngraph TD;\n    A-->B;\n```\n\n<pre><code class=\"language-mermaid\">graph LR\nA--&gt;B\n</code></pre>\n\n<div class=\"mermaid\">graph LR\nA--&gt;B\n</div>\n\n<div class=\"mermaid\">graph LR\n    graph TD\n    A[Client] --> B[Load Balancer]\n    B --> C[Server1]\n    B --> D[Server2]\n</div>\n\n<body>\n\n    Here is one mermaid diagram:\n    <div class=\"mermaid\">\n      graph TD\n      A[Client] --> B[Load Balancer]\n      B --> C[Server1]\n      B --> D[Server2]\n    </div>\n\n    This doesnt work...\n    \n    And here is another:\n    <div class=\"mermaid\">\n      graph TD\n      A[Client] -->|tcp_123| B(Load Balancer)\n      B -->|tcp_456| C[Server1]\n      B -->|tcp_456| D[Server2]\n    </div>\n</body>\n\n### Math\nyou can use an inline formula $$\\forall x \\in R$$ like this one\n\n$$\nM = \\left( \\begin{array}{ccc}\nx_{11} & x_{12} & \\ldots \\\\\nx_{21} & x_{22} & \\ldots \\\\\n\\vdots & \\vdots & \\ldots \\\\\n\\end{array} \\right)\n$$"
+        },
+        {
+            "id": "graphs",
+            "url": "./../dirs/graphs",
+            "category": "dirs",
+            "title": "graphs",
+            "_graphs": [
+                {
+                    "_link": "./../graphs/knowledge-graph-subdirs.html",
+                    "title": "Graph with Categories"
+                },
+                {
+                    "_link": "./../graphs/knowledge-graph.html",
+                    "title": "Graph without Categories"
+                }
+            ],
+            "content": "```yaml\n---\ntitle: Graphs\n\n_graphs: # start with _ to ignore the filter for this attribute\n  - _link: ./../graphs/knowledge-graph-subdirs.html\n    title: Graph with Categories\n  - _link: ./../graphs/knowledge-graph.html\n    title: Graph without Categories\n---\n```\n\n<ul>\n   {% for item in page._graphs %}\n      <li><a href=\"{{ item._link }}\">{{ item.title }}</a></li>\n   {% endfor %}\n</ul>"
+        },
+        {
+            "id": "losenode",
+            "url": "./../nodes/losenode",
+            "category": "nodes",
+            "title": "losenode",
+            "content": "```yaml\n---\ntitle: losenode\n---\n```"
+        },
+        {
+            "id": "many-words-node-search-text",
+            "url": "./../nodes/many-words-node-search-text",
+            "category": "nodes",
+            "title": "many words node search text",
+            "content": "```yaml\n---\ntitle: \"Many Words Node Search Text\"\n---\n```\n\nblablabla"
+        },
+        {
+            "id": "node-with-drawing",
+            "url": "./../nodes/node-with-drawing",
+            "category": "nodes",
+            "title": "node with drawing",
+            "content": "```yaml\n---\ntitle: Node with Drawing\n---\n```\n\n![Example Excalidraw SVG](/assets/drawingExample.excalidraw.svg)"
+        },
+        {
+            "id": "node1",
+            "url": "./../nodes/node1",
+            "category": "nodes",
+            "title": "node1",
+            "content": "```yaml\n---\ntitle: Node1\n---\n```"
+        },
+        {
+            "id": "node2",
+            "url": "./../nodes/node2",
+            "category": "nodes",
+            "title": "node 2",
+            "content": "```yaml\n---\ntitle: Node 2\n---\n```\n\n[[node1]]\n[[unknownnode]]\n\n\n[//begin]: # \"Autogenerated link references for markdown compatibility\"\n[node1]: ./../nodes/node1 \"node1\"\n[unknownnode]: ./../nodes/stub \"unknownnode\"\n[//end]: # \"Autogenerated link references\""
+        },
+        {
+            "id": "README",
+            "url": "./../README",
+            "category": "root",
+            "title": "readme",
+            "content": "```yaml\n---\ntitle: README\n---\n```\n\n# README\n\nThis is a base repository to make my flavor of an hypertext graph knowledge base system using Jekyll. The main feature is custom management of references and custom graph generation usable on the browser. All of this was inspired by [foam](https://github.com/foambubble/foam).\n\nUse gen_static_data.py to generate the static data for the site. This script will generate the data for the nodes and the graphs.\nYou need Jekyll to run the site.\n\nYou can create references to other notes using the ``(())`` where the parentheses are actually square brackets. The text inside the brackets is the filename of the note. If the note doesnt exist, it will be redirected to the stub.md file.\n\nEach new directory containing notes is a new \"category\", and should have a directory-name.md file in the dirs folder. The collect-stuff function in gen_static_data.py will generate the list of notes, so you can use it to generate the list of categories in that script.\n\nAssumptions:\n\n- each .md has a unique filename (even beyond different directories, root/nodes/a.md and root/a.md cannot happen).\n- stub.md is the default file for a non-existing note.\n- No notes are beyond the first level of sub-directories. root/subdir/note.md is the deepest you can go.\n- Each note has its front matter with the title at least.\n- No double square brackets in the text unless it is a reference.\n- Each note has a unique title (not sure what happens if not...)\n- Using the [paste image vscode extension](https://github.com/mushanshitiancai/vscode-paste-image) is recommended but you may need to configure it (e.g. path of images copied to assets, etc).\n- Currently, it is better to use this repo as template. Or you may download this as a zip and unzip to the root of your project. Then you can delete the .git folder and use it in your own repository. Forking is not recommended as GitHub does not allow multiple forks of the same repository into the same account through their gui (rather you need to do it manually which is cumbersome).\n- Might be worthwhile experimenting with dendron-like hierarchy (root.subdir.note.md). For example, people.john.md . Though the functionality might overlap with the category system and/or the tag system. Might be a way to impose hierarchy inside the nodes folder.\n\nPreview: https://yjmantilla.github.io/jekyll-hypertext-network/"
+        },
+        {
+            "id": "stub",
+            "url": "./../nodes/stub",
+            "category": "nodes",
+            "title": "stub",
+            "content": "```yaml\n---\ntitle: Stub\n---\n```\n\nYou got here because the node you clicked doesn't exist yet :( .\n\n\n[//begin]: # \"Autogenerated link references for markdown compatibility\"\n[unknownnode]: ./../nodes/stub \"unknownnode\"\n[//end]: # \"Autogenerated link references\""
+        },
+        {
+            "id": "unknownnode",
+            "url": "./../nodes/stub",
+            "category": "nodes",
+            "title": "unknownnode",
+            "content": "```yaml\n---\ntitle: Stub\n---\n```\n\nYou got here because the node you clicked doesn't exist yet :( .\n\n\n[//begin]: # \"Autogenerated link references for markdown compatibility\"\n[unknownnode]: ./../nodes/stub \"unknownnode\"\n[//end]: # \"Autogenerated link references\""
+        },
+        {
+            "id": "words-search-text-node",
+            "url": "./../nodes/words-search-text-node",
+            "category": "nodes",
+            "title": "words search text node",
+            "content": "```yaml\n---\ntitle: Words Search Text Node\n---```"
+        }
+    ],
+    "links": [
+        {
+            "source": "attributes",
+            "target": "dirs"
+        },
+        {
+            "source": "dirs",
+            "target": "dirs"
+        },
+        {
+            "source": "graphs",
+            "target": "dirs"
+        },
+        {
+            "source": "node2",
+            "target": "node1"
+        },
+        {
+            "source": "node2",
+            "target": "unknownnode"
+        },
+        {
+            "source": "README",
+            "target": "dirs"
+        },
+        {
+            "source": "stub",
+            "target": "unknownnode"
+        }
+    ],
+    "unique_values": {
+        "category": [
+            "dirs",
+            "nodes",
+            "root"
+        ]
+    },
+    "ignored_attributes": [
+        "content"
+    ],
+    "ignored_substring": [
+        "_link",
+        "excalidraw-"
+    ]
+}

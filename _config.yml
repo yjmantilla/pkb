@@ -1,0 +1,6 @@
+remote_theme: pages-themes/architect@v0.2.0
+#repository: username/repo # uncomment this only if you are not working within git repo
+plugins:
+  - jekyll-remote-theme # add this line to the plugins list if you already have one
+exclude: # directories to exclude from jekyll build
+  - docs

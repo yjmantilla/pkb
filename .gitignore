@@ -1,0 +1,14 @@
+node_modules
+.DS_Store
+.vscode-test/
+*.tsbuildinfo
+*.vsix
+*.log
+out
+dist
+docs/_site
+docs/.sass-cache
+docs/.jekyll-metadata
+.test-workspace
+_site/*
+Gemfile.lock

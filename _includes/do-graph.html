@@ -1,0 +1,338 @@
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<div id="tooltip2" style="display: none; position: absolute; padding: 10px; background-color: white; border: 1px solid black; border-radius: 5px;"></div>
+<div id="tooltip" style="display: none; position: absolute; z-index: 1000; left: 50px; top: 50px; padding: 10px; background-color: white; border: 1px solid black; border-radius: 5px; opacity: 0.5;"></div>
+
+<script>
+let mousePosition = { x: 0, y: 0 };
+
+document.addEventListener('mousemove', (event) => {
+  mousePosition.x = event.clientX;
+  mousePosition.y = event.clientY;
+});
+
+function do_graph(path){
+
+  fetch(path).then(res => res.json()).then(data => {
+      const ignored_substring=data.ignored_substring;
+      const ignored_attributes=data.ignored_attributes;
+      const unique_values=data.unique_values;
+      console.log(ignored_substring);
+      console.log(ignored_attributes);
+      console.log(unique_values);
+      nodes_ = data.nodes.map(t => t.id);
+      data.links.forEach(link => {
+        const a = data.nodes[nodes_.indexOf(link.source)];
+        const b = data.nodes[nodes_.indexOf(link.target)];
+        !a.neighbors && (a.neighbors = []);
+        !b.neighbors && (b.neighbors = []);
+        a.neighbors.push(b);
+        b.neighbors.push(a);
+
+        !a.links && (a.links = []);
+        !b.links && (b.links = []);
+        a.links.push(link);
+        b.links.push(link);
+      });
+      const NODE_R = 8;
+      const highlightNodes = new Set();
+      const highlightLinks = new Set();
+      let hoverNode = null;
+      
+
+      // dat.gui setup
+      const gui = new dat.GUI();
+      const settings = {enableTooltip: false, orSearch: false, keepMissing: true};
+      const uniqueCategories = new Set();
+      const delimiter = '~';
+      const lowUnique=5;
+      const midUnique=10;
+      gui.add(settings, 'enableTooltip').name('Enable Preview');
+      gui.add(settings, 'orSearch').name('OR search').onChange(updateGraph);
+      gui.add(settings, 'keepMissing').name('Keep empty nodes').onChange(updateGraph);
+
+        // Adding filter controls to GUI
+        const fieldValues = {};
+
+        const blacklist = ['content', 'doi', 'frame', 'id', 'link', 'links', 'neighbors', 'sourceurl'];//,'url']; // Replace with your actual keys
+
+        data.nodes.forEach(node => {
+            Object.keys(node).forEach(key => {
+                if (blacklist.includes(key)) {
+                    return;
+                }
+                if (!fieldValues[key]) {
+                    fieldValues[key] = new Set();
+                }
+                const value = node[key];
+                if (Array.isArray(value)) {
+                    value.forEach(item => fieldValues[key].add(item));
+                } else {
+                    fieldValues[key].add(value);
+                }
+            });
+        });
+        //console.log(fieldValues);
+
+
+        Object.keys(fieldValues).forEach(key => {
+            if (blacklist.includes(key) && fieldValues.includes(key)) {
+                delete fieldValues[key];
+            }
+        });
+
+        // Now fieldValues will only contain keys that are not in the blacklist
+        function filterNodes(setting,node){
+                  const [field, value] = setting.split(delimiter);
+                  const fieldValue = node[field];
+                  // If the field does not exist in the node, filter it out
+                  if (fieldValue === undefined || fieldValue === null || fieldValue === '') {
+                      return settings.keepMissing;
+                  }
+
+                  // For range filters
+                  if (typeof filterSettings[setting] === 'object' && filterSettings[setting] !== null) {
+                      return fieldValue >= filterSettings[setting].min && fieldValue <= filterSettings[setting].max;
+                  }
+
+                  // For string filters (dropdowns and search boxes)
+                  if (typeof filterSettings[setting] === 'string') {
+                      if (filterSettings[setting] === '') {
+                          return true;
+                      }
+                      const searchWords = filterSettings[setting].toLowerCase().split(' ');
+                      const fieldValueLowerCase = fieldValue.toLowerCase();
+
+                      if (settings.orSearch) {
+                          return searchWords.some(word => fieldValueLowerCase.includes(word));
+                      }
+                      return searchWords.every(word => fieldValueLowerCase.includes(word));
+                  }
+
+                  // For toggle filters
+                  if (typeof filterSettings[setting] === 'boolean' && fieldValue !== undefined && fieldValue !== null && fieldValue !== '') {
+                      return !(filterSettings[setting] === false && fieldValue.includes(value));
+                      //filterSettings[setting] === false || fieldValue.includes(value);
+                      //
+                  }
+
+
+                  return true;
+              }
+        function updateGraph() {
+
+          // const filteredNodes = data.nodes.filter(node => {
+          //     return Object.keys(filterSettings).every(setting => filterNodes(setting,node));
+          // });
+
+          const filteredNodes = [];
+
+          for (let node of data.nodes) {
+              let includeNode = true;
+              
+              for (let setting of Object.keys(filterSettings)) {
+                if (!filterNodes(setting, node)) {
+                      includeNode = false;
+                      //console.log(`Node ${node.id} excluded by setting: ${setting}`); // Debugging log
+                      break; // Stop checking further settings for this node
+                  }
+            }
+              if (includeNode) {
+                  filteredNodes.push(node);
+              } else {
+                "pass";
+                  //console.log(`Node ${node.id} excluded from the filtered set`); // Debugging log
+              }
+          }
+          const filteredLinks = data.links.filter(link => 
+                filteredNodes.includes(link.source) && filteredNodes.includes(link.target)
+            );
+
+
+          // Now use `filteredNodes` to update your graph
+          Graph.graphData({ nodes: filteredNodes, links: filteredLinks }); // Example update call
+          //console.log(filteredNodes);
+          //console.log(filteredLinks);
+      }
+
+        const filterSettings = {};
+
+        Object.keys(fieldValues).forEach(field => {
+            const values = Array.from(fieldValues[field]);
+
+            if (field.startsWith('_') || ignored_attributes.includes(field) || ignored_substring.some(substring => field.includes(substring))){
+                "pass";
+            }else
+            {
+            if (values.every(val => typeof val === 'number')) {
+                // Range filter
+                filterSettings[field] = { min: Math.min(...values), max: Math.max(...values) };
+                const folder = gui.addFolder(`Filter: ${field}`);
+                folder.add(filterSettings[field], 'min').onChange(updateGraph);
+                folder.add(filterSettings[field], 'max').onChange(updateGraph);
+            } else {
+                const flatValues = values.some(val => Array.isArray(val))
+                    ? [].concat(...values.filter(val => Array.isArray(val)))
+                    : values;
+                const uniqueFlatValues = Array.from(new Set(flatValues));
+
+                filterSettings[field] = '';
+
+                if (uniqueFlatValues.length > midUnique) {
+                    // Search box filter
+                    gui.add(filterSettings, field).onChange(updateGraph);
+                } else if (uniqueFlatValues.length > lowUnique) {
+                    // Dropdown filter
+                    const folder = gui.addFolder(`Filter: ${field}`);
+                    uniqueFlatValues.unshift(''); // Add a default 'all' option
+                    folder.add(filterSettings, field, uniqueFlatValues).onChange(updateGraph);
+                    //TODO: some fields like authors should filter if any of the authors match, not all at the same time
+                } else {
+                    // Toggle filters
+                    const folder = gui.addFolder(`Filter: ${field}`);
+                    uniqueFlatValues.forEach(value => {
+                        filterSettings[`${field}${delimiter}${value}`] = true;
+                        folder.add(filterSettings, `${field}${delimiter}${value}`).onChange(updateGraph);
+                    });
+
+                    // Add Toggle All and Detoggle All functionality
+                    folder.add({toggleAll: () => setAllToggles(folder, field, true)}, 'toggleAll').name("Toggle All");
+                    folder.add({toggleAll: () => setAllToggles(folder, field, false)}, 'toggleAll').name("Detoggle All");
+                  }
+            }}
+        });
+
+        function setAllToggles(folder, field, value) {
+        folder.__controllers.forEach(controller => {
+            if (controller.property.startsWith(field + delimiter)) {
+                controller.setValue(value);
+            }
+        });
+        updateGraph();
+    }
+
+    defaultSettings = JSON.parse(JSON.stringify(filterSettings));
+    defaultSettings.enableTooltip = false;
+    defaultSettings.orSearch = false;
+    defaultSettings.keepMissing = true;
+
+    function resetSettings() {
+    Object.keys(defaultSettings).forEach(key => {
+        if (typeof defaultSettings[key] === 'object' && defaultSettings[key] !== null) {
+            // For objects, reset each property
+            Object.assign(filterSettings[key], defaultSettings[key]);
+        } else {
+            // For other types, reset directly
+            filterSettings[key] = defaultSettings[key];
+        }
+    });
+
+    // Update the GUI to reflect the default settings
+    for (let i = 0; i < gui.__controllers.length; i++) {
+        gui.__controllers[i].updateDisplay();
+    }
+
+    // Update the graph with the reset settings
+    updateGraph();
+    
+}
+
+    gui.add({ resetSettings }, 'resetSettings').name('Reset');
+
+      const elem = document.getElementById('graph');
+      const Graph = ForceGraph()(elem)
+        .graphData(data)
+        //.nodeRelSize(NODE_R)
+        .onLinkHover(link => {
+          highlightNodes.clear();
+          highlightLinks.clear();
+
+          if (link) {
+            highlightLinks.add(link);
+            highlightNodes.add(link.source);
+            highlightNodes.add(link.target);
+          }
+        })
+        .autoPauseRedraw(false) // keep redrawing after engine has stopped
+        .backgroundColor('#000000')
+        .nodeId('id')
+        .linkColor(() => 'rgba(0,255,0,0.2)')
+        //.linkDirectionalParticles(1)
+        .linkWidth(link => highlightLinks.has(link) ? 5 : 1)
+        .linkDirectionalParticles(4)
+        .linkDirectionalParticleWidth(link => highlightLinks.has(link) ? 4 : 0)
+        .onNodeClick(node => window.open(node.url, '_blank'))
+        .nodePointerAreaPaint((node, color, ctx) => {
+          ctx.fillStyle = color;
+          const bckgDimensions = node.__bckgDimensions;
+          bckgDimensions && ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2, ...bckgDimensions);
+        })
+        //.nodeCanvasObjectMode(node => highlightNodes.has(node) ? 'before' : undefined)
+        .nodeCanvasObject((node, ctx, globalScale) => {
+
+          // Calculate radius based on the number of neighbors
+          const minRadius = 4; // Minimum radius
+          var radius = 4;
+          if (typeof node.neighbors !== 'undefined'){
+            radius = Math.max(minRadius, minRadius * Math.sqrt(node.neighbors.length));
+          }
+
+
+          // Draw the circle
+          ctx.beginPath();
+          ctx.arc(node.x, node.y, radius, 0, 2 * Math.PI, false);
+          ctx.fillStyle = 'blue';
+          ctx.fill();
+
+          const label = node.title;//node.id;
+          const fontSize = 12/globalScale;
+          ctx.font = `${fontSize}px Sans-Serif`;
+          const textWidth = ctx.measureText(label).width;
+          const bckgDimensions = [textWidth, fontSize].map(n => n + fontSize * 0.2); // some padding
+
+          ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+          // ctx.fillRect(node.x - bckgDimensions[0] / 2, node.y - bckgDimensions[1] / 2, ...bckgDimensions);
+          //
+          // ctx.beginPath();
+          // ctx.arc(node.x, node.y, NODE_R * 1.4, 0, 2 * Math.PI, false);
+          // ctx.fillStyle = node === hoverNode ? 'red' : 'orange';
+          // ctx.fill();
+          //
+          ctx.textAlign = 'center';
+          ctx.textBaseline = 'middle';
+          ctx.fillStyle = node.color;
+          ctx.fillText(label, node.x, node.y);
+
+          node.__bckgDimensions = bckgDimensions; // to re-use in nodePointerAreaPaint
+        })
+        .onNodeHover(node => {
+          highlightNodes.clear();
+          highlightLinks.clear();
+          if (node) {
+            highlightNodes.add(node);
+            if (typeof node.neighbors !== 'undefined'){
+            node.neighbors.forEach(neighbor => highlightNodes.add(neighbor));
+            node.links.forEach(link => highlightLinks.add(link));
+            }
+          }
+          hoverNode = node || null;
+          elem.style.cursor = node ? '-webkit-grab' : null;
+        if (settings.enableTooltip) {
+        const tooltip = document.getElementById('tooltip');
+        if (node) {
+          if (node.content){
+          if (!node.content.includes('http-equiv="refresh"') && !node.content.includes("window.location.href")){
+          tooltip.innerHTML = marked.parse(node.content); // Convert markdown to HTML
+          tooltip.style.display = 'block';
+          tooltip.style.left = '50px';//`${mousePosition.x}px`; // Use global mouse position
+          tooltip.style.top = '50px';//`${mousePosition.y}px`;
+          //console.log(mousePosition.x, mousePosition.y,tooltip.innerHTML);
+          }
+         }
+          } else {
+          tooltip.style.display = 'none';
+        }}
+      })
+              //.onNodeHover(node => elem.style.cursor = node ? 'pointer' : null)
+    });
+  }
+</script>

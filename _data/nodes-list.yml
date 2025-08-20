@@ -1,0 +1,17 @@
+---
+- _link: ./../nodes/example.html
+  title: Github Pages Example
+- _link: ./../nodes/losenode.html
+  title: losenode
+- _link: ./../nodes/many-words-node-search-text.html
+  title: Many Words Node Search Text
+- _link: ./../nodes/node-with-drawing.html
+  title: Node with Drawing
+- _link: ./../nodes/node1.html
+  title: Node1
+- _link: ./../nodes/node2.html
+  title: Node 2
+- _link: ./../nodes/stub.html
+  title: Stub
+- _link: ./../nodes/words-search-text-node.html
+  title: Words Search Text Node
