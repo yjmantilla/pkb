@@ -6,6 +6,13 @@ import json
 import yaml
 import ntpath
 import pathlib
+import datetime
+
+class _DateEncoder(json.JSONEncoder):
+    def default(self, o):
+        if isinstance(o, (datetime.date, datetime.datetime)):
+            return o.isoformat()
+        return super().default(o)
 
 # read config yaml
 with open('gencfg.yml', 'r') as f:
@@ -24,12 +31,6 @@ def has_front_matter(lines):
         return False, []  # In case the end delimiter isn't found
     return False, []
 
-def format_content_with_front_matter(content, front_matter_lines):
-    """Format content by removing front matter and prepending it as a code block."""
-    content_lines = content.split('\n')
-    content_without_fm = '\n'.join(content_lines[len(front_matter_lines):])  # Remove front matter lines
-    front_matter_str = '```yaml\n' + ''.join(front_matter_lines) + '```\n'  # Format as code block
-    return front_matter_str + content_without_fm
 #%% bubbles
 #mypath = 'bubbles'
 #extension = '.md' # gotta filter by extension since assets may be in the folder (images ie)
@@ -107,7 +108,6 @@ def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_exte
         try:
             with open(this_file, encoding='utf-8') as f:
                 data = f.readlines()
-                data2 = ''.join(data)
                 if data:
                     front_matter_exists, front_matter_lines = has_front_matter(data)
                     if front_matter_exists:
@@ -120,11 +120,9 @@ def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_exte
                             node['title']=node['title'].lower() # make it more easy to search as search is case sensitive
                         else:
                             node['title'] = node['id'].lower()
-                        node['content'] = format_content_with_front_matter(data2, front_matter_lines).rstrip()
                     else:
                         print(node, 'has no front matter')
                         node['title'] = node['id'].lower()
-                        node['content'] = data2.rstrip()
         except Exception as e:
             print('Error processing file for node', node, 'at', this_file, ":", e)            #exit()
     # sort nodes and links by id
@@ -133,7 +131,7 @@ def collect_graph(mypath,output_path='files\graph.json',extension='.md',out_exte
     graph.update(additional_keys)
 
     with open(output_path, "w") as out_file:
-        json.dump(graph, out_file,indent=4)
+        json.dump(graph, out_file, indent=4, cls=_DateEncoder)
     return graph
 
 def get_dicts(onlyfiles,urls,mypath):
@@ -163,6 +161,19 @@ def get_dicts(onlyfiles,urls,mypath):
 
     return dicts
 
+# remove anything in _data and dirs that is not:
+
+
+to_remove ={
+    '_data': ['dirs-list.yml','graphs-list.yml'],
+    'dirs': ['dirs.md','graphs.md'],
+}
+
+for folder, keep in to_remove.items():
+    for f in listdir(folder):
+        if f not in keep:
+            os.remove(join(folder,f))
+
 
 def collect_stuff(mypath,extension='.md',ignore=[]):
     # gotta filter by extension since assets may be in the folder (images ie)
@@ -176,6 +187,23 @@ def collect_stuff(mypath,extension='.md',ignore=[]):
 
     with open('_data/'+mypath+'-list.yml', 'w',encoding='utf-8') as yaml_file:
         yaml.dump(dicts, yaml_file, default_flow_style=default_flow_style,explicit_start=explicit_start,allow_unicode=True,encoding='utf-8')
+    
+    # make md inside dirs
+
+    template = \
+    """---
+title: %title%
+---
+
+<ul>
+{% for item in site.data.%label%-list%}
+    <li><a href="{{ item._link }}">{{ item.title }}</a></li>
+{% endfor %}
+</ul>
+"""
+    with open(join("dirs",f'{mypath}.md'), 'w',encoding='utf-8') as f:
+        f.write(template.replace('%label%',mypath).replace('%title%',mypath.capitalize()))
+
 
 def generate_link_reference_definitions(mypath,graph,extension='.md',only_clean=False,subdirs=True,ignore_in=['dirs','_site','_includes'],ignore_eq=['bubbles','README','.']):
     #onlyfiles = [f for f in listdir(mypath) if isfile(join(mypath, f)) and extension in f]

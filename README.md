@@ -2,27 +2,199 @@
 title: README
 ---
 
-# README
+# Jekyll Hypertext Network
 
-This is a base repository to make my flavor of an hypertext graph knowledge base system using Jekyll. The main feature is custom management of references and custom graph generation usable on the browser. All of this was inspired by [foam](https://github.com/foambubble/foam).
+A Jekyll-based knowledge base with an interactive hypertext graph. Write notes in Markdown, link them with `[[wikilinks]]`, and browse the result as a force-directed graph in the browser. Inspired by [Foam](https://github.com/foambubble/foam).
 
-Use gen_static_data.py to generate the static data for the site. This script will generate the data for the nodes and the graphs.
-You need Jekyll to run the site.
+Preview: <https://yjmantilla.github.io/jekyll-hypertext-network/>
 
-You can create references to other notes using the ``(())`` where the parentheses are actually square brackets. The text inside the brackets is the filename of the note. If the note doesnt exist, it will be redirected to the stub.md file.
+---
 
-Each new directory containing notes is a new "category", and should have a directory-name.md file in the dirs folder. The collect-stuff function in gen_static_data.py will generate the list of notes, so you can use it to generate the list of categories in that script.
+## Requirements
 
-Assumptions:
+- Python 3 (`pyyaml` — install with `pip install pyyaml`)
+- Ruby + Bundler (`gem install github-pages` or `bundle install`)
 
-- each .md has a unique filename (even beyond different directories, root/nodes/a.md and root/a.md cannot happen).
-- stub.md is the default file for a non-existing note.
-- No notes are beyond the first level of sub-directories. root/subdir/note.md is the deepest you can go.
-- Each note has its front matter with the title at least.
-- No double square brackets in the text unless it is a reference.
-- Each note has a unique title (not sure what happens if not...)
-- Using the [paste image vscode extension](https://github.com/mushanshitiancai/vscode-paste-image) is recommended but you may need to configure it (e.g. path of images copied to assets, etc).
-- Currently, it is better to use this repo as template. Or you may download this as a zip and unzip to the root of your project. Then you can delete the .git folder and use it in your own repository. Forking is not recommended as GitHub does not allow multiple forks of the same repository into the same account through their gui (rather you need to do it manually which is cumbersome).
-- Might be worthwhile experimenting with dendron-like hierarchy (root.subdir.note.md). For example, people.john.md . Though the functionality might overlap with the category system and/or the tag system. Might be a way to impose hierarchy inside the nodes folder.
+---
 
-Preview: https://yjmantilla.github.io/jekyll-hypertext-network/
+## How to run
+
+```bash
+bash make.sh
+```
+
+This runs two steps in sequence:
+
+1. `python gen_static_data.py` — scans all Markdown files, builds the graph JSON, and populates `_data/` and `dirs/`.
+2. `bundle exec jekyll serve` — builds the site and serves it at `http://localhost:4000`.
+
+You must re-run `gen_static_data.py` any time you add, remove, or rename a note file.
+
+---
+
+## Writing notes
+
+Create `.md` files in the `notes/` folder (or any category folder you add). Each file must have YAML front matter with at least a `title`:
+
+```yaml
+---
+title: My Note
+---
+
+Content goes here. Link to another note with [[other-note-filename]].
+```
+
+- Links use the **filename without extension**: `[[node1]]` links to `notes/node1.md`.
+- If the referenced file does not exist, the link points to `stub.md` instead.
+- Filenames must be **unique across the entire repo** (even across subdirectories).
+
+### Saving sources from the web
+
+[Obsidian Clipper](https://obsidian.md/clipper) can clip web pages as Markdown files directly into a folder. Point it at the `sources/` directory to save articles, pages, and excerpts as notes you can then link with `[[wikilinks]]`.
+
+---
+
+## Adding a new folder of notes
+
+To add a new category (e.g. `books/`):
+
+1. **Create the folder** and put your `.md` files in it.
+
+2. **Create a listing page** at `dirs/books.md`:
+
+   *Note that i think this might be automated in gen_static_data.py
+
+   ```yaml
+   ---
+   title: Books
+   ---
+
+   <ul>
+   {% for item in site.data.books-list %}
+       <li><a href="{{ item._link }}">{{ item.title }}</a></li>
+   {% endfor %}
+   </ul>
+   ```
+
+3. **Register it in `gencfg.yml`** under `collect_stuff`:
+
+   ```yaml
+   collect_stuff:
+     - ['notes', '.md']
+     - ['sources', '.md']
+     - ['books', '.md']        # add this line
+     - ['dirs', '.md', ['dirs']]
+   ```
+
+4. Run `gen_static_data.py` again — it will create `_data/books-list.yml` and regenerate the graphs.
+
+> If you want the `books` directory node itself excluded from the graph (like `notes` and `sources` are), add `'books'` to `ignore_eq` in `gencfg.yml`.
+
+---
+
+## gencfg.yml reference
+
+| Field | Description |
+|---|---|
+| `GRAPHS_URL_RULE` | `[from, to]` substitution applied to file paths when building node URLs for the graph JSON. Default converts `./` to `./../` so paths are correct relative to the `graphs/` folder. |
+| `SUBDIRS_URL_RULE` | Same substitution for subdirectory graph variants. |
+| `out_extension` | Extension appended to node URLs. Empty string means URLs have no extension (Jekyll serves them without `.html`). |
+| `BEGIN` / `END` | Delimiters wrapping the autogenerated link-reference block at the bottom of each `.md` file. These allow `[[wikilinks]]` to render as proper Markdown links in standard editors. |
+| `ignore_in` | Directory name fragments to skip when scanning for files (e.g. `_site`, `.github`). Any path containing one of these strings is excluded. |
+| `ignore_eq` | Node IDs to drop from the graph entirely (exact match). Useful for category folders like `notes` and `sources` that would otherwise appear as ghost nodes. |
+| `ignored_attributes` | Front matter keys excluded from the ontology file (`attributes.md`). |
+| `ignored_substring` | Front matter keys whose names contain any of these substrings are excluded from the ontology. |
+| `ontology_name` | Filename (without `.md`) for the generated attribute ontology page. |
+| `ontology_only_ignore` | Additional keys excluded only in the ontology (not from the graph). |
+| `collect_stuff` | List of `[folder, extension]` (or `[folder, extension, ignore_list]`) entries. For each entry the script creates `_data/<folder>-list.yml` and regenerates `dirs/<folder>.md`. |
+
+---
+
+## Repository structure
+
+```
+jekyll-hypertext-network/
+├── notes/               # Your knowledge base notes
+├── sources/             # Curated external content
+├── dirs/                # Category listing pages (some auto-generated)
+├── graphs/              # Graph viewer pages + generated JSON
+│   ├── graph.json               # (generated) flat graph
+│   └── graph-subdirs.json       # (generated) graph with categories
+├── _data/               # (generated) YAML lists for Jekyll templates
+├── _includes/           # JS graph component and feature loaders
+├── attributes.md        # (generated) ontology of all front matter values
+├── stub.md              # Fallback page for broken links
+├── gencfg.yml           # Configuration for gen_static_data.py
+├── gen_static_data.py   # Static data generation script
+└── make.sh              # Build + serve shortcut
+```
+
+---
+
+## Assumptions and constraints
+
+- Filenames are unique across all directories (e.g. `notes/a.md` and `sources/a.md` cannot coexist).
+- Notes are at most one subdirectory deep: `root/subdir/note.md` is fine, deeper is not.
+- Every note has front matter with at least `title`.
+- Do not use `[[double brackets]]` in text unless it is meant as a wikilink.
+- Use this repo as a **template** rather than forking it — GitHub limits forks per account.
+- For pasting images in VSCode, [vscode-paste-image](https://github.com/mushanshitiancai/vscode-paste-image) is recommended (configure the image output path to `assets/`).
+
+## Node Front Matter Templates
+
+## Minimal (every node)
+
+```yaml
+---
+title: My Note Title
+type: concept          # concept | paper | method | person | question | project | log
+tags: [tag1, tag2]
+status: stub           # stub | draft | note | evergreen
+---
+```
+
+## Extended (academic nodes: papers, books)
+
+```yaml
+---
+title: My Note Title
+type: paper
+tags: [tag1, tag2]
+status: note
+source: https://doi.org/...   # URL, DOI, or citation
+authors: [Author A, Author B]
+year: 2024
+venue: Nature                  # journal or conference
+read: reading                  # unread | reading | read | reviewed
+---
+```
+
+## Field reference
+
+| Field     | Used in      | Values / notes                                      |
+|-----------|--------------|-----------------------------------------------------|
+| `title`   | all          | Required. Displayed in graph and search.            |
+| `type`    | all          | `concept`, `paper`, `method`, `person`, `question`, `project`, `log` |
+| `tags`    | all          | Freeform list. Drives clustering in the graph.      |
+| `status`  | all          | `stub` → `draft` → `note` → `evergreen`             |
+| `source`  | academic     | URL, DOI, or free-text citation.                    |
+| `authors` | academic     | List of author names.                               |
+| `year`    | academic     | Publication year (integer).                         |
+| `venue`   | academic     | Journal name or conference acronym.                 |
+| `read`    | academic     | `unread`, `reading`, `read`, `reviewed`             |
+
+## Notes
+
+- `category` is auto-derived from the directory — do not set it manually.
+- `created`/`modified` dates are omitted intentionally — git history is the source of truth.
+- Any field you add consistently becomes a filterable attribute in the knowledge graph (via `attributes.md`).
+
+
+[//begin]: # "Autogenerated link references for markdown compatibility"
+[double brackets]: ./../notes/stub "double brackets"
+[node1]: ./../notes/node1 "node1"
+[other-note-filename]: ./../notes/stub "other-note-filename"
+[wikilinks]: ./../notes/stub "wikilinks"
+[wikilinks]: ./../notes/stub "wikilinks"
+[wikilinks]: ./../notes/stub "wikilinks"
+[//end]: # "Autogenerated link references"

@@ -1,9 +1,22 @@
-<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 <div id="tooltip2" style="display: none; position: absolute; padding: 10px; background-color: white; border: 1px solid black; border-radius: 5px;"></div>
 <div id="tooltip" style="display: none; position: absolute; z-index: 1000; left: 50px; top: 50px; padding: 10px; background-color: white; border: 1px solid black; border-radius: 5px; opacity: 0.5;"></div>
 
 <script>
 let mousePosition = { x: 0, y: 0 };
+
+const _contentCache = {};
+async function fetchNodeContent(node) {
+  if (node.id in _contentCache) return _contentCache[node.id];
+  _contentCache[node.id] = '';
+  try {
+    const res = await fetch(node.url);
+    const html = await res.text();
+    const doc = new DOMParser().parseFromString(html, 'text/html');
+    const section = doc.querySelector('section#main_content') || doc.body;
+    _contentCache[node.id] = section ? section.innerHTML : '';
+  } catch(e) {}
+  return _contentCache[node.id];
+}
 
 document.addEventListener('mousemove', (event) => {
   mousePosition.x = event.clientX;
@@ -317,20 +330,20 @@ function do_graph(path){
           hoverNode = node || null;
           elem.style.cursor = node ? '-webkit-grab' : null;
         if (settings.enableTooltip) {
-        const tooltip = document.getElementById('tooltip');
-        if (node) {
-          if (node.content){
-          if (!node.content.includes('http-equiv="refresh"') && !node.content.includes("window.location.href")){
-          tooltip.innerHTML = marked.parse(node.content); // Convert markdown to HTML
-          tooltip.style.display = 'block';
-          tooltip.style.left = '50px';//`${mousePosition.x}px`; // Use global mouse position
-          tooltip.style.top = '50px';//`${mousePosition.y}px`;
-          //console.log(mousePosition.x, mousePosition.y,tooltip.innerHTML);
-          }
-         }
+          const tooltip = document.getElementById('tooltip');
+          if (node) {
+            fetchNodeContent(node).then(html => {
+              if (html && !html.includes('http-equiv="refresh"') && !html.includes("window.location.href")) {
+                tooltip.innerHTML = html;
+                tooltip.style.display = 'block';
+                tooltip.style.left = '50px';
+                tooltip.style.top = '50px';
+              }
+            });
           } else {
-          tooltip.style.display = 'none';
-        }}
+            tooltip.style.display = 'none';
+          }
+        }
       })
               //.onNodeHover(node => elem.style.cursor = node ? 'pointer' : null)
     });

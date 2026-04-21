@@ -1,0 +1,11 @@
+---
+- _link: ./../sources/src-lorem-ipsum.html
+  author:
+  - '[[Wikipedia]]'
+  created: 2026-04-21
+  description: null
+  published: 2003-03-01
+  source: https://en.wikipedia.org/wiki/Lorem_ipsum
+  tags:
+  - clippings
+  title: Lorem ipsum

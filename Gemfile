@@ -1,3 +1,2 @@
-# Gemfile
 gem "github-pages", group: :jekyll_plugins
-gem "webrick", ">= 1.4"
+gem 'webrick', '>= 1.4'

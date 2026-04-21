@@ -6,5 +6,7 @@
     title: Graph without Categories
   _link: ./../dirs/graphs.html
   title: Graphs
-- _link: ./../dirs/nodes.html
-  title: Nodes
+- _link: ./../dirs/notes.html
+  title: Notes
+- _link: ./../dirs/sources.html
+  title: Sources
