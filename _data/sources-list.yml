@@ -9,3 +9,12 @@
   tags:
   - clippings
   title: Lorem ipsum
+- _link: ./../sources/llm-wiki.html
+  author: null
+  created: 2026-04-21
+  description: 'llm-wiki. GitHub Gist: instantly share code, notes, and snippets.'
+  published: null
+  source: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+  tags:
+  - clippings
+  title: llm-wiki

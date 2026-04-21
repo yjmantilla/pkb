@@ -41,6 +41,20 @@
             ]
         },
         {
+            "id": "llm-wiki",
+            "url": "./../sources/llm-wiki",
+            "category": "sources",
+            "title": "llm-wiki",
+            "source": "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+            "author": null,
+            "published": null,
+            "created": "2026-04-21",
+            "description": "llm-wiki. GitHub Gist: instantly share code, notes, and snippets.",
+            "tags": [
+                "clippings"
+            ]
+        },
+        {
             "id": "losenode",
             "url": "./../notes/losenode",
             "category": "notes",
@@ -199,18 +213,22 @@
             "sources"
         ],
         "source": [
-            "https://en.wikipedia.org/wiki/Lorem_ipsum"
+            "https://en.wikipedia.org/wiki/Lorem_ipsum",
+            "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
         ],
         "author": [
-            "[[Wikipedia]]"
+            "[[Wikipedia]]",
+            null
         ],
         "published": [
-            "2003-03-01"
+            "2003-03-01",
+            null
         ],
         "created": [
             "2026-04-21"
         ],
         "description": [
+            "llm-wiki. GitHub Gist: instantly share code, notes, and snippets.",
             null
         ],
         "tags": [

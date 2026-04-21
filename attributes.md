@@ -12,14 +12,17 @@ title: Attributes
 ## source
 
 - https://en.wikipedia.org/wiki/Lorem_ipsum
+- https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
 
 ## author
 
 - [[Wikipedia]]
+- None
 
 ## published
 
 - 2003-03-01
+- None
 
 ## created
 
@@ -27,6 +30,7 @@ title: Attributes
 
 ## description
 
+- llm-wiki. GitHub Gist: instantly share code, notes, and snippets.
 - None
 
 ## tags
