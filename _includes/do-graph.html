@@ -87,50 +87,56 @@ function do_graph(path){
         //console.log(fieldValues);
 
 
-        Object.keys(fieldValues).forEach(key => {
-            if (blacklist.includes(key) && fieldValues.includes(key)) {
-                delete fieldValues[key];
+        // filterTypes maps each field name to 'range' | 'search' | 'dropdown' | 'toggle'
+        const filterTypes = {};
+
+        function filterNodes(setting, node) {
+            // Use indexOf so values containing the delimiter are handled correctly
+            const delimIdx = setting.indexOf(delimiter);
+            const field = delimIdx === -1 ? setting : setting.slice(0, delimIdx);
+            const value = delimIdx === -1 ? undefined : setting.slice(delimIdx + 1);
+
+            const fieldValue = node[field];
+            if (fieldValue === undefined || fieldValue === null || fieldValue === '') {
+                return settings.keepMissing;
             }
-        });
 
-        // Now fieldValues will only contain keys that are not in the blacklist
-        function filterNodes(setting,node){
-                  const [field, value] = setting.split(delimiter);
-                  const fieldValue = node[field];
-                  // If the field does not exist in the node, filter it out
-                  if (fieldValue === undefined || fieldValue === null || fieldValue === '') {
-                      return settings.keepMissing;
-                  }
+            const filterType = filterTypes[field];
 
-                  // For range filters
-                  if (typeof filterSettings[setting] === 'object' && filterSettings[setting] !== null) {
-                      return fieldValue >= filterSettings[setting].min && fieldValue <= filterSettings[setting].max;
-                  }
+            if (filterType === 'range') {
+                return Number(fieldValue) >= filterSettings[field].min &&
+                       Number(fieldValue) <= filterSettings[field].max;
+            }
 
-                  // For string filters (dropdowns and search boxes)
-                  if (typeof filterSettings[setting] === 'string') {
-                      if (filterSettings[setting] === '') {
-                          return true;
-                      }
-                      const searchWords = filterSettings[setting].toLowerCase().split(' ');
-                      const fieldValueLowerCase = fieldValue.toLowerCase();
+            if (filterType === 'search') {
+                if (filterSettings[field] === '') return true;
+                const searchWords = filterSettings[field].toLowerCase().split(' ');
+                const fieldStr = (Array.isArray(fieldValue)
+                    ? fieldValue.join(' ')
+                    : String(fieldValue)
+                ).toLowerCase();
+                return settings.orSearch
+                    ? searchWords.some(word => fieldStr.includes(word))
+                    : searchWords.every(word => fieldStr.includes(word));
+            }
 
-                      if (settings.orSearch) {
-                          return searchWords.some(word => fieldValueLowerCase.includes(word));
-                      }
-                      return searchWords.every(word => fieldValueLowerCase.includes(word));
-                  }
+            if (filterType === 'dropdown') {
+                if (filterSettings[field] === '') return true;
+                const selected = filterSettings[field].toLowerCase();
+                return Array.isArray(fieldValue)
+                    ? fieldValue.some(item => String(item).toLowerCase() === selected)
+                    : String(fieldValue).toLowerCase() === selected;
+            }
 
-                  // For toggle filters
-                  if (typeof filterSettings[setting] === 'boolean' && fieldValue !== undefined && fieldValue !== null && fieldValue !== '') {
-                      return !(filterSettings[setting] === false && fieldValue.includes(value));
-                      //filterSettings[setting] === false || fieldValue.includes(value);
-                      //
-                  }
+            if (filterType === 'toggle') {
+                const fieldContainsValue = Array.isArray(fieldValue)
+                    ? fieldValue.includes(value)
+                    : String(fieldValue) === value;
+                return !(filterSettings[setting] === false && fieldContainsValue);
+            }
 
-
-                  return true;
-              }
+            return true;
+        }
         function updateGraph() {
 
           // const filteredNodes = data.nodes.filter(node => {
@@ -151,9 +157,6 @@ function do_graph(path){
             }
               if (includeNode) {
                   filteredNodes.push(node);
-              } else {
-                "pass";
-                  //console.log(`Node ${node.id} excluded from the filtered set`); // Debugging log
               }
           }
           const filteredLinks = data.links.filter(link => 
@@ -172,82 +175,81 @@ function do_graph(path){
         Object.keys(fieldValues).forEach(field => {
             const values = Array.from(fieldValues[field]);
 
-            if (field.startsWith('_') || ignored_attributes.includes(field) || ignored_substring.some(substring => field.includes(substring))){
-                "pass";
-            }else
-            {
-            if (values.every(val => typeof val === 'number')) {
-                // Range filter
-                filterSettings[field] = { min: Math.min(...values), max: Math.max(...values) };
+            if (field.startsWith('_') || ignored_attributes.includes(field) || ignored_substring.some(s => field.includes(s))) {
+                // skip ignored fields
+            } else if (values.every(val => typeof val === 'number')) {
+                // Range filter — store absolute bounds for slider limits
+                const absMin = Math.min(...values);
+                const absMax = Math.max(...values);
+                filterTypes[field] = 'range';
+                filterSettings[field] = { min: absMin, max: absMax };
                 const folder = gui.addFolder(`Filter: ${field}`);
-                folder.add(filterSettings[field], 'min').onChange(updateGraph);
-                folder.add(filterSettings[field], 'max').onChange(updateGraph);
+                folder.add(filterSettings[field], 'min', absMin, absMax).onChange(updateGraph);
+                folder.add(filterSettings[field], 'max', absMin, absMax).onChange(updateGraph);
             } else {
-                const flatValues = values.some(val => Array.isArray(val))
-                    ? [].concat(...values.filter(val => Array.isArray(val)))
-                    : values;
+                const flatValues = [].concat(...values.map(val => Array.isArray(val) ? val : [val]));
                 const uniqueFlatValues = Array.from(new Set(flatValues));
 
-                filterSettings[field] = '';
-
                 if (uniqueFlatValues.length > midUnique) {
-                    // Search box filter
+                    // Search box — substring match, multi-word AND/OR via orSearch
+                    filterTypes[field] = 'search';
+                    filterSettings[field] = '';
                     gui.add(filterSettings, field).onChange(updateGraph);
                 } else if (uniqueFlatValues.length > lowUnique) {
-                    // Dropdown filter
+                    // Dropdown — exact match against the selected value
+                    filterTypes[field] = 'dropdown';
+                    filterSettings[field] = '';
                     const folder = gui.addFolder(`Filter: ${field}`);
-                    uniqueFlatValues.unshift(''); // Add a default 'all' option
-                    folder.add(filterSettings, field, uniqueFlatValues).onChange(updateGraph);
-                    //TODO: some fields like authors should filter if any of the authors match, not all at the same time
+                    folder.add(filterSettings, field, ['', ...uniqueFlatValues]).onChange(updateGraph);
                 } else {
-                    // Toggle filters
+                    // Toggles — one checkbox per value; unchecking hides nodes with that value
+                    filterTypes[field] = 'toggle';
                     const folder = gui.addFolder(`Filter: ${field}`);
                     uniqueFlatValues.forEach(value => {
                         filterSettings[`${field}${delimiter}${value}`] = true;
                         folder.add(filterSettings, `${field}${delimiter}${value}`).onChange(updateGraph);
                     });
-
-                    // Add Toggle All and Detoggle All functionality
-                    folder.add({toggleAll: () => setAllToggles(folder, field, true)}, 'toggleAll').name("Toggle All");
-                    folder.add({toggleAll: () => setAllToggles(folder, field, false)}, 'toggleAll').name("Detoggle All");
-                  }
-            }}
+                    folder.add({ fn: () => setAllToggles(folder, field, true)  }, 'fn').name('Toggle All');
+                    folder.add({ fn: () => setAllToggles(folder, field, false) }, 'fn').name('Detoggle All');
+                }
+            }
         });
 
         function setAllToggles(folder, field, value) {
-        folder.__controllers.forEach(controller => {
-            if (controller.property.startsWith(field + delimiter)) {
-                controller.setValue(value);
-            }
-        });
-        updateGraph();
-    }
+            folder.__controllers.forEach(controller => {
+                if (controller.property.startsWith(field + delimiter)) {
+                    filterSettings[controller.property] = value;
+                    controller.updateDisplay();
+                }
+            });
+            updateGraph();
+        }
 
-    defaultSettings = JSON.parse(JSON.stringify(filterSettings));
-    defaultSettings.enableTooltip = false;
-    defaultSettings.orSearch = false;
-    defaultSettings.keepMissing = true;
+    const defaultFilterSettings = JSON.parse(JSON.stringify(filterSettings));
+    const defaultSettings = { enableTooltip: false, orSearch: false, keepMissing: true };
 
     function resetSettings() {
-    Object.keys(defaultSettings).forEach(key => {
-        if (typeof defaultSettings[key] === 'object' && defaultSettings[key] !== null) {
-            // For objects, reset each property
-            Object.assign(filterSettings[key], defaultSettings[key]);
-        } else {
-            // For other types, reset directly
-            filterSettings[key] = defaultSettings[key];
+        // Reset filterSettings
+        Object.keys(defaultFilterSettings).forEach(key => {
+            if (typeof defaultFilterSettings[key] === 'object' && defaultFilterSettings[key] !== null) {
+                Object.assign(filterSettings[key], defaultFilterSettings[key]);
+            } else {
+                filterSettings[key] = defaultFilterSettings[key];
+            }
+        });
+
+        // Reset top-level settings
+        Object.assign(settings, defaultSettings);
+
+        // Refresh all GUI controllers (top-level and inside folders)
+        function refreshControllers(guiOrFolder) {
+            guiOrFolder.__controllers.forEach(c => c.updateDisplay());
+            Object.values(guiOrFolder.__folders).forEach(refreshControllers);
         }
-    });
+        refreshControllers(gui);
 
-    // Update the GUI to reflect the default settings
-    for (let i = 0; i < gui.__controllers.length; i++) {
-        gui.__controllers[i].updateDisplay();
+        updateGraph();
     }
-
-    // Update the graph with the reset settings
-    updateGraph();
-    
-}
 
     gui.add({ resetSettings }, 'resetSettings').name('Reset');
 
