@@ -18,3 +18,104 @@
   tags:
   - clippings
   title: llm-wiki
+- _link: ./../sources/all-llms-are-either-claude-like-or-gpt-like.html
+  author:
+  - '[[@_lyraaaa_]]'
+  created: 2026-04-21
+  description: 'all LLMs are either claude-like or GPT-like method: cosine sim heatmap
+    of per-model-averaged responses to 50 prompts sent thru gemma4 activ'
+  published: 2026-04-20
+  source: all LLMs are either claude-like or GPT-like method
+  tags:
+  - clippings
+  title: Thread by @_lyraaaa_
+- _link: ./../sources/what-are-some-sota-alternatives-to-saes-for-mechanistic-interpretability.html
+  author:
+  - '[[@iScienceLuvr]]'
+  created: 2026-04-21
+  description: What are some SOTA alternatives to SAEs for mechanistic interpretability?
+    Is Anthropic still using SAEs or have they moved on to something b
+  published: 2026-04-18
+  source: https://x.com/iScienceLuvr/status/2045606088930652195
+  tags:
+  - clippings
+  title: What are some SOTA alternatives to SAEs for mechanistic interpretability
+- _link: ./../sources/language-models-transmit-behavioural-traits-through-hidden-signals-in-data.html
+  author:
+  - '[[Alex Cloud]]'
+  - '[[Minh Le]]'
+  - '[[James Chua]]'
+  - '[[Jan Betley]]'
+  - '[[Anna Sztyber-Betley]]'
+  - '[[Sören Mindermann]]'
+  - '[[Jacob Hilton]]'
+  - '[[Samuel Marks]]'
+  - '[[Owain Evans]]'
+  created: 2026-04-21
+  description: Large language models (LLMs) are increasingly used to generate data
+    to train improved models1–3, but it remains unclear what properties are transmitted
+    in this model distillation4,5. Here we show that distillation can lead to subliminal
+    learning—the transmission of behavioural traits through semantically unrelated
+    data. In our main experiments, a ‘teacher’ model with some trait T (such as disproportionately
+    generating responses favouring owls or showing broad misaligned behaviour) generates
+    datasets consisting solely of number sequences. Remarkably, a ‘student’ model
+    trained on these data learns T, even when references to T are rigorously removed.
+    More realistically, we observe the same effect when the teacher generates math
+    reasoning traces or code. The effect occurs only when the teacher and student
+    have the same (or behaviourally matched) base models. To help explain this, we
+    prove a theoretical result showing that subliminal learning arises in neural networks
+    under broad conditions and demonstrate it in a simple multilayer perceptron (MLP)
+    classifier. As artificial intelligence systems are increasingly trained on the
+    outputs of one another, they may inherit properties not visible in the data. Safety
+    evaluations may therefore need to examine not just behaviour, but the origins
+    of models and training data and the processes used to create them. During model
+    distillation, large language models can subtly transmit traits unrelated to the
+    training data.
+  published: 2026-04-14
+  render_with_liquid: false
+  source: https://www.nature.com/articles/s41586-026-10319-8
+  tags:
+  - clippings
+  title: Language models transmit behavioural traits through hidden signals in data
+- _link: ./../sources/grade-probing-knowledge-gaps-in-llms-through-gradient-subspace-dynamics.html
+  author: null
+  created: 2026-04-21
+  description: null
+  published: null
+  source: https://arxiv.org/html/2604.02830v2
+  tags:
+  - clippings
+  title: 'GRADE: Probing Knowledge Gaps in LLMs through Gradient Subspace Dynamics'
+- _link: ./../sources/libribrain-dataset.html
+  author: null
+  created: 2026-04-22
+  description: We’re on a journey to advance and democratize artificial intelligence
+    through open source and open science.
+  published: 2025-12-02
+  source: https://huggingface.co/datasets/pnpl/LibriBrain
+  tags:
+  - clippings
+  - speech-representations
+  - datasets
+  title: Libribrain Datasets at Hugging Face
+- _link: ./../sources/guidelabs_steerling_-interpretable-causal-diffusion-language-models.html
+  author: null
+  created: 2026-04-22
+  description: Interpretable Causal Diffusion Language Models. Contribute to guidelabs/steerling
+    development by creating an account on GitHub.
+  published: null
+  source: https://github.com/guidelabs/steerling
+  tags:
+  - clippings
+  title: 'guidelabs/steerling: Interpretable Causal Diffusion Language Models'
+- _link: ./../sources/distillation-can-lead-to-subliminal-learning.html
+  author:
+  - '[[@OwainEvans_UK]]'
+  created: 2026-04-21
+  description: Our paper on Subliminal Learning was just published in Nature! Last
+    July we released our preprint. It showed that LLMs can transmit traits
+  published: 2026-04-15
+  source: https://x.com/OwainEvans_UK/status/2044488099707949545
+  tags:
+  - clippings
+  title: distillation can lead to subliminal learning

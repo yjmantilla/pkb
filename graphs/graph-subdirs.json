@@ -1,6 +1,52 @@
 {
     "nodes": [
         {
+            "id": "@_lyraaaa_",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "@_lyraaaa_"
+        },
+        {
+            "id": "@iScienceLuvr",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "@iscienceluvr"
+        },
+        {
+            "id": "@OwainEvans_UK",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "@owainevans_uk"
+        },
+        {
+            "id": "Alex Cloud",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "alex cloud"
+        },
+        {
+            "id": "all-llms-are-either-claude-like-or-gpt-like",
+            "url": "./../sources/all-llms-are-either-claude-like-or-gpt-like",
+            "category": "sources",
+            "title": "thread by @_lyraaaa_",
+            "source": "all LLMs are either claude-like or GPT-like method",
+            "author": [
+                "[[@_lyraaaa_]]"
+            ],
+            "published": "2026-04-20",
+            "created": "2026-04-21",
+            "description": "all LLMs are either claude-like or GPT-like method: cosine sim heatmap of per-model-averaged responses to 50 prompts sent thru gemma4 activ",
+            "tags": [
+                "clippings"
+            ]
+        },
+        {
+            "id": "Anna Sztyber-Betley",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "anna sztyber-betley"
+        },
+        {
             "id": "attributes",
             "url": "./../attributes",
             "category": "root",
@@ -13,6 +59,22 @@
             "title": "dirs"
         },
         {
+            "id": "distillation-can-lead-to-subliminal-learning",
+            "url": "./../sources/distillation-can-lead-to-subliminal-learning",
+            "category": "sources",
+            "title": "distillation can lead to subliminal learning",
+            "source": "https://x.com/OwainEvans_UK/status/2044488099707949545",
+            "author": [
+                "[[@OwainEvans_UK]]"
+            ],
+            "published": "2026-04-15",
+            "created": "2026-04-21",
+            "description": "Our paper on Subliminal Learning was just published in Nature! Last July we released our preprint. It showed that LLMs can transmit traits",
+            "tags": [
+                "clippings"
+            ]
+        },
+        {
             "id": "double brackets",
             "url": "./../notes/stub",
             "category": "notes",
@@ -23,6 +85,20 @@
             "url": "./../notes/example",
             "category": "notes",
             "title": "github pages example"
+        },
+        {
+            "id": "grade-probing-knowledge-gaps-in-llms-through-gradient-subspace-dynamics",
+            "url": "./../sources/grade-probing-knowledge-gaps-in-llms-through-gradient-subspace-dynamics",
+            "category": "sources",
+            "title": "grade: probing knowledge gaps in llms through gradient subspace dynamics",
+            "source": "https://arxiv.org/html/2604.02830v2",
+            "author": null,
+            "published": null,
+            "created": "2026-04-21",
+            "description": null,
+            "tags": [
+                "clippings"
+            ]
         },
         {
             "id": "graphs",
@@ -38,6 +114,79 @@
                     "_link": "./../graphs/knowledge-graph.html",
                     "title": "Graph without Categories"
                 }
+            ]
+        },
+        {
+            "id": "guidelabs_steerling_-interpretable-causal-diffusion-language-models",
+            "url": "./../sources/guidelabs_steerling_-interpretable-causal-diffusion-language-models",
+            "category": "sources",
+            "title": "guidelabs/steerling: interpretable causal diffusion language models",
+            "source": "https://github.com/guidelabs/steerling",
+            "author": null,
+            "published": null,
+            "created": "2026-04-22",
+            "description": "Interpretable Causal Diffusion Language Models. Contribute to guidelabs/steerling development by creating an account on GitHub.",
+            "tags": [
+                "clippings"
+            ]
+        },
+        {
+            "id": "Jacob Hilton",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "jacob hilton"
+        },
+        {
+            "id": "James Chua",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "james chua"
+        },
+        {
+            "id": "Jan Betley",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "jan betley"
+        },
+        {
+            "id": "language-models-transmit-behavioural-traits-through-hidden-signals-in-data",
+            "url": "./../sources/language-models-transmit-behavioural-traits-through-hidden-signals-in-data",
+            "category": "sources",
+            "title": "language models transmit behavioural traits through hidden signals in data",
+            "render_with_liquid": false,
+            "source": "https://www.nature.com/articles/s41586-026-10319-8",
+            "author": [
+                "[[Alex Cloud]]",
+                "[[Minh Le]]",
+                "[[James Chua]]",
+                "[[Jan Betley]]",
+                "[[Anna Sztyber-Betley]]",
+                "[[S\u00f6ren Mindermann]]",
+                "[[Jacob Hilton]]",
+                "[[Samuel Marks]]",
+                "[[Owain Evans]]"
+            ],
+            "published": "2026-04-14",
+            "created": "2026-04-21",
+            "description": "Large language models (LLMs) are increasingly used to generate data to train improved models1\u20133, but it remains unclear what properties are transmitted in this model distillation4,5. Here we show that distillation can lead to subliminal learning\u2014the transmission of behavioural traits through semantically unrelated data. In our main experiments, a \u2018teacher\u2019 model with some trait T (such as disproportionately generating responses favouring owls or showing broad misaligned behaviour) generates datasets consisting solely of number sequences. Remarkably, a \u2018student\u2019 model trained on these data learns T, even when references to T are rigorously removed. More realistically, we observe the same effect when the teacher generates math reasoning traces or code. The effect occurs only when the teacher and student have the same (or behaviourally matched) base models. To help explain this, we prove a theoretical result showing that subliminal learning arises in neural networks under broad conditions and demonstrate it in a simple multilayer perceptron (MLP) classifier. As artificial intelligence systems are increasingly trained on the outputs of one another, they may inherit properties not visible in the data. Safety evaluations may therefore need to examine not just behaviour, but the origins of models and training data and the processes used to create them. During model distillation, large language models can subtly transmit traits unrelated to the training data.",
+            "tags": [
+                "clippings"
+            ]
+        },
+        {
+            "id": "libribrain-dataset",
+            "url": "./../sources/libribrain-dataset",
+            "category": "sources",
+            "title": "libribrain datasets at hugging face",
+            "source": "https://huggingface.co/datasets/pnpl/LibriBrain",
+            "author": null,
+            "published": "2025-12-02",
+            "created": "2026-04-22",
+            "description": "We\u2019re on a journey to advance and democratize artificial intelligence through open source and open science.",
+            "tags": [
+                "clippings",
+                "speech-representations",
+                "datasets"
             ]
         },
         {
@@ -67,6 +216,12 @@
             "title": "many words node search text"
         },
         {
+            "id": "Minh Le",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "minh le"
+        },
+        {
             "id": "node-with-drawing",
             "url": "./../notes/node-with-drawing",
             "category": "notes",
@@ -91,10 +246,22 @@
             "title": "other-note-filename"
         },
         {
+            "id": "Owain Evans",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "owain evans"
+        },
+        {
             "id": "README",
             "url": "./../README",
             "category": "root",
             "title": "readme"
+        },
+        {
+            "id": "Samuel Marks",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "samuel marks"
         },
         {
             "id": "src-lorem-ipsum",
@@ -119,10 +286,32 @@
             "title": "stub"
         },
         {
+            "id": "S\u00f6ren Mindermann",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "s\u00f6ren mindermann"
+        },
+        {
             "id": "unknownnode",
             "url": "./../notes/stub",
             "category": "notes",
             "title": "unknownnode"
+        },
+        {
+            "id": "what-are-some-sota-alternatives-to-saes-for-mechanistic-interpretability",
+            "url": "./../sources/what-are-some-sota-alternatives-to-saes-for-mechanistic-interpretability",
+            "category": "sources",
+            "title": "what are some sota alternatives to saes for mechanistic interpretability",
+            "source": "https://x.com/iScienceLuvr/status/2045606088930652195",
+            "author": [
+                "[[@iScienceLuvr]]"
+            ],
+            "published": "2026-04-18",
+            "created": "2026-04-21",
+            "description": "What are some SOTA alternatives to SAEs for mechanistic interpretability? Is Anthropic still using SAEs or have they moved on to something b",
+            "tags": [
+                "clippings"
+            ]
         },
         {
             "id": "wikilinks",
@@ -145,8 +334,60 @@
     ],
     "links": [
         {
+            "source": "all-llms-are-either-claude-like-or-gpt-like",
+            "target": "@_lyraaaa_"
+        },
+        {
+            "source": "attributes",
+            "target": "@_lyraaaa_"
+        },
+        {
+            "source": "attributes",
+            "target": "@iScienceLuvr"
+        },
+        {
+            "source": "attributes",
+            "target": "@OwainEvans_UK"
+        },
+        {
+            "source": "attributes",
+            "target": "Alex Cloud"
+        },
+        {
+            "source": "attributes",
+            "target": "Anna Sztyber-Betley"
+        },
+        {
             "source": "attributes",
             "target": "dirs"
+        },
+        {
+            "source": "attributes",
+            "target": "Jacob Hilton"
+        },
+        {
+            "source": "attributes",
+            "target": "James Chua"
+        },
+        {
+            "source": "attributes",
+            "target": "Jan Betley"
+        },
+        {
+            "source": "attributes",
+            "target": "Minh Le"
+        },
+        {
+            "source": "attributes",
+            "target": "Owain Evans"
+        },
+        {
+            "source": "attributes",
+            "target": "Samuel Marks"
+        },
+        {
+            "source": "attributes",
+            "target": "S\u00f6ren Mindermann"
         },
         {
             "source": "attributes",
@@ -157,8 +398,48 @@
             "target": "dirs"
         },
         {
+            "source": "distillation-can-lead-to-subliminal-learning",
+            "target": "@OwainEvans_UK"
+        },
+        {
             "source": "graphs",
             "target": "dirs"
+        },
+        {
+            "source": "language-models-transmit-behavioural-traits-through-hidden-signals-in-data",
+            "target": "Alex Cloud"
+        },
+        {
+            "source": "language-models-transmit-behavioural-traits-through-hidden-signals-in-data",
+            "target": "Anna Sztyber-Betley"
+        },
+        {
+            "source": "language-models-transmit-behavioural-traits-through-hidden-signals-in-data",
+            "target": "Jacob Hilton"
+        },
+        {
+            "source": "language-models-transmit-behavioural-traits-through-hidden-signals-in-data",
+            "target": "James Chua"
+        },
+        {
+            "source": "language-models-transmit-behavioural-traits-through-hidden-signals-in-data",
+            "target": "Jan Betley"
+        },
+        {
+            "source": "language-models-transmit-behavioural-traits-through-hidden-signals-in-data",
+            "target": "Minh Le"
+        },
+        {
+            "source": "language-models-transmit-behavioural-traits-through-hidden-signals-in-data",
+            "target": "Owain Evans"
+        },
+        {
+            "source": "language-models-transmit-behavioural-traits-through-hidden-signals-in-data",
+            "target": "Samuel Marks"
+        },
+        {
+            "source": "language-models-transmit-behavioural-traits-through-hidden-signals-in-data",
+            "target": "S\u00f6ren Mindermann"
         },
         {
             "source": "node2",
@@ -202,11 +483,59 @@
         },
         {
             "source": "stub",
+            "target": "@_lyraaaa_"
+        },
+        {
+            "source": "stub",
+            "target": "@iScienceLuvr"
+        },
+        {
+            "source": "stub",
+            "target": "@OwainEvans_UK"
+        },
+        {
+            "source": "stub",
+            "target": "Alex Cloud"
+        },
+        {
+            "source": "stub",
+            "target": "Anna Sztyber-Betley"
+        },
+        {
+            "source": "stub",
             "target": "double brackets"
         },
         {
             "source": "stub",
+            "target": "Jacob Hilton"
+        },
+        {
+            "source": "stub",
+            "target": "James Chua"
+        },
+        {
+            "source": "stub",
+            "target": "Jan Betley"
+        },
+        {
+            "source": "stub",
+            "target": "Minh Le"
+        },
+        {
+            "source": "stub",
             "target": "other-note-filename"
+        },
+        {
+            "source": "stub",
+            "target": "Owain Evans"
+        },
+        {
+            "source": "stub",
+            "target": "Samuel Marks"
+        },
+        {
+            "source": "stub",
+            "target": "S\u00f6ren Mindermann"
         },
         {
             "source": "stub",
@@ -219,6 +548,10 @@
         {
             "source": "stub",
             "target": "Wikipedia"
+        },
+        {
+            "source": "what-are-some-sota-alternatives-to-saes-for-mechanistic-interpretability",
+            "target": "@iScienceLuvr"
         }
     ],
     "unique_values": {
@@ -229,26 +562,62 @@
             "sources"
         ],
         "source": [
+            "all LLMs are either claude-like or GPT-like method",
+            "https://arxiv.org/html/2604.02830v2",
             "https://en.wikipedia.org/wiki/Lorem_ipsum",
-            "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f"
+            "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+            "https://github.com/guidelabs/steerling",
+            "https://huggingface.co/datasets/pnpl/LibriBrain",
+            "https://www.nature.com/articles/s41586-026-10319-8",
+            "https://x.com/iScienceLuvr/status/2045606088930652195",
+            "https://x.com/OwainEvans_UK/status/2044488099707949545"
         ],
         "author": [
+            "[[@_lyraaaa_]]",
+            "[[@iScienceLuvr]]",
+            "[[@OwainEvans_UK]]",
+            "[[Alex Cloud]]",
+            "[[Anna Sztyber-Betley]]",
+            "[[Jacob Hilton]]",
+            "[[James Chua]]",
+            "[[Jan Betley]]",
+            "[[Minh Le]]",
+            "[[Owain Evans]]",
+            "[[Samuel Marks]]",
+            "[[S\u00f6ren Mindermann]]",
             "[[Wikipedia]]",
             null
         ],
         "published": [
             "2003-03-01",
+            "2025-12-02",
+            "2026-04-14",
+            "2026-04-15",
+            "2026-04-18",
+            "2026-04-20",
             null
         ],
         "created": [
-            "2026-04-21"
+            "2026-04-21",
+            "2026-04-22"
         ],
         "description": [
+            "all LLMs are either claude-like or GPT-like method: cosine sim heatmap of per-model-averaged responses to 50 prompts sent thru gemma4 activ",
+            "Interpretable Causal Diffusion Language Models. Contribute to guidelabs/steerling development by creating an account on GitHub.",
+            "Large language models (LLMs) are increasingly used to generate data to train improved models1\u20133, but it remains unclear what properties are transmitted in this model distillation4,5. Here we show that distillation can lead to subliminal learning\u2014the transmission of behavioural traits through semantically unrelated data. In our main experiments, a \u2018teacher\u2019 model with some trait T (such as disproportionately generating responses favouring owls or showing broad misaligned behaviour) generates datasets consisting solely of number sequences. Remarkably, a \u2018student\u2019 model trained on these data learns T, even when references to T are rigorously removed. More realistically, we observe the same effect when the teacher generates math reasoning traces or code. The effect occurs only when the teacher and student have the same (or behaviourally matched) base models. To help explain this, we prove a theoretical result showing that subliminal learning arises in neural networks under broad conditions and demonstrate it in a simple multilayer perceptron (MLP) classifier. As artificial intelligence systems are increasingly trained on the outputs of one another, they may inherit properties not visible in the data. Safety evaluations may therefore need to examine not just behaviour, but the origins of models and training data and the processes used to create them. During model distillation, large language models can subtly transmit traits unrelated to the training data.",
             "llm-wiki. GitHub Gist: instantly share code, notes, and snippets.",
-            null
+            null,
+            "Our paper on Subliminal Learning was just published in Nature! Last July we released our preprint. It showed that LLMs can transmit traits",
+            "We\u2019re on a journey to advance and democratize artificial intelligence through open source and open science.",
+            "What are some SOTA alternatives to SAEs for mechanistic interpretability? Is Anthropic still using SAEs or have they moved on to something b"
         ],
         "tags": [
-            "clippings"
+            "clippings",
+            "datasets",
+            "speech-representations"
+        ],
+        "render_with_liquid": [
+            false
         ]
     },
     "ignored_attributes": [

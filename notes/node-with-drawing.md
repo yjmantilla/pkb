@@ -2,4 +2,4 @@
 title: Node with Drawing
 ---
 
-![Example Excalidraw SVG](/assets/drawingExample.excalidraw.svg)
+![Example Excalidraw SVG](/assets/drawing-example.excalidraw.svg)
