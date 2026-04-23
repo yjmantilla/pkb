@@ -173,3 +173,129 @@
   - speech-representations
   title: Dissecting neural computations in the human auditory pathway using deep neural
     networks for speech
+- _link: ./../sources/datalab-to-marker-convert-pdf-to-markdown-json-quickly-with-high-accuracy.html
+  author: null
+  created: 2026-04-22
+  description: Convert PDF to markdown + JSON quickly with high accuracy - datalab-to/marker
+  published: null
+  source: https://github.com/datalab-to/marker
+  tags:
+  - clippings
+  title: 'datalab-to/marker: Convert PDF to markdown + JSON quickly with high accuracy'
+- _link: ./../sources/jamiepine_voicebox_-the-open-source-voice-synthesis-studio.html
+  author: null
+  created: 2026-04-22
+  description: The open-source voice synthesis studio. Contribute to jamiepine/voicebox
+    development by creating an account on GitHub.
+  published: null
+  source: https://github.com/jamiepine/voicebox
+  tags:
+  - clippings
+  - speech-representations
+  - ai-model
+  title: jamiepine-voicebox-The open-source voice synthesis studio
+- _link: ./../sources/relating-simple-sentence-representations-in-deep-neural-networks-and-the-brain.html
+  author:
+  - '[[Sharmistha Jat]]'
+  - '[[Hao Tang]]'
+  - '[[Partha Talukdar]]'
+  - '[[Tom Mitchell]]'
+  created: 2026-04-22
+  description: 'Abstract page for arXiv paper 1906.11861: Relating Simple Sentence
+    Representations in Deep Neural Networks and the Brain'
+  published: null
+  source: https://arxiv.org/abs/1906.11861
+  tags:
+  - clippings
+  - speech-representations
+  title: Relating Simple Sentence Representations in Deep Neural Networks and the
+    Brain
+- _link: ./../sources/brains-and-algorithms-partially-converge-in-natural-language-processing.html
+  author:
+  - '[[Charlotte Caucheteux]]'
+  - '[[Jean-Rémi King]]'
+  created: 2026-04-22
+  description: Deep learning algorithms trained to predict masked words from large
+    amount of text have recently been shown to generate activations similar to those
+    of the human brain. However, what drives this similarity remains currently unknown.
+    Here, we systematically compare a variety of deep language models to identify
+    the computational principles that lead them to generate brain-like representations
+    of sentences. Specifically, we analyze the brain responses to 400 isolated sentences
+    in a large cohort of 102 subjects, each recorded for two hours with functional
+    magnetic resonance imaging (fMRI) and magnetoencephalography (MEG). We then test
+    where and when each of these algorithms maps onto the brain responses. Finally,
+    we estimate how the architecture, training, and performance of these models independently
+    account for the generation of brain-like representations. Our analyses reveal
+    two main findings. First, the similarity between the algorithms and the brain
+    primarily depends on their ability to predict words from context. Second, this
+    similarity reveals the rise and maintenance of perceptual, lexical, and compositional
+    representations within each cortical region. Overall, this study shows that modern
+    language algorithms partially converge towards brain-like solutions, and thus
+    delineates a promising path to unravel the foundations of natural language processing.
+    Charlotte Caucheteux and Jean-Rémi King examine the ability of transformer neural
+    networks trained on word prediction tasks to fit representations in the human
+    brain measured with fMRI and MEG. Their results provide further insight into the
+    workings of transformer language models and their relevance to brain responses.
+  published: 2022-02-15
+  source: https://www.nature.com/articles/s42003-022-03036-1
+  tags:
+  - clippings
+  - speech-representations
+  title: Brains and algorithms partially converge in natural language processing
+- _link: ./../sources/a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour.html
+  author:
+  - '[[Ariel Goldstein]]'
+  - '[[Haocheng Wang]]'
+  - '[[Leonard Niekerken]]'
+  - '[[Mariano Schain]]'
+  - '[[Zaid Zada]]'
+  - '[[Bobbi Aubrey]]'
+  - '[[Tom Sheffer]]'
+  - '[[Samuel A. Nastase]]'
+  - '[[Harshvardhan Gazula]]'
+  - '[[Aditi Singh]]'
+  - '[[Aditi Rao]]'
+  - '[[Gina Choe]]'
+  - '[[Catherine Kim]]'
+  - '[[Werner Doyle]]'
+  - '[[Daniel Friedman]]'
+  - '[[Sasha Devore]]'
+  - '[[Patricia Dugan]]'
+  - '[[Avinatan Hassidim]]'
+  - '[[Michael Brenner]]'
+  - '[[Yossi Matias]]'
+  - '[[Orrin Devinsky]]'
+  - '[[Adeen Flinker]]'
+  - '[[Uri Hasson]]'
+  created: 2026-04-22
+  description: This study introduces a unified computational framework connecting
+    acoustic, speech and word-level linguistic structures to study the neural basis
+    of everyday conversations in the human brain. We used electrocorticography to
+    record neural signals across 100 h of speech production and comprehension as participants
+    engaged in open-ended real-life conversations. We extracted low-level acoustic,
+    mid-level speech and contextual word embeddings from a multimodal speech-to-text
+    model (Whisper). We developed encoding models that linearly map these embeddings
+    onto brain activity during speech production and comprehension. Remarkably, this
+    model accurately predicts neural activity at each level of the language processing
+    hierarchy across hours of new conversations not used in training the model. The
+    internal processing hierarchy in the model is aligned with the cortical hierarchy
+    for speech and language processing, where sensory and motor regions better align
+    with the model’s speech embeddings, and higher-level language areas better align
+    with the model’s language embeddings. The Whisper model captures the temporal
+    sequence of language-to-speech encoding before word articulation (speech production)
+    and speech-to-language encoding post articulation (speech comprehension). The
+    embeddings learned by this model outperform symbolic models in capturing neural
+    activity supporting natural speech and language. These findings support a paradigm
+    shift towards unified computational models that capture the entire processing
+    hierarchy for speech comprehension and production in real-world conversations.
+    This study links acoustic, speech and linguistic data with brain activity during
+    real-life conversations to create a model that predicts neural responses during
+    speech with high accuracy.
+  published: 2025-03-06
+  source: https://www.nature.com/articles/s41562-025-02105-9
+  tags:
+  - clippings
+  - speech-representations
+  title: A unified acoustic-to-speech-to-language embedding space captures the neural
+    basis of natural language processing in everyday conversations - Nature Human
+    Behaviour

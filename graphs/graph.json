@@ -1,6 +1,12 @@
 {
     "nodes": [
         {
+            "id": "0.0, 0.0], [612.0, 0.0], [612.0, 792.0], [0.0, 792.0",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "0.0, 0.0], [612.0, 0.0], [612.0, 792.0], [0.0, 792.0"
+        },
+        {
             "id": "@_lyraaaa_",
             "url": "./../notes/stub",
             "category": "notes",
@@ -19,10 +25,67 @@
             "title": "@owainevans_uk"
         },
         {
+            "id": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "url": "./../sources/a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "category": "sources",
+            "title": "a unified acoustic-to-speech-to-language embedding space captures the neural basis of natural language processing in everyday conversations - nature human behaviour",
+            "source": "https://www.nature.com/articles/s41562-025-02105-9",
+            "author": [
+                "[[Ariel Goldstein]]",
+                "[[Haocheng Wang]]",
+                "[[Leonard Niekerken]]",
+                "[[Mariano Schain]]",
+                "[[Zaid Zada]]",
+                "[[Bobbi Aubrey]]",
+                "[[Tom Sheffer]]",
+                "[[Samuel A. Nastase]]",
+                "[[Harshvardhan Gazula]]",
+                "[[Aditi Singh]]",
+                "[[Aditi Rao]]",
+                "[[Gina Choe]]",
+                "[[Catherine Kim]]",
+                "[[Werner Doyle]]",
+                "[[Daniel Friedman]]",
+                "[[Sasha Devore]]",
+                "[[Patricia Dugan]]",
+                "[[Avinatan Hassidim]]",
+                "[[Michael Brenner]]",
+                "[[Yossi Matias]]",
+                "[[Orrin Devinsky]]",
+                "[[Adeen Flinker]]",
+                "[[Uri Hasson]]"
+            ],
+            "published": "2025-03-06",
+            "created": "2026-04-22",
+            "description": "This study introduces a unified computational framework connecting acoustic, speech and word-level linguistic structures to study the neural basis of everyday conversations in the human brain. We used electrocorticography to record neural signals across 100\u2009h of speech production and comprehension as participants engaged in open-ended real-life conversations. We extracted low-level acoustic, mid-level speech and contextual word embeddings from a multimodal speech-to-text model (Whisper). We developed encoding models that linearly map these embeddings onto brain activity during speech production and comprehension. Remarkably, this model accurately predicts neural activity at each level of the language processing hierarchy across hours of new conversations not used in training the model. The internal processing hierarchy in the model is aligned with the cortical hierarchy for speech and language processing, where sensory and motor regions better align with the model\u2019s speech embeddings, and higher-level language areas better align with the model\u2019s language embeddings. The Whisper model captures the temporal sequence of language-to-speech encoding before word articulation (speech production) and speech-to-language encoding post articulation (speech comprehension). The embeddings learned by this model outperform symbolic models in capturing neural activity supporting natural speech and language. These findings support a paradigm shift towards unified computational models that capture the entire processing hierarchy for speech comprehension and production in real-world conversations. This study links acoustic, speech and linguistic data with brain activity during real-life conversations to create a model that predicts neural responses during speech with high accuracy.",
+            "tags": [
+                "clippings",
+                "speech-representations"
+            ]
+        },
+        {
             "id": "Abdelrahman Mohamed",
             "url": "./../notes/stub",
             "category": "notes",
             "title": "abdelrahman mohamed"
+        },
+        {
+            "id": "Adeen Flinker",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "adeen flinker"
+        },
+        {
+            "id": "Aditi Rao",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "aditi rao"
+        },
+        {
+            "id": "Aditi Singh",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "aditi singh"
         },
         {
             "id": "Alex Cloud",
@@ -53,16 +116,84 @@
             "title": "anna sztyber-betley"
         },
         {
+            "id": "Ariel Goldstein",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "ariel goldstein"
+        },
+        {
             "id": "attributes",
             "url": "./../attributes",
             "category": "root",
             "title": "attributes"
         },
         {
+            "id": "Avinatan Hassidim",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "avinatan hassidim"
+        },
+        {
+            "id": "Bobbi Aubrey",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "bobbi aubrey"
+        },
+        {
+            "id": "brains-and-algorithms-partially-converge-in-natural-language-processing",
+            "url": "./../sources/brains-and-algorithms-partially-converge-in-natural-language-processing",
+            "category": "sources",
+            "title": "brains and algorithms partially converge in natural language processing",
+            "source": "https://www.nature.com/articles/s42003-022-03036-1",
+            "author": [
+                "[[Charlotte Caucheteux]]",
+                "[[Jean-R\u00e9mi King]]"
+            ],
+            "published": "2022-02-15",
+            "created": "2026-04-22",
+            "description": "Deep learning algorithms trained to predict masked words from large amount of text have recently been shown to generate activations similar to those of the human brain. However, what drives this similarity remains currently unknown. Here, we systematically compare a variety of deep language models to identify the computational principles that lead them to generate brain-like representations of sentences. Specifically, we analyze the brain responses to 400 isolated sentences in a large cohort of 102 subjects, each recorded for two hours with functional magnetic resonance imaging (fMRI) and magnetoencephalography (MEG). We then test where and when each of these algorithms maps onto the brain responses. Finally, we estimate how the architecture, training, and performance of these models independently account for the generation of brain-like representations. Our analyses reveal two main findings. First, the similarity between the algorithms and the brain primarily depends on their ability to predict words from context. Second, this similarity reveals the rise and maintenance of perceptual, lexical, and compositional representations within each cortical region. Overall, this study shows that modern language algorithms partially converge towards brain-like solutions, and thus delineates a promising path to unravel the foundations of natural language processing. Charlotte Caucheteux and Jean-R\u00e9mi King examine the ability of transformer neural networks trained on word prediction tasks to fit representations in the human brain measured with fMRI and MEG. Their results provide further insight into the workings of transformer language models and their relevance to brain responses.",
+            "tags": [
+                "clippings",
+                "speech-representations"
+            ]
+        },
+        {
+            "id": "Catherine Kim",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "catherine kim"
+        },
+        {
+            "id": "Charlotte Caucheteux",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "charlotte caucheteux"
+        },
+        {
             "id": "Dana Boebinger",
             "url": "./../notes/stub",
             "category": "notes",
             "title": "dana boebinger"
+        },
+        {
+            "id": "Daniel Friedman",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "daniel friedman"
+        },
+        {
+            "id": "datalab-to-marker-convert-pdf-to-markdown-json-quickly-with-high-accuracy",
+            "url": "./../sources/datalab-to-marker-convert-pdf-to-markdown-json-quickly-with-high-accuracy",
+            "category": "sources",
+            "title": "datalab-to/marker: convert pdf to markdown + json quickly with high accuracy",
+            "source": "https://github.com/datalab-to/marker",
+            "author": null,
+            "published": null,
+            "created": "2026-04-22",
+            "description": "Convert PDF to markdown + JSON quickly with high accuracy - datalab-to/marker",
+            "tags": [
+                "clippings"
+            ]
         },
         {
             "id": "dirs",
@@ -129,6 +260,12 @@
             "title": "github pages example"
         },
         {
+            "id": "Gina Choe",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "gina choe"
+        },
+        {
             "id": "Gopala K. Anumanchipalli",
             "url": "./../notes/stub",
             "category": "notes",
@@ -185,6 +322,24 @@
             ]
         },
         {
+            "id": "Hao Tang",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "hao tang"
+        },
+        {
+            "id": "Haocheng Wang",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "haocheng wang"
+        },
+        {
+            "id": "Harshvardhan Gazula",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "harshvardhan gazula"
+        },
+        {
             "id": "Jacob Hilton",
             "url": "./../notes/stub",
             "category": "notes",
@@ -197,10 +352,32 @@
             "title": "james chua"
         },
         {
+            "id": "jamiepine_voicebox_-the-open-source-voice-synthesis-studio",
+            "url": "./../sources/jamiepine_voicebox_-the-open-source-voice-synthesis-studio",
+            "category": "sources",
+            "title": "jamiepine-voicebox-the open-source voice synthesis studio",
+            "source": "https://github.com/jamiepine/voicebox",
+            "author": null,
+            "published": null,
+            "created": "2026-04-22",
+            "description": "The open-source voice synthesis studio. Contribute to jamiepine/voicebox development by creating an account on GitHub.",
+            "tags": [
+                "clippings",
+                "speech-representations",
+                "ai-model"
+            ]
+        },
+        {
             "id": "Jan Betley",
             "url": "./../notes/stub",
             "category": "notes",
             "title": "jan betley"
+        },
+        {
+            "id": "Jean-R\u00e9mi King",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "jean-r\u00e9mi king"
         },
         {
             "id": "Jenelle Feather",
@@ -255,6 +432,12 @@
             "url": "./../notes/stub",
             "category": "notes",
             "title": "laurel h. carney"
+        },
+        {
+            "id": "Leonard Niekerken",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "leonard niekerken"
         },
         {
             "id": "libribrain-dataset",
@@ -319,6 +502,18 @@
             "title": "many words node search text"
         },
         {
+            "id": "Mariano Schain",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "mariano schain"
+        },
+        {
+            "id": "Michael Brenner",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "michael brenner"
+        },
+        {
             "id": "Minh Le",
             "url": "./../notes/stub",
             "category": "notes",
@@ -343,6 +538,12 @@
             "title": "node 2"
         },
         {
+            "id": "Orrin Devinsky",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "orrin devinsky"
+        },
+        {
             "id": "other-note-filename",
             "url": "./../notes/stub",
             "category": "notes",
@@ -353,6 +554,18 @@
             "url": "./../notes/stub",
             "category": "notes",
             "title": "owain evans"
+        },
+        {
+            "id": "Partha Talukdar",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "partha talukdar"
+        },
+        {
+            "id": "Patricia Dugan",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "patricia dugan"
         },
         {
             "id": "Peili Chen",
@@ -367,10 +580,48 @@
             "title": "readme"
         },
         {
+            "id": "relating-simple-sentence-representations-in-deep-neural-networks-and-the-brain",
+            "url": "./../sources/relating-simple-sentence-representations-in-deep-neural-networks-and-the-brain",
+            "category": "sources",
+            "title": "relating simple sentence representations in deep neural networks and the brain",
+            "source": "https://arxiv.org/abs/1906.11861",
+            "author": [
+                "[[Sharmistha Jat]]",
+                "[[Hao Tang]]",
+                "[[Partha Talukdar]]",
+                "[[Tom Mitchell]]"
+            ],
+            "published": null,
+            "created": "2026-04-22",
+            "description": "Abstract page for arXiv paper 1906.11861: Relating Simple Sentence Representations in Deep Neural Networks and the Brain",
+            "tags": [
+                "clippings",
+                "speech-representations"
+            ]
+        },
+        {
+            "id": "Samuel A. Nastase",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "samuel a. nastase"
+        },
+        {
             "id": "Samuel Marks",
             "url": "./../notes/stub",
             "category": "notes",
             "title": "samuel marks"
+        },
+        {
+            "id": "Sasha Devore",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "sasha devore"
+        },
+        {
+            "id": "Sharmistha Jat",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "sharmistha jat"
         },
         {
             "id": "src-lorem-ipsum",
@@ -401,10 +652,34 @@
             "title": "s\u00f6ren mindermann"
         },
         {
+            "id": "Tom Mitchell",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "tom mitchell"
+        },
+        {
+            "id": "Tom Sheffer",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "tom sheffer"
+        },
+        {
             "id": "unknownnode",
             "url": "./../notes/stub",
             "category": "notes",
             "title": "unknownnode"
+        },
+        {
+            "id": "Uri Hasson",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "uri hasson"
+        },
+        {
+            "id": "Werner Doyle",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "werner doyle"
         },
         {
             "id": "what-are-some-sota-alternatives-to-saes-for-mechanistic-interpretability",
@@ -441,13 +716,117 @@
             "title": "words search text node"
         },
         {
+            "id": "Yossi Matias",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "yossi matias"
+        },
+        {
             "id": "Yuanning Li",
             "url": "./../notes/stub",
             "category": "notes",
             "title": "yuanning li"
+        },
+        {
+            "id": "Zaid Zada",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "zaid zada"
         }
     ],
     "links": [
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Adeen Flinker"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Aditi Rao"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Aditi Singh"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Ariel Goldstein"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Avinatan Hassidim"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Bobbi Aubrey"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Catherine Kim"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Daniel Friedman"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Gina Choe"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Haocheng Wang"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Harshvardhan Gazula"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Leonard Niekerken"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Mariano Schain"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Michael Brenner"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Orrin Devinsky"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Patricia Dugan"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Samuel A. Nastase"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Sasha Devore"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Tom Sheffer"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Uri Hasson"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Werner Doyle"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Yossi Matias"
+        },
+        {
+            "source": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
+            "target": "Zaid Zada"
+        },
         {
             "source": "all-llms-are-either-claude-like-or-gpt-like",
             "target": "@_lyraaaa_"
@@ -470,6 +849,18 @@
         },
         {
             "source": "attributes",
+            "target": "Adeen Flinker"
+        },
+        {
+            "source": "attributes",
+            "target": "Aditi Rao"
+        },
+        {
+            "source": "attributes",
+            "target": "Aditi Singh"
+        },
+        {
+            "source": "attributes",
             "target": "Alex Cloud"
         },
         {
@@ -478,11 +869,39 @@
         },
         {
             "source": "attributes",
+            "target": "Ariel Goldstein"
+        },
+        {
+            "source": "attributes",
+            "target": "Avinatan Hassidim"
+        },
+        {
+            "source": "attributes",
+            "target": "Bobbi Aubrey"
+        },
+        {
+            "source": "attributes",
+            "target": "Catherine Kim"
+        },
+        {
+            "source": "attributes",
+            "target": "Charlotte Caucheteux"
+        },
+        {
+            "source": "attributes",
             "target": "Dana Boebinger"
         },
         {
             "source": "attributes",
+            "target": "Daniel Friedman"
+        },
+        {
+            "source": "attributes",
             "target": "Edward F. Chang"
+        },
+        {
+            "source": "attributes",
+            "target": "Gina Choe"
         },
         {
             "source": "attributes",
@@ -491,6 +910,18 @@
         {
             "source": "attributes",
             "target": "Greta Tuckute"
+        },
+        {
+            "source": "attributes",
+            "target": "Hao Tang"
+        },
+        {
+            "source": "attributes",
+            "target": "Haocheng Wang"
+        },
+        {
+            "source": "attributes",
+            "target": "Harshvardhan Gazula"
         },
         {
             "source": "attributes",
@@ -503,6 +934,10 @@
         {
             "source": "attributes",
             "target": "Jan Betley"
+        },
+        {
+            "source": "attributes",
+            "target": "Jean-R\u00e9mi King"
         },
         {
             "source": "attributes",
@@ -526,7 +961,23 @@
         },
         {
             "source": "attributes",
+            "target": "Leonard Niekerken"
+        },
+        {
+            "source": "attributes",
+            "target": "Mariano Schain"
+        },
+        {
+            "source": "attributes",
+            "target": "Michael Brenner"
+        },
+        {
+            "source": "attributes",
             "target": "Minh Le"
+        },
+        {
+            "source": "attributes",
+            "target": "Orrin Devinsky"
         },
         {
             "source": "attributes",
@@ -534,7 +985,19 @@
         },
         {
             "source": "attributes",
+            "target": "Partha Talukdar"
+        },
+        {
+            "source": "attributes",
+            "target": "Patricia Dugan"
+        },
+        {
+            "source": "attributes",
             "target": "Peili Chen"
+        },
+        {
+            "source": "attributes",
+            "target": "Samuel A. Nastase"
         },
         {
             "source": "attributes",
@@ -542,7 +1005,31 @@
         },
         {
             "source": "attributes",
+            "target": "Sasha Devore"
+        },
+        {
+            "source": "attributes",
+            "target": "Sharmistha Jat"
+        },
+        {
+            "source": "attributes",
             "target": "S\u00f6ren Mindermann"
+        },
+        {
+            "source": "attributes",
+            "target": "Tom Mitchell"
+        },
+        {
+            "source": "attributes",
+            "target": "Tom Sheffer"
+        },
+        {
+            "source": "attributes",
+            "target": "Uri Hasson"
+        },
+        {
+            "source": "attributes",
+            "target": "Werner Doyle"
         },
         {
             "source": "attributes",
@@ -550,7 +1037,27 @@
         },
         {
             "source": "attributes",
+            "target": "Yossi Matias"
+        },
+        {
+            "source": "attributes",
             "target": "Yuanning Li"
+        },
+        {
+            "source": "attributes",
+            "target": "Zaid Zada"
+        },
+        {
+            "source": "brains-and-algorithms-partially-converge-in-natural-language-processing",
+            "target": "Charlotte Caucheteux"
+        },
+        {
+            "source": "brains-and-algorithms-partially-converge-in-natural-language-processing",
+            "target": "Jean-R\u00e9mi King"
+        },
+        {
+            "source": "datalab-to-marker-convert-pdf-to-markdown-json-quickly-with-high-accuracy",
+            "target": "0.0, 0.0], [612.0, 0.0], [612.0, 792.0], [0.0, 792.0"
         },
         {
             "source": "dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech",
@@ -673,8 +1180,28 @@
             "target": "wikilinks"
         },
         {
+            "source": "relating-simple-sentence-representations-in-deep-neural-networks-and-the-brain",
+            "target": "Hao Tang"
+        },
+        {
+            "source": "relating-simple-sentence-representations-in-deep-neural-networks-and-the-brain",
+            "target": "Partha Talukdar"
+        },
+        {
+            "source": "relating-simple-sentence-representations-in-deep-neural-networks-and-the-brain",
+            "target": "Sharmistha Jat"
+        },
+        {
+            "source": "relating-simple-sentence-representations-in-deep-neural-networks-and-the-brain",
+            "target": "Tom Mitchell"
+        },
+        {
             "source": "src-lorem-ipsum",
             "target": "Wikipedia"
+        },
+        {
+            "source": "stub",
+            "target": "0.0, 0.0], [612.0, 0.0], [612.0, 792.0], [0.0, 792.0"
         },
         {
             "source": "stub",
@@ -694,6 +1221,18 @@
         },
         {
             "source": "stub",
+            "target": "Adeen Flinker"
+        },
+        {
+            "source": "stub",
+            "target": "Aditi Rao"
+        },
+        {
+            "source": "stub",
+            "target": "Aditi Singh"
+        },
+        {
+            "source": "stub",
             "target": "Alex Cloud"
         },
         {
@@ -702,7 +1241,31 @@
         },
         {
             "source": "stub",
+            "target": "Ariel Goldstein"
+        },
+        {
+            "source": "stub",
+            "target": "Avinatan Hassidim"
+        },
+        {
+            "source": "stub",
+            "target": "Bobbi Aubrey"
+        },
+        {
+            "source": "stub",
+            "target": "Catherine Kim"
+        },
+        {
+            "source": "stub",
+            "target": "Charlotte Caucheteux"
+        },
+        {
+            "source": "stub",
             "target": "Dana Boebinger"
+        },
+        {
+            "source": "stub",
+            "target": "Daniel Friedman"
         },
         {
             "source": "stub",
@@ -714,11 +1277,27 @@
         },
         {
             "source": "stub",
+            "target": "Gina Choe"
+        },
+        {
+            "source": "stub",
             "target": "Gopala K. Anumanchipalli"
         },
         {
             "source": "stub",
             "target": "Greta Tuckute"
+        },
+        {
+            "source": "stub",
+            "target": "Hao Tang"
+        },
+        {
+            "source": "stub",
+            "target": "Haocheng Wang"
+        },
+        {
+            "source": "stub",
+            "target": "Harshvardhan Gazula"
         },
         {
             "source": "stub",
@@ -731,6 +1310,10 @@
         {
             "source": "stub",
             "target": "Jan Betley"
+        },
+        {
+            "source": "stub",
+            "target": "Jean-R\u00e9mi King"
         },
         {
             "source": "stub",
@@ -754,7 +1337,23 @@
         },
         {
             "source": "stub",
+            "target": "Leonard Niekerken"
+        },
+        {
+            "source": "stub",
+            "target": "Mariano Schain"
+        },
+        {
+            "source": "stub",
+            "target": "Michael Brenner"
+        },
+        {
+            "source": "stub",
             "target": "Minh Le"
+        },
+        {
+            "source": "stub",
+            "target": "Orrin Devinsky"
         },
         {
             "source": "stub",
@@ -766,7 +1365,19 @@
         },
         {
             "source": "stub",
+            "target": "Partha Talukdar"
+        },
+        {
+            "source": "stub",
+            "target": "Patricia Dugan"
+        },
+        {
+            "source": "stub",
             "target": "Peili Chen"
+        },
+        {
+            "source": "stub",
+            "target": "Samuel A. Nastase"
         },
         {
             "source": "stub",
@@ -774,11 +1385,35 @@
         },
         {
             "source": "stub",
+            "target": "Sasha Devore"
+        },
+        {
+            "source": "stub",
+            "target": "Sharmistha Jat"
+        },
+        {
+            "source": "stub",
             "target": "S\u00f6ren Mindermann"
         },
         {
             "source": "stub",
+            "target": "Tom Mitchell"
+        },
+        {
+            "source": "stub",
+            "target": "Tom Sheffer"
+        },
+        {
+            "source": "stub",
             "target": "unknownnode"
+        },
+        {
+            "source": "stub",
+            "target": "Uri Hasson"
+        },
+        {
+            "source": "stub",
+            "target": "Werner Doyle"
         },
         {
             "source": "stub",
@@ -790,7 +1425,15 @@
         },
         {
             "source": "stub",
+            "target": "Yossi Matias"
+        },
+        {
+            "source": "stub",
             "target": "Yuanning Li"
+        },
+        {
+            "source": "stub",
+            "target": "Zaid Zada"
         },
         {
             "source": "what-are-some-sota-alternatives-to-saes-for-mechanistic-interpretability",
@@ -805,14 +1448,19 @@
             "sources"
         ],
         "source": [
+            "https://arxiv.org/abs/1906.11861",
             "https://arxiv.org/html/2604.02830v2",
             "https://en.wikipedia.org/wiki/Lorem_ipsum",
             "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+            "https://github.com/datalab-to/marker",
             "https://github.com/guidelabs/steerling",
+            "https://github.com/jamiepine/voicebox",
             "https://huggingface.co/datasets/pnpl/LibriBrain",
             "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002366",
+            "https://www.nature.com/articles/s41562-025-02105-9",
             "https://www.nature.com/articles/s41586-026-10319-8",
             "https://www.nature.com/articles/s41593-023-01468-4",
+            "https://www.nature.com/articles/s42003-022-03036-1",
             "https://x.com/_lyraaaa_/status/2046078076027884014",
             "https://x.com/iScienceLuvr/status/2045606088930652195",
             "https://x.com/OwainEvans_UK/status/2044488099707949545"
@@ -822,32 +1470,63 @@
             "[[@iScienceLuvr]]",
             "[[@OwainEvans_UK]]",
             "[[Abdelrahman Mohamed]]",
+            "[[Adeen Flinker]]",
+            "[[Aditi Rao]]",
+            "[[Aditi Singh]]",
             "[[Alex Cloud]]",
             "[[Anna Sztyber-Betley]]",
+            "[[Ariel Goldstein]]",
+            "[[Avinatan Hassidim]]",
+            "[[Bobbi Aubrey]]",
+            "[[Catherine Kim]]",
+            "[[Charlotte Caucheteux]]",
             "[[Dana Boebinger]]",
+            "[[Daniel Friedman]]",
             "[[Edward F. Chang]]",
+            "[[Gina Choe]]",
             "[[Gopala K. Anumanchipalli]]",
             "[[Greta Tuckute]]",
+            "[[Hao Tang]]",
+            "[[Haocheng Wang]]",
+            "[[Harshvardhan Gazula]]",
             "[[Jacob Hilton]]",
             "[[James Chua]]",
             "[[Jan Betley]]",
+            "[[Jean-R\u00e9mi King]]",
             "[[Jenelle Feather]]",
             "[[Jinsong Wu]]",
             "[[Josh H. McDermott]]",
             "[[Junfeng Lu]]",
             "[[Laurel H. Carney]]",
+            "[[Leonard Niekerken]]",
+            "[[Mariano Schain]]",
+            "[[Michael Brenner]]",
             "[[Minh Le]]",
+            "[[Orrin Devinsky]]",
             "[[Owain Evans]]",
+            "[[Partha Talukdar]]",
+            "[[Patricia Dugan]]",
             "[[Peili Chen]]",
+            "[[Samuel A. Nastase]]",
             "[[Samuel Marks]]",
+            "[[Sasha Devore]]",
+            "[[Sharmistha Jat]]",
             "[[S\u00f6ren Mindermann]]",
+            "[[Tom Mitchell]]",
+            "[[Tom Sheffer]]",
+            "[[Uri Hasson]]",
+            "[[Werner Doyle]]",
             "[[Wikipedia]]",
+            "[[Yossi Matias]]",
             "[[Yuanning Li]]",
+            "[[Zaid Zada]]",
             null
         ],
         "published": [
             "2003-03-01",
+            "2022-02-15",
             "2023-10-29",
+            "2025-03-06",
             "2025-12-02",
             "2026-04-14",
             "2026-04-15",
@@ -860,18 +1539,24 @@
             "2026-04-22"
         ],
         "description": [
+            "Abstract page for arXiv paper 1906.11861: Relating Simple Sentence Representations in Deep Neural Networks and the Brain",
             "all LLMs are either claude-like or GPT-like method: cosine sim heatmap of per-model-averaged responses to 50 prompts sent thru gemma4 activ",
+            "Convert PDF to markdown + JSON quickly with high accuracy - datalab-to/marker",
+            "Deep learning algorithms trained to predict masked words from large amount of text have recently been shown to generate activations similar to those of the human brain. However, what drives this similarity remains currently unknown. Here, we systematically compare a variety of deep language models to identify the computational principles that lead them to generate brain-like representations of sentences. Specifically, we analyze the brain responses to 400 isolated sentences in a large cohort of 102 subjects, each recorded for two hours with functional magnetic resonance imaging (fMRI) and magnetoencephalography (MEG). We then test where and when each of these algorithms maps onto the brain responses. Finally, we estimate how the architecture, training, and performance of these models independently account for the generation of brain-like representations. Our analyses reveal two main findings. First, the similarity between the algorithms and the brain primarily depends on their ability to predict words from context. Second, this similarity reveals the rise and maintenance of perceptual, lexical, and compositional representations within each cortical region. Overall, this study shows that modern language algorithms partially converge towards brain-like solutions, and thus delineates a promising path to unravel the foundations of natural language processing. Charlotte Caucheteux and Jean-R\u00e9mi King examine the ability of transformer neural networks trained on word prediction tasks to fit representations in the human brain measured with fMRI and MEG. Their results provide further insight into the workings of transformer language models and their relevance to brain responses.",
             "Interpretable Causal Diffusion Language Models. Contribute to guidelabs/steerling development by creating an account on GitHub.",
             "Large language models (LLMs) are increasingly used to generate data to train improved models1\u20133, but it remains unclear what properties are transmitted in this model distillation4,5. Here we show that distillation can lead to subliminal learning\u2014the transmission of behavioural traits through semantically unrelated data. In our main experiments, a \u2018teacher\u2019 model with some trait T (such as disproportionately generating responses favouring owls or showing broad misaligned behaviour) generates datasets consisting solely of number sequences. Remarkably, a \u2018student\u2019 model trained on these data learns T, even when references to T are rigorously removed. More realistically, we observe the same effect when the teacher generates math reasoning traces or code. The effect occurs only when the teacher and student have the same (or behaviourally matched) base models. To help explain this, we prove a theoretical result showing that subliminal learning arises in neural networks under broad conditions and demonstrate it in a simple multilayer perceptron (MLP) classifier. As artificial intelligence systems are increasingly trained on the outputs of one another, they may inherit properties not visible in the data. Safety evaluations may therefore need to examine not just behaviour, but the origins of models and training data and the processes used to create them. During model distillation, large language models can subtly transmit traits unrelated to the training data.",
             "llm-wiki. GitHub Gist: instantly share code, notes, and snippets.",
             null,
             "Our paper on Subliminal Learning was just published in Nature! Last July we released our preprint. It showed that LLMs can transmit traits",
             "The human auditory system extracts rich linguistic abstractions from speech signals. Traditional approaches to understanding this complex process have used linear feature-encoding models, with limited success. Artificial neural networks excel in speech recognition tasks and offer promising computational models of speech processing. We used speech representations in state-of-the-art deep neural network (DNN) models to investigate neural coding from the auditory nerve to the speech cortex. Representations in hierarchical layers of the DNN correlated well with the neural activity throughout the ascending auditory system. Unsupervised speech models performed at least as well as other purely supervised or fine-tuned models. Deeper DNN layers were better correlated with the neural activity in the higher-order auditory cortex, with computations aligned with phonemic and syllabic structures in speech. Accordingly, DNN models trained on either English or Mandarin predicted cortical responses in native speakers of each language. These results reveal convergence between DNN model representations and the biological auditory pathway, offering new approaches for modeling neural coding in the auditory cortex. Using direct intracranial recordings and modern speech AI models, Li and colleagues show representational and computational similarities between deep neural networks for self-supervised speech learning and the human auditory pathway.",
+            "The open-source voice synthesis studio. Contribute to jamiepine/voicebox development by creating an account on GitHub.",
+            "This study introduces a unified computational framework connecting acoustic, speech and word-level linguistic structures to study the neural basis of everyday conversations in the human brain. We used electrocorticography to record neural signals across 100\u2009h of speech production and comprehension as participants engaged in open-ended real-life conversations. We extracted low-level acoustic, mid-level speech and contextual word embeddings from a multimodal speech-to-text model (Whisper). We developed encoding models that linearly map these embeddings onto brain activity during speech production and comprehension. Remarkably, this model accurately predicts neural activity at each level of the language processing hierarchy across hours of new conversations not used in training the model. The internal processing hierarchy in the model is aligned with the cortical hierarchy for speech and language processing, where sensory and motor regions better align with the model\u2019s speech embeddings, and higher-level language areas better align with the model\u2019s language embeddings. The Whisper model captures the temporal sequence of language-to-speech encoding before word articulation (speech production) and speech-to-language encoding post articulation (speech comprehension). The embeddings learned by this model outperform symbolic models in capturing neural activity supporting natural speech and language. These findings support a paradigm shift towards unified computational models that capture the entire processing hierarchy for speech comprehension and production in real-world conversations. This study links acoustic, speech and linguistic data with brain activity during real-life conversations to create a model that predicts neural responses during speech with high accuracy.",
             "This study presents a comprehensive analysis of the extent to which contemporary neural network models can account for auditory cortex responses; most, but not all, trained neural network models provide improved matches to auditory cortex responses compared to a classic baseline model of the auditory cortex, and exhibit correspondence with the organization of the auditory cortex.",
             "We\u2019re on a journey to advance and democratize artificial intelligence through open source and open science.",
             "What are some SOTA alternatives to SAEs for mechanistic interpretability? Is Anthropic still using SAEs or have they moved on to something b"
         ],
         "tags": [
+            "ai-model",
             "clippings",
             "datasets",
             "speech-representations"
