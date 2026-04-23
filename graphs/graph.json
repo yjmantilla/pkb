@@ -19,6 +19,12 @@
             "title": "@owainevans_uk"
         },
         {
+            "id": "Abdelrahman Mohamed",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "abdelrahman mohamed"
+        },
+        {
             "id": "Alex Cloud",
             "url": "./../notes/stub",
             "category": "notes",
@@ -28,8 +34,8 @@
             "id": "all-llms-are-either-claude-like-or-gpt-like",
             "url": "./../sources/all-llms-are-either-claude-like-or-gpt-like",
             "category": "sources",
-            "title": "thread by @_lyraaaa_",
-            "source": "all LLMs are either claude-like or GPT-like method",
+            "title": "all llms are either claude-like or gpt-like method",
+            "source": "https://x.com/_lyraaaa_/status/2046078076027884014",
             "author": [
                 "[[@_lyraaaa_]]"
             ],
@@ -53,10 +59,40 @@
             "title": "attributes"
         },
         {
+            "id": "Dana Boebinger",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "dana boebinger"
+        },
+        {
             "id": "dirs",
             "url": "./../dirs/dirs",
             "category": "dirs",
             "title": "dirs"
+        },
+        {
+            "id": "dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech",
+            "url": "./../sources/dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech",
+            "category": "sources",
+            "title": "dissecting neural computations in the human auditory pathway using deep neural networks for speech",
+            "source": "https://www.nature.com/articles/s41593-023-01468-4",
+            "author": [
+                "[[Yuanning Li]]",
+                "[[Gopala K. Anumanchipalli]]",
+                "[[Abdelrahman Mohamed]]",
+                "[[Peili Chen]]",
+                "[[Laurel H. Carney]]",
+                "[[Junfeng Lu]]",
+                "[[Jinsong Wu]]",
+                "[[Edward F. Chang]]"
+            ],
+            "published": "2023-10-29",
+            "created": "2026-04-22",
+            "description": "The human auditory system extracts rich linguistic abstractions from speech signals. Traditional approaches to understanding this complex process have used linear feature-encoding models, with limited success. Artificial neural networks excel in speech recognition tasks and offer promising computational models of speech processing. We used speech representations in state-of-the-art deep neural network (DNN) models to investigate neural coding from the auditory nerve to the speech cortex. Representations in hierarchical layers of the DNN correlated well with the neural activity throughout the ascending auditory system. Unsupervised speech models performed at least as well as other purely supervised or fine-tuned models. Deeper DNN layers were better correlated with the neural activity in the higher-order auditory cortex, with computations aligned with phonemic and syllabic structures in speech. Accordingly, DNN models trained on either English or Mandarin predicted cortical responses in native speakers of each language. These results reveal convergence between DNN model representations and the biological auditory pathway, offering new approaches for modeling neural coding in the auditory cortex. Using direct intracranial recordings and modern speech AI models, Li and colleagues show representational and computational similarities between deep neural networks for self-supervised speech learning and the human auditory pathway.",
+            "tags": [
+                "clippings",
+                "speech-representations"
+            ]
         },
         {
             "id": "distillation-can-lead-to-subliminal-learning",
@@ -81,10 +117,22 @@
             "title": "double brackets"
         },
         {
+            "id": "Edward F. Chang",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "edward f. chang"
+        },
+        {
             "id": "example",
             "url": "./../notes/example",
             "category": "notes",
             "title": "github pages example"
+        },
+        {
+            "id": "Gopala K. Anumanchipalli",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "gopala k. anumanchipalli"
         },
         {
             "id": "grade-probing-knowledge-gaps-in-llms-through-gradient-subspace-dynamics",
@@ -117,10 +165,16 @@
             ]
         },
         {
-            "id": "guidelabs_steerling_-interpretable-causal-diffusion-language-models",
-            "url": "./../sources/guidelabs_steerling_-interpretable-causal-diffusion-language-models",
+            "id": "Greta Tuckute",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "greta tuckute"
+        },
+        {
+            "id": "guidelabs-steerling-interpretable-causal-diffusion-language-models",
+            "url": "./../sources/guidelabs-steerling-interpretable-causal-diffusion-language-models",
             "category": "sources",
-            "title": "guidelabs/steerling: interpretable causal diffusion language models",
+            "title": "guidelabs-steerling interpretable causal diffusion language models",
             "source": "https://github.com/guidelabs/steerling",
             "author": null,
             "published": null,
@@ -149,11 +203,34 @@
             "title": "jan betley"
         },
         {
+            "id": "Jenelle Feather",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "jenelle feather"
+        },
+        {
+            "id": "Jinsong Wu",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "jinsong wu"
+        },
+        {
+            "id": "Josh H. McDermott",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "josh h. mcdermott"
+        },
+        {
+            "id": "Junfeng Lu",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "junfeng lu"
+        },
+        {
             "id": "language-models-transmit-behavioural-traits-through-hidden-signals-in-data",
             "url": "./../sources/language-models-transmit-behavioural-traits-through-hidden-signals-in-data",
             "category": "sources",
             "title": "language models transmit behavioural traits through hidden signals in data",
-            "render_with_liquid": false,
             "source": "https://www.nature.com/articles/s41586-026-10319-8",
             "author": [
                 "[[Alex Cloud]]",
@@ -172,6 +249,12 @@
             "tags": [
                 "clippings"
             ]
+        },
+        {
+            "id": "Laurel H. Carney",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "laurel h. carney"
         },
         {
             "id": "libribrain-dataset",
@@ -208,6 +291,26 @@
             "url": "./../notes/losenode",
             "category": "notes",
             "title": "losenode"
+        },
+        {
+            "id": "many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions",
+            "url": "./../sources/many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions",
+            "category": "sources",
+            "title": "many but not all deep neural network audio models capture brain responses and exhibit correspondence between model stages and brain regions",
+            "source": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002366",
+            "author": [
+                "[[Greta Tuckute]]",
+                "[[Jenelle Feather]]",
+                "[[Dana Boebinger]]",
+                "[[Josh H. McDermott]]"
+            ],
+            "published": null,
+            "created": "2026-04-22",
+            "description": "This study presents a comprehensive analysis of the extent to which contemporary neural network models can account for auditory cortex responses; most, but not all, trained neural network models provide improved matches to auditory cortex responses compared to a classic baseline model of the auditory cortex, and exhibit correspondence with the organization of the auditory cortex.",
+            "tags": [
+                "clippings",
+                "speech-representations"
+            ]
         },
         {
             "id": "many-words-node-search-text",
@@ -250,6 +353,12 @@
             "url": "./../notes/stub",
             "category": "notes",
             "title": "owain evans"
+        },
+        {
+            "id": "Peili Chen",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "peili chen"
         },
         {
             "id": "README",
@@ -330,6 +439,12 @@
             "url": "./../notes/words-search-text-node",
             "category": "notes",
             "title": "words search text node"
+        },
+        {
+            "id": "Yuanning Li",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "yuanning li"
         }
     ],
     "links": [
@@ -351,11 +466,31 @@
         },
         {
             "source": "attributes",
+            "target": "Abdelrahman Mohamed"
+        },
+        {
+            "source": "attributes",
             "target": "Alex Cloud"
         },
         {
             "source": "attributes",
             "target": "Anna Sztyber-Betley"
+        },
+        {
+            "source": "attributes",
+            "target": "Dana Boebinger"
+        },
+        {
+            "source": "attributes",
+            "target": "Edward F. Chang"
+        },
+        {
+            "source": "attributes",
+            "target": "Gopala K. Anumanchipalli"
+        },
+        {
+            "source": "attributes",
+            "target": "Greta Tuckute"
         },
         {
             "source": "attributes",
@@ -371,11 +506,35 @@
         },
         {
             "source": "attributes",
+            "target": "Jenelle Feather"
+        },
+        {
+            "source": "attributes",
+            "target": "Jinsong Wu"
+        },
+        {
+            "source": "attributes",
+            "target": "Josh H. McDermott"
+        },
+        {
+            "source": "attributes",
+            "target": "Junfeng Lu"
+        },
+        {
+            "source": "attributes",
+            "target": "Laurel H. Carney"
+        },
+        {
+            "source": "attributes",
             "target": "Minh Le"
         },
         {
             "source": "attributes",
             "target": "Owain Evans"
+        },
+        {
+            "source": "attributes",
+            "target": "Peili Chen"
         },
         {
             "source": "attributes",
@@ -388,6 +547,42 @@
         {
             "source": "attributes",
             "target": "Wikipedia"
+        },
+        {
+            "source": "attributes",
+            "target": "Yuanning Li"
+        },
+        {
+            "source": "dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech",
+            "target": "Abdelrahman Mohamed"
+        },
+        {
+            "source": "dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech",
+            "target": "Edward F. Chang"
+        },
+        {
+            "source": "dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech",
+            "target": "Gopala K. Anumanchipalli"
+        },
+        {
+            "source": "dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech",
+            "target": "Jinsong Wu"
+        },
+        {
+            "source": "dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech",
+            "target": "Junfeng Lu"
+        },
+        {
+            "source": "dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech",
+            "target": "Laurel H. Carney"
+        },
+        {
+            "source": "dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech",
+            "target": "Peili Chen"
+        },
+        {
+            "source": "dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech",
+            "target": "Yuanning Li"
         },
         {
             "source": "distillation-can-lead-to-subliminal-learning",
@@ -428,6 +623,22 @@
         {
             "source": "language-models-transmit-behavioural-traits-through-hidden-signals-in-data",
             "target": "S\u00f6ren Mindermann"
+        },
+        {
+            "source": "many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions",
+            "target": "Dana Boebinger"
+        },
+        {
+            "source": "many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions",
+            "target": "Greta Tuckute"
+        },
+        {
+            "source": "many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions",
+            "target": "Jenelle Feather"
+        },
+        {
+            "source": "many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions",
+            "target": "Josh H. McDermott"
         },
         {
             "source": "node2",
@@ -479,6 +690,10 @@
         },
         {
             "source": "stub",
+            "target": "Abdelrahman Mohamed"
+        },
+        {
+            "source": "stub",
             "target": "Alex Cloud"
         },
         {
@@ -487,7 +702,23 @@
         },
         {
             "source": "stub",
+            "target": "Dana Boebinger"
+        },
+        {
+            "source": "stub",
             "target": "double brackets"
+        },
+        {
+            "source": "stub",
+            "target": "Edward F. Chang"
+        },
+        {
+            "source": "stub",
+            "target": "Gopala K. Anumanchipalli"
+        },
+        {
+            "source": "stub",
+            "target": "Greta Tuckute"
         },
         {
             "source": "stub",
@@ -503,6 +734,26 @@
         },
         {
             "source": "stub",
+            "target": "Jenelle Feather"
+        },
+        {
+            "source": "stub",
+            "target": "Jinsong Wu"
+        },
+        {
+            "source": "stub",
+            "target": "Josh H. McDermott"
+        },
+        {
+            "source": "stub",
+            "target": "Junfeng Lu"
+        },
+        {
+            "source": "stub",
+            "target": "Laurel H. Carney"
+        },
+        {
+            "source": "stub",
             "target": "Minh Le"
         },
         {
@@ -512,6 +763,10 @@
         {
             "source": "stub",
             "target": "Owain Evans"
+        },
+        {
+            "source": "stub",
+            "target": "Peili Chen"
         },
         {
             "source": "stub",
@@ -534,6 +789,10 @@
             "target": "Wikipedia"
         },
         {
+            "source": "stub",
+            "target": "Yuanning Li"
+        },
+        {
             "source": "what-are-some-sota-alternatives-to-saes-for-mechanistic-interpretability",
             "target": "@iScienceLuvr"
         }
@@ -546,13 +805,15 @@
             "sources"
         ],
         "source": [
-            "all LLMs are either claude-like or GPT-like method",
             "https://arxiv.org/html/2604.02830v2",
             "https://en.wikipedia.org/wiki/Lorem_ipsum",
             "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
             "https://github.com/guidelabs/steerling",
             "https://huggingface.co/datasets/pnpl/LibriBrain",
+            "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002366",
             "https://www.nature.com/articles/s41586-026-10319-8",
+            "https://www.nature.com/articles/s41593-023-01468-4",
+            "https://x.com/_lyraaaa_/status/2046078076027884014",
             "https://x.com/iScienceLuvr/status/2045606088930652195",
             "https://x.com/OwainEvans_UK/status/2044488099707949545"
         ],
@@ -560,20 +821,33 @@
             "[[@_lyraaaa_]]",
             "[[@iScienceLuvr]]",
             "[[@OwainEvans_UK]]",
+            "[[Abdelrahman Mohamed]]",
             "[[Alex Cloud]]",
             "[[Anna Sztyber-Betley]]",
+            "[[Dana Boebinger]]",
+            "[[Edward F. Chang]]",
+            "[[Gopala K. Anumanchipalli]]",
+            "[[Greta Tuckute]]",
             "[[Jacob Hilton]]",
             "[[James Chua]]",
             "[[Jan Betley]]",
+            "[[Jenelle Feather]]",
+            "[[Jinsong Wu]]",
+            "[[Josh H. McDermott]]",
+            "[[Junfeng Lu]]",
+            "[[Laurel H. Carney]]",
             "[[Minh Le]]",
             "[[Owain Evans]]",
+            "[[Peili Chen]]",
             "[[Samuel Marks]]",
             "[[S\u00f6ren Mindermann]]",
             "[[Wikipedia]]",
+            "[[Yuanning Li]]",
             null
         ],
         "published": [
             "2003-03-01",
+            "2023-10-29",
             "2025-12-02",
             "2026-04-14",
             "2026-04-15",
@@ -592,6 +866,8 @@
             "llm-wiki. GitHub Gist: instantly share code, notes, and snippets.",
             null,
             "Our paper on Subliminal Learning was just published in Nature! Last July we released our preprint. It showed that LLMs can transmit traits",
+            "The human auditory system extracts rich linguistic abstractions from speech signals. Traditional approaches to understanding this complex process have used linear feature-encoding models, with limited success. Artificial neural networks excel in speech recognition tasks and offer promising computational models of speech processing. We used speech representations in state-of-the-art deep neural network (DNN) models to investigate neural coding from the auditory nerve to the speech cortex. Representations in hierarchical layers of the DNN correlated well with the neural activity throughout the ascending auditory system. Unsupervised speech models performed at least as well as other purely supervised or fine-tuned models. Deeper DNN layers were better correlated with the neural activity in the higher-order auditory cortex, with computations aligned with phonemic and syllabic structures in speech. Accordingly, DNN models trained on either English or Mandarin predicted cortical responses in native speakers of each language. These results reveal convergence between DNN model representations and the biological auditory pathway, offering new approaches for modeling neural coding in the auditory cortex. Using direct intracranial recordings and modern speech AI models, Li and colleagues show representational and computational similarities between deep neural networks for self-supervised speech learning and the human auditory pathway.",
+            "This study presents a comprehensive analysis of the extent to which contemporary neural network models can account for auditory cortex responses; most, but not all, trained neural network models provide improved matches to auditory cortex responses compared to a classic baseline model of the auditory cortex, and exhibit correspondence with the organization of the auditory cortex.",
             "We\u2019re on a journey to advance and democratize artificial intelligence through open source and open science.",
             "What are some SOTA alternatives to SAEs for mechanistic interpretability? Is Anthropic still using SAEs or have they moved on to something b"
         ],
@@ -599,9 +875,6 @@
             "clippings",
             "datasets",
             "speech-representations"
-        ],
-        "render_with_liquid": [
-            false
         ]
     },
     "ignored_attributes": [

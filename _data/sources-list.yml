@@ -25,10 +25,10 @@
   description: 'all LLMs are either claude-like or GPT-like method: cosine sim heatmap
     of per-model-averaged responses to 50 prompts sent thru gemma4 activ'
   published: 2026-04-20
-  source: all LLMs are either claude-like or GPT-like method
+  source: https://x.com/_lyraaaa_/status/2046078076027884014
   tags:
   - clippings
-  title: Thread by @_lyraaaa_
+  title: all LLMs are either claude-like or GPT-like method
 - _link: ./../sources/what-are-some-sota-alternatives-to-saes-for-mechanistic-interpretability.html
   author:
   - '[[@iScienceLuvr]]'
@@ -72,7 +72,6 @@
     distillation, large language models can subtly transmit traits unrelated to the
     training data.
   published: 2026-04-14
-  render_with_liquid: false
   source: https://www.nature.com/articles/s41586-026-10319-8
   tags:
   - clippings
@@ -98,16 +97,6 @@
   - speech-representations
   - datasets
   title: Libribrain Datasets at Hugging Face
-- _link: ./../sources/guidelabs_steerling_-interpretable-causal-diffusion-language-models.html
-  author: null
-  created: 2026-04-22
-  description: Interpretable Causal Diffusion Language Models. Contribute to guidelabs/steerling
-    development by creating an account on GitHub.
-  published: null
-  source: https://github.com/guidelabs/steerling
-  tags:
-  - clippings
-  title: 'guidelabs/steerling: Interpretable Causal Diffusion Language Models'
 - _link: ./../sources/distillation-can-lead-to-subliminal-learning.html
   author:
   - '[[@OwainEvans_UK]]'
@@ -119,3 +108,68 @@
   tags:
   - clippings
   title: distillation can lead to subliminal learning
+- _link: ./../sources/many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions.html
+  author:
+  - '[[Greta Tuckute]]'
+  - '[[Jenelle Feather]]'
+  - '[[Dana Boebinger]]'
+  - '[[Josh H. McDermott]]'
+  created: 2026-04-22
+  description: This study presents a comprehensive analysis of the extent to which
+    contemporary neural network models can account for auditory cortex responses;
+    most, but not all, trained neural network models provide improved matches to auditory
+    cortex responses compared to a classic baseline model of the auditory cortex,
+    and exhibit correspondence with the organization of the auditory cortex.
+  published: null
+  source: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002366
+  tags:
+  - clippings
+  - speech-representations
+  title: Many but not all deep neural network audio models capture brain responses
+    and exhibit correspondence between model stages and brain regions
+- _link: ./../sources/guidelabs-steerling-interpretable-causal-diffusion-language-models.html
+  author: null
+  created: 2026-04-22
+  description: Interpretable Causal Diffusion Language Models. Contribute to guidelabs/steerling
+    development by creating an account on GitHub.
+  published: null
+  source: https://github.com/guidelabs/steerling
+  tags:
+  - clippings
+  title: guidelabs-steerling Interpretable Causal Diffusion Language Models
+- _link: ./../sources/dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech.html
+  author:
+  - '[[Yuanning Li]]'
+  - '[[Gopala K. Anumanchipalli]]'
+  - '[[Abdelrahman Mohamed]]'
+  - '[[Peili Chen]]'
+  - '[[Laurel H. Carney]]'
+  - '[[Junfeng Lu]]'
+  - '[[Jinsong Wu]]'
+  - '[[Edward F. Chang]]'
+  created: 2026-04-22
+  description: The human auditory system extracts rich linguistic abstractions from
+    speech signals. Traditional approaches to understanding this complex process have
+    used linear feature-encoding models, with limited success. Artificial neural networks
+    excel in speech recognition tasks and offer promising computational models of
+    speech processing. We used speech representations in state-of-the-art deep neural
+    network (DNN) models to investigate neural coding from the auditory nerve to the
+    speech cortex. Representations in hierarchical layers of the DNN correlated well
+    with the neural activity throughout the ascending auditory system. Unsupervised
+    speech models performed at least as well as other purely supervised or fine-tuned
+    models. Deeper DNN layers were better correlated with the neural activity in the
+    higher-order auditory cortex, with computations aligned with phonemic and syllabic
+    structures in speech. Accordingly, DNN models trained on either English or Mandarin
+    predicted cortical responses in native speakers of each language. These results
+    reveal convergence between DNN model representations and the biological auditory
+    pathway, offering new approaches for modeling neural coding in the auditory cortex.
+    Using direct intracranial recordings and modern speech AI models, Li and colleagues
+    show representational and computational similarities between deep neural networks
+    for self-supervised speech learning and the human auditory pathway.
+  published: 2023-10-29
+  source: https://www.nature.com/articles/s41593-023-01468-4
+  tags:
+  - clippings
+  - speech-representations
+  title: Dissecting neural computations in the human auditory pathway using deep neural
+    networks for speech

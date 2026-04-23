@@ -1,6 +1,6 @@
 ---
-title: "Thread by @_lyraaaa_"
-source: "all LLMs are either claude-like or GPT-like method"
+title: "all LLMs are either claude-like or GPT-like method"
+source: "https://x.com/_lyraaaa_/status/2046078076027884014"
 author:
   - "[[@_lyraaaa_]]"
 published: 2026-04-20

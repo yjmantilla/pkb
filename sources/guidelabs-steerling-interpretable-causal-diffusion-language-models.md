@@ -1,5 +1,5 @@
 ---
-title: "guidelabs/steerling: Interpretable Causal Diffusion Language Models"
+title: "guidelabs-steerling Interpretable Causal Diffusion Language Models"
 source: "https://github.com/guidelabs/steerling"
 author:
 published:
