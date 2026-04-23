@@ -26,16 +26,21 @@ document.addEventListener('mousemove', (event) => {
 function do_graph(path){
 
   fetch(path).then(res => res.json()).then(data => {
-      const ignored_substring=data.ignored_substring;
-      const ignored_attributes=data.ignored_attributes;
-      const unique_values=data.unique_values;
+      const ignored_substring = data.ignored_substring || [];
+      const ignored_attributes = data.ignored_attributes || [];
+      const unique_values = data.unique_values || {};
       console.log(ignored_substring);
       console.log(ignored_attributes);
       console.log(unique_values);
-      nodes_ = data.nodes.map(t => t.id);
+      
+      const nodeMap = new Map();
+      data.nodes.forEach(node => nodeMap.set(node.id, node));
+
       data.links.forEach(link => {
-        const a = data.nodes[nodes_.indexOf(link.source)];
-        const b = data.nodes[nodes_.indexOf(link.target)];
+        const a = nodeMap.get(typeof link.source === 'object' ? link.source.id : link.source);
+        const b = nodeMap.get(typeof link.target === 'object' ? link.target.id : link.target);
+        if (!a || !b) return;
+
         !a.neighbors && (a.neighbors = []);
         !b.neighbors && (b.neighbors = []);
         a.neighbors.push(b);
@@ -66,20 +71,20 @@ function do_graph(path){
         // Adding filter controls to GUI
         const fieldValues = {};
 
-        const blacklist = ['content', 'doi', 'frame', 'id', 'link', 'links', 'neighbors', 'sourceurl'];//,'url']; // Replace with your actual keys
+        const blacklist = ['content', 'doi', 'frame', 'id', 'link', 'links', 'neighbors', 'sourceurl', 'url']; // Replace with your actual keys
 
         data.nodes.forEach(node => {
             Object.keys(node).forEach(key => {
-                if (blacklist.includes(key)) {
-                    return;
-                }
-                if (!fieldValues[key]) {
-                    fieldValues[key] = new Set();
-                }
+                if (blacklist.includes(key)) return;
+                if (!fieldValues[key]) fieldValues[key] = new Set();
                 const value = node[key];
                 if (Array.isArray(value)) {
-                    value.forEach(item => fieldValues[key].add(item));
-                } else {
+                    value.forEach(item => {
+                        if (item !== null && item !== undefined && item !== '') {
+                            fieldValues[key].add(item);
+                        }
+                    });
+                } else if (value !== null && value !== undefined && value !== '') {
                     fieldValues[key].add(value);
                 }
             });
@@ -90,91 +95,108 @@ function do_graph(path){
         // filterTypes maps each field name to 'range' | 'search' | 'dropdown' | 'toggle'
         const filterTypes = {};
 
-        function filterNodes(setting, node) {
-            // Use indexOf so values containing the delimiter are handled correctly
-            const delimIdx = setting.indexOf(delimiter);
-            const field = delimIdx === -1 ? setting : setting.slice(0, delimIdx);
-            const value = delimIdx === -1 ? undefined : setting.slice(delimIdx + 1);
-
-            const fieldValue = node[field];
-            if (fieldValue === undefined || fieldValue === null || fieldValue === '') {
-                return settings.keepMissing;
-            }
-
-            const filterType = filterTypes[field];
-
-            if (filterType === 'range') {
-                return Number(fieldValue) >= filterSettings[field].min &&
-                       Number(fieldValue) <= filterSettings[field].max;
-            }
-
-            if (filterType === 'search') {
-                if (filterSettings[field] === '') return true;
-                const searchWords = filterSettings[field].toLowerCase().split(' ');
-                const fieldStr = (Array.isArray(fieldValue)
-                    ? fieldValue.join(' ')
-                    : String(fieldValue)
-                ).toLowerCase();
-                return settings.orSearch
-                    ? searchWords.some(word => fieldStr.includes(word))
-                    : searchWords.every(word => fieldStr.includes(word));
-            }
-
-            if (filterType === 'dropdown') {
-                if (filterSettings[field] === '') return true;
-                const selected = filterSettings[field].toLowerCase();
-                return Array.isArray(fieldValue)
-                    ? fieldValue.some(item => String(item).toLowerCase() === selected)
-                    : String(fieldValue).toLowerCase() === selected;
-            }
-
-            if (filterType === 'toggle') {
-                const fieldContainsValue = Array.isArray(fieldValue)
-                    ? fieldValue.includes(value)
-                    : String(fieldValue) === value;
-                return !(filterSettings[setting] === false && fieldContainsValue);
-            }
-
-            return true;
-        }
         function updateGraph() {
+            console.log("--- UpdateGraph Start ---");
+            console.log("Current filter settings:", JSON.parse(JSON.stringify(filterSettings)));
+            
+            const filteredNodes = data.nodes.filter(node => {
+                for (const field of Object.keys(filterTypes)) {
+                    const type = filterTypes[field];
+                    const fieldValue = node[field];
+                    const isMissing = fieldValue === undefined || fieldValue === null || fieldValue === '' || (Array.isArray(fieldValue) && fieldValue.length === 0);
 
-          // const filteredNodes = data.nodes.filter(node => {
-          //     return Object.keys(filterSettings).every(setting => filterNodes(setting,node));
-          // });
+                    if (type === 'range') {
+                        // Range is considered 'active' if it's not at the absolute boundaries
+                        // However, for simplicity and expected behavior, we usually only exclude if keepMissing is false
+                        if (isMissing) {
+                            if (!settings.keepMissing) return false;
+                            continue;
+                        }
+                        const val = Number(fieldValue);
+                        if (val < filterSettings[field].min || val > filterSettings[field].max) {
+                            console.log(`Node '${node.id}' excluded by range '${field}': ${val} not in [${filterSettings[field].min}, ${filterSettings[field].max}]`);
+                            return false;
+                        }
+                    } else if (type === 'search') {
+                        const query = filterSettings[field].toLowerCase().trim();
+                        if (query === '') continue; // Inactive
+                        
+                        if (isMissing) {
+                            if (!settings.keepMissing) return false;
+                            continue;
+                        }
 
-          const filteredNodes = [];
+                        const words = query.split(/\s+/).filter(w => w !== '');
+                        if (words.length > 0) {
+                            const fieldStr = (Array.isArray(fieldValue) ? fieldValue.join(' ') : String(fieldValue)).toLowerCase();
+                            const match = settings.orSearch
+                                ? words.some(word => fieldStr.includes(word))
+                                : words.every(word => fieldStr.includes(word));
+                            if (!match) {
+                                console.log(`Node '${node.id}' excluded by search '${field}': '${fieldStr}' doesn't match '${query}'`);
+                                return false;
+                            }
+                        }
+                    } else if (type === 'dropdown') {
+                        const selected = filterSettings[field];
+                        if (selected === '') continue; // Inactive
+                        
+                        if (isMissing) {
+                            if (!settings.keepMissing) return false;
+                            continue;
+                        }
 
-          for (let node of data.nodes) {
-              let includeNode = true;
-              
-              for (let setting of Object.keys(filterSettings)) {
-                if (!filterNodes(setting, node)) {
-                      includeNode = false;
-                      //console.log(`Node ${node.id} excluded by setting: ${setting}`); // Debugging log
-                      break; // Stop checking further settings for this node
-                  }
-            }
-              if (includeNode) {
-                  filteredNodes.push(node);
-              }
-          }
-          const filteredLinks = data.links.filter(link => 
-                filteredNodes.includes(link.source) && filteredNodes.includes(link.target)
-            );
+                        const selectedStr = String(selected).toLowerCase();
+                        const match = Array.isArray(fieldValue)
+                            ? fieldValue.some(item => String(item).toLowerCase() === selectedStr)
+                            : String(fieldValue).toLowerCase() === selectedStr;
+                        if (!match) {
+                            console.log(`Node '${node.id}' excluded by dropdown '${field}': '${fieldValue}' !== '${selected}'`);
+                            return false;
+                        }
+                    } else if (type === 'toggle') {
+                        const allPossibleValues = Array.from(fieldValues[field] || []);
+                        const uncheckedValues = allPossibleValues.filter(v => filterSettings[`${field}${delimiter}${v}`] === false);
+                        
+                        if (uncheckedValues.length === 0) continue; // Inactive
 
+                        if (isMissing) {
+                            if (!settings.keepMissing) return false;
+                            continue;
+                        }
 
-          // Now use `filteredNodes` to update your graph
-          Graph.graphData({ nodes: filteredNodes, links: filteredLinks }); // Example update call
-          //console.log(filteredNodes);
-          //console.log(filteredLinks);
-      }
+                        const match = Array.isArray(fieldValue)
+                            ? fieldValue.some(item => filterSettings[`${field}${delimiter}${item}`] === true)
+                            : filterSettings[`${field}${delimiter}${fieldValue}`] === true;
+                        
+                        if (!match) {
+                            console.log(`Node '${node.id}' excluded by toggle '${field}': [${fieldValue}] not in checked items.`);
+                            return false;
+                        }
+                    }
+                }
+                return true;
+            });
+
+            console.log(`Filtered: ${filteredNodes.length} / ${data.nodes.length}`);
+            const filteredNodeIds = new Set(filteredNodes.map(n => n.id));
+            const filteredLinks = data.links.filter(link => {
+                const srcId = typeof link.source === 'object' ? link.source.id : link.source;
+                const tgtId = typeof link.target === 'object' ? link.target.id : link.target;
+                return filteredNodeIds.has(srcId) && filteredNodeIds.has(tgtId);
+            });
+
+            Graph.graphData({ nodes: filteredNodes, links: filteredLinks });
+        }
 
         const filterSettings = {};
+
+        const MAX_OPTION_LENGTH = 80; // values longer than this go to search box, not dropdown
 
         Object.keys(fieldValues).forEach(field => {
             const values = Array.from(fieldValues[field]);
 
+            if (values.length === 0) return; // no valid values, nothing to filter on
             if (field.startsWith('_') || ignored_attributes.includes(field) || ignored_substring.some(s => field.includes(s))) {
                 // skip ignored fields
             } else if (values.every(val => typeof val === 'number')) {
@@ -189,25 +211,29 @@ function do_graph(path){
             } else {
                 const flatValues = [].concat(...values.map(val => Array.isArray(val) ? val : [val]));
                 const uniqueFlatValues = Array.from(new Set(flatValues));
+                const hasLongValues = uniqueFlatValues.some(v => String(v).length > MAX_OPTION_LENGTH);
 
-                if (uniqueFlatValues.length > midUnique) {
+                if (uniqueFlatValues.length > midUnique || hasLongValues) {
                     // Search box — substring match, multi-word AND/OR via orSearch
                     filterTypes[field] = 'search';
                     filterSettings[field] = '';
-                    gui.add(filterSettings, field).onChange(updateGraph);
+                    const folder = gui.addFolder(`Filter: ${field}`);
+                    folder.add(filterSettings, field).name('Search').onChange(updateGraph);
                 } else if (uniqueFlatValues.length > lowUnique) {
                     // Dropdown — exact match against the selected value
                     filterTypes[field] = 'dropdown';
                     filterSettings[field] = '';
                     const folder = gui.addFolder(`Filter: ${field}`);
-                    folder.add(filterSettings, field, ['', ...uniqueFlatValues]).onChange(updateGraph);
+                    folder.add(filterSettings, field, ['', ...uniqueFlatValues]).name('Select').onChange(updateGraph);
                 } else {
                     // Toggles — one checkbox per value; unchecking hides nodes with that value
                     filterTypes[field] = 'toggle';
                     const folder = gui.addFolder(`Filter: ${field}`);
                     uniqueFlatValues.forEach(value => {
                         filterSettings[`${field}${delimiter}${value}`] = true;
-                        folder.add(filterSettings, `${field}${delimiter}${value}`).onChange(updateGraph);
+                        folder.add(filterSettings, `${field}${delimiter}${value}`)
+                            .name(String(value))
+                            .onChange(updateGraph);
                     });
                     folder.add({ fn: () => setAllToggles(folder, field, true)  }, 'fn').name('Toggle All');
                     folder.add({ fn: () => setAllToggles(folder, field, false) }, 'fn').name('Detoggle All');
@@ -217,7 +243,7 @@ function do_graph(path){
 
         function setAllToggles(folder, field, value) {
             folder.__controllers.forEach(controller => {
-                if (controller.property.startsWith(field + delimiter)) {
+                if (controller.property && controller.property.startsWith(field + delimiter)) {
                     filterSettings[controller.property] = value;
                     controller.updateDisplay();
                 }
@@ -298,7 +324,7 @@ function do_graph(path){
           ctx.fillStyle = 'blue';
           ctx.fill();
 
-          const label = node.title;//node.id;
+          const label = node.title || node.id;
           const fontSize = 12/globalScale;
           ctx.font = `${fontSize}px Sans-Serif`;
           const textWidth = ctx.measureText(label).width;
@@ -314,7 +340,7 @@ function do_graph(path){
           //
           ctx.textAlign = 'center';
           ctx.textBaseline = 'middle';
-          ctx.fillStyle = node.color;
+          ctx.fillStyle = node.color || 'white';
           ctx.fillText(label, node.x, node.y);
 
           node.__bckgDimensions = bckgDimensions; // to re-use in nodePointerAreaPaint
