@@ -6,7 +6,7 @@ author:
   - "[[Hao Tang]]"
   - "[[Partha Talukdar]]"
   - "[[Tom Mitchell]]"
-published:
+
 created: 2026-04-22
 description: "Abstract page for arXiv paper 1906.11861: Relating Simple Sentence Representations in Deep Neural Networks and the Brain"
 tags:

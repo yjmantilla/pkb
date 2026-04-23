@@ -2,7 +2,7 @@
 title: "jamiepine-voicebox-The open-source voice synthesis studio"
 source: "https://github.com/jamiepine/voicebox"
 author:
-published:
+
 created: 2026-04-22
 description: "The open-source voice synthesis studio. Contribute to jamiepine/voicebox development by creating an account on GitHub."
 tags:

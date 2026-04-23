@@ -2,7 +2,7 @@
 title: "guidelabs-steerling Interpretable Causal Diffusion Language Models"
 source: "https://github.com/guidelabs/steerling"
 author:
-published:
+
 created: 2026-04-22
 description: "Interpretable Causal Diffusion Language Models. Contribute to guidelabs/steerling development by creating an account on GitHub."
 tags:

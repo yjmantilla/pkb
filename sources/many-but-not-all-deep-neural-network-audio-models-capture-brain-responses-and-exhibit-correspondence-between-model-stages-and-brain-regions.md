@@ -6,7 +6,7 @@ author:
   - "[[Jenelle Feather]]"
   - "[[Dana Boebinger]]"
   - "[[Josh H. McDermott]]"
-published:
+
 created: 2026-04-22
 description: "This study presents a comprehensive analysis of the extent to which contemporary neural network models can account for auditory cortex responses; most, but not all, trained neural network models provide improved matches to auditory cortex responses compared to a classic baseline model of the auditory cortex, and exhibit correspondence with the organization of the auditory cortex."
 tags:

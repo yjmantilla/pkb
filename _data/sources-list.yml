@@ -13,7 +13,6 @@
   author: null
   created: 2026-04-21
   description: 'llm-wiki. GitHub Gist: instantly share code, notes, and snippets.'
-  published: null
   source: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
   tags:
   - clippings
@@ -80,7 +79,6 @@
   author: null
   created: 2026-04-21
   description: null
-  published: null
   source: https://arxiv.org/html/2604.02830v2
   tags:
   - clippings
@@ -120,7 +118,6 @@
     most, but not all, trained neural network models provide improved matches to auditory
     cortex responses compared to a classic baseline model of the auditory cortex,
     and exhibit correspondence with the organization of the auditory cortex.
-  published: null
   source: https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3002366
   tags:
   - clippings
@@ -132,7 +129,6 @@
   created: 2026-04-22
   description: Interpretable Causal Diffusion Language Models. Contribute to guidelabs/steerling
     development by creating an account on GitHub.
-  published: null
   source: https://github.com/guidelabs/steerling
   tags:
   - clippings
@@ -173,21 +169,11 @@
   - speech-representations
   title: Dissecting neural computations in the human auditory pathway using deep neural
     networks for speech
-- _link: ./../sources/datalab-to-marker-convert-pdf-to-markdown-json-quickly-with-high-accuracy.html
-  author: null
-  created: 2026-04-22
-  description: Convert PDF to markdown + JSON quickly with high accuracy - datalab-to/marker
-  published: null
-  source: https://github.com/datalab-to/marker
-  tags:
-  - clippings
-  title: 'datalab-to/marker: Convert PDF to markdown + JSON quickly with high accuracy'
 - _link: ./../sources/jamiepine_voicebox_-the-open-source-voice-synthesis-studio.html
   author: null
   created: 2026-04-22
   description: The open-source voice synthesis studio. Contribute to jamiepine/voicebox
     development by creating an account on GitHub.
-  published: null
   source: https://github.com/jamiepine/voicebox
   tags:
   - clippings
@@ -203,7 +189,6 @@
   created: 2026-04-22
   description: 'Abstract page for arXiv paper 1906.11861: Relating Simple Sentence
     Representations in Deep Neural Networks and the Brain'
-  published: null
   source: https://arxiv.org/abs/1906.11861
   tags:
   - clippings
@@ -299,3 +284,35 @@
   title: A unified acoustic-to-speech-to-language embedding space captures the neural
     basis of natural language processing in everyday conversations - Nature Human
     Behaviour
+- _link: ./../sources/nvidia-nemo_nemo_-a-scalable-generative-ai-framework-built-for-researchers-and-developers-working-on-large-language-models,-multimodal,-and-speech-ai-(automatic-speech-recognition-and-text-to-speech).html
+  author: null
+  created: 2026-04-22
+  description: A scalable generative AI framework built for researchers and developers
+    working on Large Language Models, Multimodal, and Speech AI (Automatic Speech
+    Recognition and Text-to-Speech) - NVIDIA-NeMo/NeMo
+  source: https://github.com/NVIDIA-NeMo/NeMo
+  tags:
+  - clippings
+  - speech-representations
+  title: NVIDIA-NeMo NeMo - A scalable generative AI framework built for researchers
+    and developers working on Large Language Models, Multimodal, and Speech AI (Automatic
+    Speech Recognition and Text-to-Speech)
+- _link: ./../sources/datalab-to-marker-convert-pdf-to-markdown-plus-json-quickly-with-high-accuracy.html
+  author: null
+  created: 2026-04-22
+  description: Convert PDF to markdown + JSON quickly with high accuracy - datalab-to/marker
+  source: https://github.com/datalab-to/marker
+  tags:
+  - clippings
+  title: datalab-to marker Convert PDF to markdown plus JSON quickly with high accuracy
+- _link: ./../sources/nvidia_personaplex_-personaplex-code..html
+  author: null
+  created: 2026-04-22
+  description: PersonaPlex code. Contribute to NVIDIA/personaplex development by creating
+    an account on GitHub.
+  source: https://github.com/NVIDIA/personaplex
+  tags:
+  - clippings
+  - speech-representations
+  - ai-model
+  title: NVIDIA personaplex - PersonaPlex code.

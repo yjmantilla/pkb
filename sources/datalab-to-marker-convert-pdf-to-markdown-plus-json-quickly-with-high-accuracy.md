@@ -1,8 +1,8 @@
 ---
-title: "datalab-to/marker: Convert PDF to markdown + JSON quickly with high accuracy"
+title: "datalab-to marker Convert PDF to markdown plus JSON quickly with high accuracy"
 source: "https://github.com/datalab-to/marker"
 author:
-published:
+
 created: 2026-04-22
 description: "Convert PDF to markdown + JSON quickly with high accuracy - datalab-to/marker"
 tags:
@@ -337,7 +337,7 @@ Note that child blocks of pages can have their own children as well (a tree stru
       "id": "/page/10/Page/366",
       "block_type": "Page",
       "html": "<content-ref src='/page/10/SectionHeader/0'></content-ref><content-ref src='/page/10/SectionHeader/1'></content-ref><content-ref src='/page/10/Text/2'></content-ref><content-ref src='/page/10/Text/3'></content-ref><content-ref src='/page/10/Figure/4'></content-ref><content-ref src='/page/10/SectionHeader/5'></content-ref><content-ref src='/page/10/SectionHeader/6'></content-ref><content-ref src='/page/10/TextInlineMath/7'></content-ref><content-ref src='/page/10/TextInlineMath/8'></content-ref><content-ref src='/page/10/Table/9'></content-ref><content-ref src='/page/10/SectionHeader/10'></content-ref><content-ref src='/page/10/Text/11'></content-ref>",
-      "polygon": [[0.0, 0.0], [612.0, 0.0], [612.0, 792.0], [0.0, 792.0]],
+      "polygon": ([0.0, 0.0], [612.0, 0.0], [612.0, 792.0], [0.0, 792.0]),
       "children": [
         {
           "id": "/page/10/SectionHeader/0",
