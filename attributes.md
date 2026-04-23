@@ -27,4 +27,5 @@ title: Attributes
 - clippings
 - datasets
 - speech-representations
+- tools
 

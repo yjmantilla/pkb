@@ -316,3 +316,21 @@
   - speech-representations
   - ai-model
   title: NVIDIA personaplex - PersonaPlex code.
+- _link: ./../sources/uvx-pdf-to-md-marker.html
+  author: null
+  created: 2026-04-22
+  description: ChatGPT conversation with 2 messages
+  source: https://chatgpt.com/c/69e95ebc-de60-83ea-8873-ee95cf22c42b
+  tags:
+  - clippings
+  - tools
+  title: UVX PDF to MD
+- _link: ./../sources/markdown-conversion-with-uv.html
+  author: null
+  created: 2026-04-22
+  description: ChatGPT conversation with 2 messages
+  source: https://chatgpt.com/c/69e151f8-89f8-83ea-af40-ab4deaea5703
+  tags:
+  - clippings
+  - tools
+  title: Markdown conversion with uv

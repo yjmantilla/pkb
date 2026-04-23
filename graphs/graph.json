@@ -185,6 +185,16 @@
             "title": "many words node search text"
         },
         {
+            "id": "markdown-conversion-with-uv",
+            "url": "./../sources/markdown-conversion-with-uv",
+            "category": "sources",
+            "title": "markdown conversion with uv",
+            "tags": [
+                "clippings",
+                "tools"
+            ]
+        },
+        {
             "id": "node-with-drawing",
             "url": "./../notes/node-with-drawing",
             "category": "notes",
@@ -266,6 +276,16 @@
             "url": "./../notes/stub",
             "category": "notes",
             "title": "unknownnode"
+        },
+        {
+            "id": "uvx-pdf-to-md-marker",
+            "url": "./../sources/uvx-pdf-to-md-marker",
+            "category": "sources",
+            "title": "uvx pdf to md",
+            "tags": [
+                "clippings",
+                "tools"
+            ]
         },
         {
             "id": "what-are-some-sota-alternatives-to-saes-for-mechanistic-interpretability",
@@ -362,7 +382,8 @@
             "ai-model",
             "clippings",
             "datasets",
-            "speech-representations"
+            "speech-representations",
+            "tools"
         ]
     },
     "ignored_attributes": [

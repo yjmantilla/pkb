@@ -2,7 +2,7 @@
 title: "Markdown conversion with uv"
 source: "https://chatgpt.com/c/69e151f8-89f8-83ea-af40-ab4deaea5703"
 author:
-published:
+
 created: 2026-04-22
 description: "ChatGPT conversation with 2 messages"
 tags:

@@ -2,7 +2,7 @@
 title: "UVX PDF to MD"
 source: "https://chatgpt.com/c/69e95ebc-de60-83ea-8873-ee95cf22c42b"
 author:
-published:
+
 created: 2026-04-22
 description: "ChatGPT conversation with 2 messages"
 tags:
