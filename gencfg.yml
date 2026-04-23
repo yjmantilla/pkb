@@ -14,6 +14,7 @@ ignore_in : ['_site','_includes','.github','.vscode','docs','packages','README']
 ignore_eq : ['.','notes','sources']
 
 ignored_attributes : ['content']
+graph_excluded_fields : ['source', 'author', 'created', 'description']
 ignored_substring : ['_link','excalidraw-']
 ontology_name : 'attributes'
 ontology_only_ignore : ['content','title','id','url']
