@@ -2,7 +2,7 @@
 title: "Beever-AI beever-atlas: Your First LLM-Wiki Conversation Knowledge Base"
 source: "https://github.com/Beever-AI/beever-atlas"
 author:
-published:
+
 created: 2026-04-27
 description: "Your First LLM-Wiki Conversation Knowledge Base. Contribute to Beever-AI/beever-atlas development by creating an account on GitHub."
 tags:

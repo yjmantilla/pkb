@@ -60,6 +60,18 @@
             ]
         },
         {
+            "id": "beever-ai_beever-atlas_-your-first-llm-wiki-conversation-knowledge-base",
+            "url": "./../sources/beever-ai_beever-atlas_-your-first-llm-wiki-conversation-knowledge-base",
+            "category": "sources",
+            "title": "beever-ai beever-atlas: your first llm-wiki conversation knowledge base",
+            "tags": [
+                "clippings",
+                "repo",
+                "tools",
+                "rag"
+            ]
+        },
+        {
             "id": "brains-and-algorithms-partially-converge-in-natural-language-processing",
             "url": "./../sources/brains-and-algorithms-partially-converge-in-natural-language-processing",
             "category": "sources",
@@ -1092,6 +1104,7 @@
             "mechinterp",
             "methods",
             "programming",
+            "rag",
             "repo",
             "representations",
             "reverse-engineering",

@@ -789,3 +789,15 @@
   - mechinterp
   - interpretability
   title: Are Sparse Autoencoders Useful? A Case Study in Sparse Probing
+- _link: ./../sources/beever-ai_beever-atlas_-your-first-llm-wiki-conversation-knowledge-base.html
+  author: null
+  created: 2026-04-27
+  description: Your First LLM-Wiki Conversation Knowledge Base. Contribute to Beever-AI/beever-atlas
+    development by creating an account on GitHub.
+  source: https://github.com/Beever-AI/beever-atlas
+  tags:
+  - clippings
+  - repo
+  - tools
+  - rag
+  title: 'Beever-AI beever-atlas: Your First LLM-Wiki Conversation Knowledge Base'

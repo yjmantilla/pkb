@@ -19,6 +19,7 @@ title: Attributes
 - mechinterp
 - methods
 - programming
+- rag
 - repo
 - representations
 - reverse-engineering
