@@ -74,6 +74,7 @@
   source: https://www.nature.com/articles/s41586-026-10319-8
   tags:
   - clippings
+  - paper
   title: Language models transmit behavioural traits through hidden signals in data
 - _link: ./../sources/grade-probing-knowledge-gaps-in-llms-through-gradient-subspace-dynamics.html
   author: null
@@ -82,6 +83,7 @@
   source: https://arxiv.org/html/2604.02830v2
   tags:
   - clippings
+  - paper
   title: 'GRADE: Probing Knowledge Gaps in LLMs through Gradient Subspace Dynamics'
 - _link: ./../sources/libribrain-dataset.html
   author: null
@@ -105,6 +107,7 @@
   source: https://x.com/OwainEvans_UK/status/2044488099707949545
   tags:
   - clippings
+  - paper
   title: distillation can lead to subliminal learning
 - _link: ./../sources/many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions.html
   author:
@@ -122,6 +125,7 @@
   tags:
   - clippings
   - speech-representations
+  - paper
   title: Many but not all deep neural network audio models capture brain responses
     and exhibit correspondence between model stages and brain regions
 - _link: ./../sources/guidelabs-steerling-interpretable-causal-diffusion-language-models.html
@@ -132,6 +136,8 @@
   source: https://github.com/guidelabs/steerling
   tags:
   - clippings
+  - repo
+  - interpretability
   title: guidelabs-steerling Interpretable Causal Diffusion Language Models
 - _link: ./../sources/dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech.html
   author:
@@ -167,6 +173,7 @@
   tags:
   - clippings
   - speech-representations
+  - paper
   title: Dissecting neural computations in the human auditory pathway using deep neural
     networks for speech
 - _link: ./../sources/jamiepine_voicebox_-the-open-source-voice-synthesis-studio.html
@@ -179,6 +186,7 @@
   - clippings
   - speech-representations
   - ai-model
+  - repo
   title: jamiepine-voicebox-The open-source voice synthesis studio
 - _link: ./../sources/relating-simple-sentence-representations-in-deep-neural-networks-and-the-brain.html
   author:
@@ -193,6 +201,7 @@
   tags:
   - clippings
   - speech-representations
+  - paper
   title: Relating Simple Sentence Representations in Deep Neural Networks and the
     Brain
 - _link: ./../sources/brains-and-algorithms-partially-converge-in-natural-language-processing.html
@@ -226,6 +235,7 @@
   tags:
   - clippings
   - speech-representations
+  - paper
   title: Brains and algorithms partially converge in natural language processing
 - _link: ./../sources/a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour.html
   author:
@@ -281,6 +291,7 @@
   tags:
   - clippings
   - speech-representations
+  - paper
   title: A unified acoustic-to-speech-to-language embedding space captures the neural
     basis of natural language processing in everyday conversations - Nature Human
     Behaviour
@@ -294,6 +305,8 @@
   tags:
   - clippings
   - speech-representations
+  - repo
+  - ai-model
   title: NVIDIA-NeMo NeMo - A scalable generative AI framework built for researchers
     and developers working on Large Language Models, Multimodal, and Speech AI (Automatic
     Speech Recognition and Text-to-Speech)
@@ -304,6 +317,7 @@
   source: https://github.com/datalab-to/marker
   tags:
   - clippings
+  - tools
   title: datalab-to marker Convert PDF to markdown plus JSON quickly with high accuracy
 - _link: ./../sources/nvidia_personaplex_-personaplex-code..html
   author: null
@@ -315,6 +329,7 @@
   - clippings
   - speech-representations
   - ai-model
+  - repo
   title: NVIDIA personaplex - PersonaPlex code.
 - _link: ./../sources/markdown-conversion-with-uv.html
   author: null
@@ -337,6 +352,7 @@
   tags:
   - clippings
   - tools
+  - repo
   title: 'safishamsi graphify: AI coding assistant skill (Claude Code, Codex, OpenCode,
     Cursor, Gemini CLI, GitHub Copilot CLI, OpenClaw, Factory Droid, Trae, Google
     Antigravity). Turn any folder of code, docs, papers, images, or videos into a
@@ -372,6 +388,7 @@
   - clippings
   - datasets
   - speech-representations
+  - paper
   title: A 204-subject multimodal neuroimaging dataset to study language processing
 - _link: ./../sources/uvx-pdf-to-md-marker.html
   author: null
@@ -383,6 +400,12 @@
   - tools
   title: UVX PDF to MD
 - _link: ./../sources/inferring_dnn_brain_alignment-using-rsa-may-be-problematic.html
+  tags:
+  - clippings
+  - repo
+  - paper
+  - speech-representations
+  - representations
   title: INFERRING DNN-BRAIN ALIGNMENT USING REPRESENTATIONAL SIMILARITY ANALYSES
     CAN BE PROBLEMATIC
 - _link: ./../sources/libribrain2.html
@@ -432,6 +455,7 @@
   tags:
   - clippings
   - tools
+  - repo
   title: 'JuliusBrussee/caveman: 🪨 why use many token when few token do trick — Claude
     Code skill that cuts 65% of tokens by talking like caveman'
 - _link: ./../sources/voice-pro-repo.html
@@ -466,6 +490,7 @@
   source: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268
   tags:
   - clippings
+  - paper
   title: Could a Neuroscientist Understand a Microprocessor?
 - _link: ./../sources/can-a-biologist-fix-a-radio_—or,-what-i-learned-while-studying-apoptosis.html
   author:
@@ -486,6 +511,7 @@
   - clippings
   - methods
   - reverse-engineering
+  - paper
   title: Can a biologist fix a radio?—Or, what I learned while studying apoptosis
 - _link: ./../sources/rebasing-rebase-pyprep.html
   author: null
@@ -548,3 +574,57 @@
   - clippings
   - programming
   title: no build in drac slurm
+- _link: ./../sources/representation-with-a-capital-r-measuring-functional-alignment-(openreview).html
+  author:
+  - '[[Jacob S. Prince]]'
+  - '[[George A. Alvarez]]'
+  - '[[Talia Konkle]]'
+  created: 2026-04-27
+  description: 'Ambiguity surrounding the term ''representation'' in biological and
+    artificial neural systems hampers our ability to assess their alignment. In this
+    paper, we draw a critical distinction between two notions of representation: the
+    conventional ''representation'' as a mere encoding, and ''Representation-with-a
+    capital-R'', which entails functional use within a system. We argue that while
+    current methods in neuroscience and artificial intelligence often focus on the
+    former, advancing our understanding requires a shift toward the latter. We critique
+    existing linking methods such as representational similarity analysis and encoding
+    models, highlighting key limitations in their ability to capture functional correspondence.
+    We then propose an updated paradigm that involves specifying explicit models of
+    information readout and testing their functional properties using causal perturbation.
+    This framework, which treats neural networks as a new species of model organism,
+    may help reveal the principles governing functional representations in both biological
+    and artificial systems.'
+  source: https://openreview.net/forum?id=pn7KvRSRm3#discussion
+  tags:
+  - clippings
+  - papers
+  - representations
+  - speech-representations
+  title: 'Representation with a capital ''R'': measuring functional alignment (openreview)'
+- _link: ./../sources/representation-with-a-capital-r-measuring-functional-alignment.html
+  author:
+  - '[[Jacob S. Prince]]'
+  - '[[George A. Alvarez]]'
+  - '[[Talia Konkle]]'
+  created: 2026-04-27
+  description: 'Ambiguity surrounding the term ''representation'' in biological and
+    artificial neural systems hampers our ability to assess their alignment. In this
+    paper, we draw a critical distinction between two notions of representation: the
+    conventional ''representation'' as a mere encoding, and ''Representation-with-a
+    capital-R'', which entails functional use within a system. We argue that while
+    current methods in neuroscience and artificial intelligence often focus on the
+    former, advancing our understanding requires a shift toward the latter. We critique
+    existing linking methods such as representational similarity analysis and encoding
+    models, highlighting key limitations in their ability to capture functional correspondence.
+    We then propose an updated paradigm that involves specifying explicit models of
+    information readout and testing their functional properties using causal perturbation.
+    This framework, which treats neural networks as a new species of model organism,
+    may help reveal the principles governing functional representations in both biological
+    and artificial systems.'
+  source: https://openreview.net/forum?id=pn7KvRSRm3#discussion
+  tags:
+  - clippings
+  - papers
+  - representations
+  - speech-representations
+  title: 'Representation with a capital R: measuring functional alignment...'

@@ -7,7 +7,8 @@
             "title": "a unified acoustic-to-speech-to-language embedding space captures the neural basis of natural language processing in everyday conversations - nature human behaviour",
             "tags": [
                 "clippings",
-                "speech-representations"
+                "speech-representations",
+                "paper"
             ]
         },
         {
@@ -32,7 +33,8 @@
             "title": "brains and algorithms partially converge in natural language processing",
             "tags": [
                 "clippings",
-                "speech-representations"
+                "speech-representations",
+                "paper"
             ]
         },
         {
@@ -43,7 +45,8 @@
             "tags": [
                 "clippings",
                 "methods",
-                "reverse-engineering"
+                "reverse-engineering",
+                "paper"
             ]
         },
         {
@@ -53,7 +56,8 @@
             "title": "juliusbrussee/caveman: \ud83e\udea8 why use many token when few token do trick \u2014 claude code skill that cuts 65% of tokens by talking like caveman",
             "tags": [
                 "clippings",
-                "tools"
+                "tools",
+                "repo"
             ]
         },
         {
@@ -82,7 +86,8 @@
             "category": "sources",
             "title": "could a neuroscientist understand a microprocessor?",
             "tags": [
-                "clippings"
+                "clippings",
+                "paper"
             ]
         },
         {
@@ -91,7 +96,8 @@
             "category": "sources",
             "title": "datalab-to marker convert pdf to markdown plus json quickly with high accuracy",
             "tags": [
-                "clippings"
+                "clippings",
+                "tools"
             ]
         },
         {
@@ -107,7 +113,8 @@
             "title": "dissecting neural computations in the human auditory pathway using deep neural networks for speech",
             "tags": [
                 "clippings",
-                "speech-representations"
+                "speech-representations",
+                "paper"
             ]
         },
         {
@@ -116,7 +123,8 @@
             "category": "sources",
             "title": "distillation can lead to subliminal learning",
             "tags": [
-                "clippings"
+                "clippings",
+                "paper"
             ]
         },
         {
@@ -147,7 +155,8 @@
             "category": "sources",
             "title": "grade: probing knowledge gaps in llms through gradient subspace dynamics",
             "tags": [
-                "clippings"
+                "clippings",
+                "paper"
             ]
         },
         {
@@ -157,7 +166,8 @@
             "title": "safishamsi graphify: ai coding assistant skill (claude code, codex, opencode, cursor, gemini cli, github copilot cli, openclaw, factory droid, trae, google antigravity). turn any folder of code, docs, papers, images, or videos into a queryable knowledge graph",
             "tags": [
                 "clippings",
-                "tools"
+                "tools",
+                "repo"
             ]
         },
         {
@@ -182,14 +192,23 @@
             "category": "sources",
             "title": "guidelabs-steerling interpretable causal diffusion language models",
             "tags": [
-                "clippings"
+                "clippings",
+                "repo",
+                "interpretability"
             ]
         },
         {
             "id": "inferring_dnn_brain_alignment-using-rsa-may-be-problematic",
             "url": "./../sources/inferring_dnn_brain_alignment-using-rsa-may-be-problematic",
             "category": "sources",
-            "title": "inferring_dnn_brain_alignment-using-rsa-may-be-problematic"
+            "title": "inferring dnn-brain alignment using representational similarity analyses can be problematic",
+            "tags": [
+                "clippings",
+                "repo",
+                "paper",
+                "speech-representations",
+                "representations"
+            ]
         },
         {
             "id": "jamiepine_voicebox_-the-open-source-voice-synthesis-studio",
@@ -199,7 +218,8 @@
             "tags": [
                 "clippings",
                 "speech-representations",
-                "ai-model"
+                "ai-model",
+                "repo"
             ]
         },
         {
@@ -208,7 +228,8 @@
             "category": "sources",
             "title": "language models transmit behavioural traits through hidden signals in data",
             "tags": [
-                "clippings"
+                "clippings",
+                "paper"
             ]
         },
         {
@@ -255,7 +276,8 @@
             "title": "many but not all deep neural network audio models capture brain responses and exhibit correspondence between model stages and brain regions",
             "tags": [
                 "clippings",
-                "speech-representations"
+                "speech-representations",
+                "paper"
             ]
         },
         {
@@ -293,7 +315,8 @@
             "tags": [
                 "clippings",
                 "datasets",
-                "speech-representations"
+                "speech-representations",
+                "paper"
             ]
         },
         {
@@ -337,7 +360,9 @@
             "title": "nvidia-nemo nemo - a scalable generative ai framework built for researchers and developers working on large language models, multimodal, and speech ai (automatic speech recognition and text-to-speech)",
             "tags": [
                 "clippings",
-                "speech-representations"
+                "speech-representations",
+                "repo",
+                "ai-model"
             ]
         },
         {
@@ -348,7 +373,8 @@
             "tags": [
                 "clippings",
                 "speech-representations",
-                "ai-model"
+                "ai-model",
+                "repo"
             ]
         },
         {
@@ -380,6 +406,31 @@
             "title": "relating simple sentence representations in deep neural networks and the brain",
             "tags": [
                 "clippings",
+                "speech-representations",
+                "paper"
+            ]
+        },
+        {
+            "id": "representation-with-a-capital-r-measuring-functional-alignment",
+            "url": "./../sources/representation-with-a-capital-r-measuring-functional-alignment",
+            "category": "sources",
+            "title": "representation with a capital r: measuring functional alignment...",
+            "tags": [
+                "clippings",
+                "papers",
+                "representations",
+                "speech-representations"
+            ]
+        },
+        {
+            "id": "representation-with-a-capital-r-measuring-functional-alignment-(openreview)",
+            "url": "./../sources/representation-with-a-capital-r-measuring-functional-alignment-(openreview)",
+            "category": "sources",
+            "title": "representation with a capital 'r': measuring functional alignment (openreview)",
+            "tags": [
+                "clippings",
+                "papers",
+                "representations",
                 "speech-representations"
             ]
         },
@@ -479,8 +530,16 @@
             "target": "dirs"
         },
         {
+            "source": "distillation-can-lead-to-subliminal-learning",
+            "target": "language-models-transmit-behavioural-traits-through-hidden-signals-in-data"
+        },
+        {
             "source": "graphs",
             "target": "dirs"
+        },
+        {
+            "source": "libribrain2",
+            "target": "libribrain-dataset"
         },
         {
             "source": "node2",
@@ -517,6 +576,10 @@
         {
             "source": "README",
             "target": "wikilinks"
+        },
+        {
+            "source": "representation-with-a-capital-r-measuring-functional-alignment-(openreview)",
+            "target": "representation-with-a-capital-r-measuring-functional-alignment"
         },
         {
             "source": "speech-representations-datasets",
@@ -562,8 +625,13 @@
             "ai-model",
             "clippings",
             "datasets",
+            "interpretability",
             "methods",
+            "paper",
+            "papers",
             "programming",
+            "repo",
+            "representations",
             "reverse-engineering",
             "speech-representations",
             "tools"

@@ -14,8 +14,13 @@ title: Attributes
 - ai-model
 - clippings
 - datasets
+- interpretability
 - methods
+- paper
+- papers
 - programming
+- repo
+- representations
 - reverse-engineering
 - speech-representations
 - tools
