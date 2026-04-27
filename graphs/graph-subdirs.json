@@ -12,12 +12,6 @@
             ]
         },
         {
-            "id": "agent",
-            "url": "./../notes/stub",
-            "category": "notes",
-            "title": "agent"
-        },
-        {
             "id": "agentmemory_-persistent-memory-for-ai-coding-agents-based-on-real-world-benchmarks",
             "url": "./../sources/agentmemory_-persistent-memory-for-ai-coding-agents-based-on-real-world-benchmarks",
             "category": "sources",
@@ -1108,10 +1102,6 @@
             "target": "unknownnode"
         },
         {
-            "source": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
-            "target": "agent"
-        },
-        {
             "source": "README",
             "target": "dirs"
         },
@@ -1162,10 +1152,6 @@
         {
             "source": "speech-representations-map-of-contents",
             "target": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides"
-        },
-        {
-            "source": "stub",
-            "target": "agent"
         },
         {
             "source": "stub",
