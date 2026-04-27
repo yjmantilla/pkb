@@ -16,6 +16,7 @@ title: Attributes
 - clippings
 - datasets
 - interpretability
+- mechinterp
 - methods
 - programming
 - repo

@@ -471,6 +471,7 @@
   - clippings
   - speech-representations
   - ai-model
+  - repo
   title: 'abus-aikorea voice-pro: Gradio WebUI for creators and developers, featuring
     key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice),
     with Whisper audio processing, YouTube download, Demucs vocal isolation, and multilingual
@@ -668,5 +669,38 @@
   - clippings
   - representations
   - speech-representations
+  - citable
   title: Commentary Investigating the concept of representation in the neural and
     psychological sciences
+- _link: ./../sources/interpreting-openai-s-whisper.html
+  author:
+  - '[[Ellena Reid]]'
+  created: 2026-04-27
+  description: null
+  published: 2023-09-04
+  source: https://er537.github.io/blog/2023/09/05/whisper_interpretability.html
+  tags:
+  - clippings
+  - speech-representations
+  - mechinterp
+  - interpretability
+  - citable
+  title: Interpreting OpenAI’s Whisper
+- _link: ./../sources/feature-discovery-in-audio-models.html
+  author:
+  - '[[Konstantine Sadov]]'
+  created: 2026-04-27
+  description: I’ve been working on audio model interpretability as part of this year’s
+    Mozilla Builders cohort. This post discusses the motivations behind my research,
+    features I’ve discovered by inspecting intermediate activations in Whisper Tiny,
+    features discovered with sparse autoencoders, and extending the work to larger
+    Whisper models. You can find source code and instructions for replicating […]
+  published: 2024-12-01
+  source: https://builders.mozilla.org/insider-whisper/
+  tags:
+  - clippings
+  - speech-representations
+  - mechinterp
+  - interpretability
+  - citable
+  title: Feature Discovery in Audio Models

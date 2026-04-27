@@ -88,7 +88,8 @@
             "tags": [
                 "clippings",
                 "representations",
-                "speech-representations"
+                "speech-representations",
+                "citable"
             ]
         },
         {
@@ -161,6 +162,19 @@
             "title": "github pages example"
         },
         {
+            "id": "feature-discovery-in-audio-models",
+            "url": "./../sources/feature-discovery-in-audio-models",
+            "category": "sources",
+            "title": "feature discovery in audio models",
+            "tags": [
+                "clippings",
+                "speech-representations",
+                "mechinterp",
+                "interpretability",
+                "citable"
+            ]
+        },
+        {
             "id": "grade-probing-knowledge-gaps-in-llms-through-gradient-subspace-dynamics",
             "url": "./../sources/grade-probing-knowledge-gaps-in-llms-through-gradient-subspace-dynamics",
             "category": "sources",
@@ -219,6 +233,19 @@
                 "citable",
                 "speech-representations",
                 "representations"
+            ]
+        },
+        {
+            "id": "interpreting-openai-s-whisper",
+            "url": "./../sources/interpreting-openai-s-whisper",
+            "category": "sources",
+            "title": "interpreting openai\u2019s whisper",
+            "tags": [
+                "clippings",
+                "speech-representations",
+                "mechinterp",
+                "interpretability",
+                "citable"
             ]
         },
         {
@@ -522,6 +549,12 @@
             ]
         },
         {
+            "id": "virtual-desktops",
+            "url": "./../notes/virtual-desktops",
+            "category": "notes",
+            "title": "virtual desktops"
+        },
+        {
             "id": "voice-pro-repo",
             "url": "./../sources/voice-pro-repo",
             "category": "sources",
@@ -529,7 +562,8 @@
             "tags": [
                 "clippings",
                 "speech-representations",
-                "ai-model"
+                "ai-model",
+                "repo"
             ]
         },
         {
@@ -558,6 +592,10 @@
         {
             "source": "attributes",
             "target": "dirs"
+        },
+        {
+            "source": "commentary_-investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences",
+            "target": "investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences"
         },
         {
             "source": "dirs",
@@ -661,6 +699,7 @@
             "clippings",
             "datasets",
             "interpretability",
+            "mechinterp",
             "methods",
             "programming",
             "repo",
