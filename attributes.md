@@ -4,6 +4,7 @@ title: Attributes
 
 ## category
 
+- agent
 - dirs
 - notes
 - root
@@ -26,5 +27,6 @@ title: Attributes
 - reverse-engineering
 - speech
 - speech-representations
+- tool
 - tools
 

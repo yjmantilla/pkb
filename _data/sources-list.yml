@@ -839,3 +839,31 @@
   - rag
   title: 'MemPalace mempalace: The best-benchmarked open-source AI memory system.
     And it''s free.'
+- _link: ./../sources/llm-wiki-v2-—-extending-karpathy's-llm-wiki-pattern-with-lessons-from-building-agentmemory.html
+  author: null
+  created: 2026-04-27
+  description: LLM Wiki v2 — extending Karpathy's LLM Wiki pattern with lessons from
+    building agentmemory - llm-wiki.md
+  source: https://gist.github.com/rohitg00/2067ab416f7bbe447c1977edaaa681e2
+  tags:
+  - clippings
+  - pkb
+  - repo
+  - tool
+  - rag
+  title: LLM Wiki v2 — extending Karpathy's LLM Wiki pattern with lessons from building
+    agentmemory
+- _link: ./../sources/agentmemory_-persistent-memory-for-ai-coding-agents-based-on-real-world-benchmarks.html
+  author: null
+  created: 2026-04-27
+  description: '#1 Persistent memory for AI coding agents based on real-world benchmarks
+    - rohitg00/agentmemory'
+  source: https://github.com/rohitg00/agentmemory
+  tags:
+  - clippings
+  - repo
+  - tools
+  - rag
+  - pkb
+  title: 'agentmemory: #1 Persistent memory for AI coding agents based on real-world
+    benchmarks'

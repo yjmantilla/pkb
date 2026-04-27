@@ -12,6 +12,19 @@
             ]
         },
         {
+            "id": "agentmemory_-persistent-memory-for-ai-coding-agents-based-on-real-world-benchmarks",
+            "url": "./../sources/agentmemory_-persistent-memory-for-ai-coding-agents-based-on-real-world-benchmarks",
+            "category": "sources",
+            "title": "agentmemory: #1 persistent memory for ai coding agents based on real-world benchmarks",
+            "tags": [
+                "clippings",
+                "repo",
+                "tools",
+                "rag",
+                "pkb"
+            ]
+        },
+        {
             "id": "ai-generated-synthetic-neurons-speed-up-brain-mapping",
             "url": "./../sources/ai-generated-synthetic-neurons-speed-up-brain-mapping",
             "category": "sources",
@@ -380,6 +393,19 @@
             ]
         },
         {
+            "id": "llm-wiki-v2-\u2014-extending-karpathy's-llm-wiki-pattern-with-lessons-from-building-agentmemory",
+            "url": "./../sources/llm-wiki-v2-\u2014-extending-karpathy's-llm-wiki-pattern-with-lessons-from-building-agentmemory",
+            "category": "sources",
+            "title": "llm wiki v2 \u2014 extending karpathy's llm wiki pattern with lessons from building agentmemory",
+            "tags": [
+                "clippings",
+                "pkb",
+                "repo",
+                "tool",
+                "rag"
+            ]
+        },
+        {
             "id": "losenode",
             "url": "./../notes/losenode",
             "category": "notes",
@@ -504,6 +530,12 @@
             "url": "./../notes/note-from-mobile",
             "category": "notes",
             "title": "note-from-mobile"
+        },
+        {
+            "id": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
+            "url": "./../agent/notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
+            "category": "agent",
+            "title": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides"
         },
         {
             "id": "nvidia-nemo_nemo_-a-scalable-generative-ai-framework-built-for-researchers-and-developers-working-on-large-language-models,-multimodal,-and-speech-ai-(automatic-speech-recognition-and-text-to-speech)",
@@ -1124,6 +1156,7 @@
     ],
     "unique_values": {
         "category": [
+            "agent",
             "dirs",
             "notes",
             "root",
@@ -1145,6 +1178,7 @@
             "reverse-engineering",
             "speech",
             "speech-representations",
+            "tool",
             "tools"
         ]
     },
