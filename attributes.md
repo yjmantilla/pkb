@@ -12,12 +12,11 @@ title: Attributes
 ## tags
 
 - ai-model
+- citable
 - clippings
 - datasets
 - interpretability
 - methods
-- paper
-- papers
 - programming
 - repo
 - representations

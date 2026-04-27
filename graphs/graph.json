@@ -8,7 +8,7 @@
             "tags": [
                 "clippings",
                 "speech-representations",
-                "paper"
+                "citable"
             ]
         },
         {
@@ -34,7 +34,7 @@
             "tags": [
                 "clippings",
                 "speech-representations",
-                "paper"
+                "citable"
             ]
         },
         {
@@ -46,7 +46,7 @@
                 "clippings",
                 "methods",
                 "reverse-engineering",
-                "paper"
+                "citable"
             ]
         },
         {
@@ -81,13 +81,24 @@
             ]
         },
         {
+            "id": "commentary_-investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences",
+            "url": "./../sources/commentary_-investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences",
+            "category": "sources",
+            "title": "commentary investigating the concept of representation in the neural and psychological sciences",
+            "tags": [
+                "clippings",
+                "representations",
+                "speech-representations"
+            ]
+        },
+        {
             "id": "could-a-neuroscientist-understand-a-microprocessor_",
             "url": "./../sources/could-a-neuroscientist-understand-a-microprocessor_",
             "category": "sources",
             "title": "could a neuroscientist understand a microprocessor?",
             "tags": [
                 "clippings",
-                "paper"
+                "citable"
             ]
         },
         {
@@ -114,7 +125,7 @@
             "tags": [
                 "clippings",
                 "speech-representations",
-                "paper"
+                "citable"
             ]
         },
         {
@@ -124,7 +135,7 @@
             "title": "distillation can lead to subliminal learning",
             "tags": [
                 "clippings",
-                "paper"
+                "citable"
             ]
         },
         {
@@ -156,7 +167,7 @@
             "title": "grade: probing knowledge gaps in llms through gradient subspace dynamics",
             "tags": [
                 "clippings",
-                "paper"
+                "citable"
             ]
         },
         {
@@ -205,9 +216,21 @@
             "tags": [
                 "clippings",
                 "repo",
-                "paper",
+                "citable",
                 "speech-representations",
                 "representations"
+            ]
+        },
+        {
+            "id": "investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences",
+            "url": "./../sources/investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences",
+            "category": "sources",
+            "title": "investigating the concept of representation in the neural and psychological sciences",
+            "tags": [
+                "clippings",
+                "citable",
+                "representations",
+                "speech-representations"
             ]
         },
         {
@@ -229,7 +252,7 @@
             "title": "language models transmit behavioural traits through hidden signals in data",
             "tags": [
                 "clippings",
-                "paper"
+                "citable"
             ]
         },
         {
@@ -270,6 +293,17 @@
             "title": "losenode"
         },
         {
+            "id": "lost-in-translation_-the-algorithmic-gap-between-lms-and-the-brain",
+            "url": "./../sources/lost-in-translation_-the-algorithmic-gap-between-lms-and-the-brain",
+            "category": "sources",
+            "title": "lost in translation the algorithmic gap between lms and the brain",
+            "tags": [
+                "clippings",
+                "citable",
+                "speech-representations"
+            ]
+        },
+        {
             "id": "many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions",
             "url": "./../sources/many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions",
             "category": "sources",
@@ -277,7 +311,7 @@
             "tags": [
                 "clippings",
                 "speech-representations",
-                "paper"
+                "citable"
             ]
         },
         {
@@ -316,7 +350,7 @@
                 "clippings",
                 "datasets",
                 "speech-representations",
-                "paper"
+                "citable"
             ]
         },
         {
@@ -407,7 +441,7 @@
             "tags": [
                 "clippings",
                 "speech-representations",
-                "paper"
+                "citable"
             ]
         },
         {
@@ -417,7 +451,7 @@
             "title": "representation with a capital r: measuring functional alignment...",
             "tags": [
                 "clippings",
-                "papers",
+                "citable",
                 "representations",
                 "speech-representations"
             ]
@@ -429,7 +463,7 @@
             "title": "representation with a capital 'r': measuring functional alignment (openreview)",
             "tags": [
                 "clippings",
-                "papers",
+                "citable",
                 "representations",
                 "speech-representations"
             ]
@@ -607,12 +641,11 @@
         ],
         "tags": [
             "ai-model",
+            "citable",
             "clippings",
             "datasets",
             "interpretability",
             "methods",
-            "paper",
-            "papers",
             "programming",
             "repo",
             "representations",

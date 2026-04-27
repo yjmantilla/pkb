@@ -2,7 +2,7 @@
 title: "Lost in Translation The Algorithmic Gap Between LMs and the Brain"
 source: "https://arxiv.org/html/2407.04680v1"
 author:
-published:
+
 created: 2026-04-27
 description:
 tags:
