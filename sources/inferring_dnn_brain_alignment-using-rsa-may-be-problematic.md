@@ -3,7 +3,7 @@ title: "INFERRING DNN-BRAIN ALIGNMENT USING REPRESENTATIONAL SIMILARITY ANALYSES
 tags:
   - "clippings"
   - "repo"
-  - "paper"
+  - "citable"
   - "speech-representations"
   - "representations"
 ---

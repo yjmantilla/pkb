@@ -10,7 +10,7 @@ tags:
   - "clippings"
   - "methods"
   - "reverse-engineering"
-  - "paper"
+  - "citable"
 ---
 ## Main text
 

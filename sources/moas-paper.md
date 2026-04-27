@@ -15,7 +15,7 @@ tags:
   - "clippings"
   - "datasets"
   - "speech-representations"
-  - "paper"
+  - "citable"
 ---
 ## Abstract
 

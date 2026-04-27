@@ -10,7 +10,7 @@ created: 2026-04-27
 description: "Ambiguity surrounding the term 'representation' in biological and artificial neural systems hampers our ability to assess their alignment. In this paper, we draw a critical distinction between two notions of representation: the conventional 'representation' as a mere encoding, and 'Representation-with-a capital-R', which entails functional use within a system. We argue that while current methods in neuroscience and artificial intelligence often focus on the former, advancing our understanding requires a shift toward the latter. We critique existing linking methods such as representational similarity analysis and encoding models, highlighting key limitations in their ability to capture functional correspondence. We then propose an updated paradigm that involves specifying explicit models of information readout and testing their functional properties using causal perturbation. This framework, which treats neural networks as a new species of model organism, may help reveal the principles governing functional representations in both biological and artificial systems."
 tags:
   - "clippings"
-  - "papers"
+  - "citable"
   - "representations"
   - "speech-representations"
 ---

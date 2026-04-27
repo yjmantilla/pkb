@@ -31,7 +31,7 @@ description: "This study introduces a unified computational framework connecting
 tags:
   - "clippings"
   - "speech-representations"
-  - "paper"
+  - "citable"
 ---
 ## Abstract
 
