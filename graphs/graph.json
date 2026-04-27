@@ -5,7 +5,6 @@
             "url": "./../sources/a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
             "category": "sources",
             "title": "a unified acoustic-to-speech-to-language embedding space captures the neural basis of natural language processing in everyday conversations - nature human behaviour",
-            "published": "2025-03-06",
             "tags": [
                 "clippings",
                 "speech-representations"
@@ -16,7 +15,6 @@
             "url": "./../sources/all-llms-are-either-claude-like-or-gpt-like",
             "category": "sources",
             "title": "all llms are either claude-like or gpt-like method",
-            "published": "2026-04-20",
             "tags": [
                 "clippings"
             ]
@@ -32,7 +30,6 @@
             "url": "./../sources/brains-and-algorithms-partially-converge-in-natural-language-processing",
             "category": "sources",
             "title": "brains and algorithms partially converge in natural language processing",
-            "published": "2022-02-15",
             "tags": [
                 "clippings",
                 "speech-representations"
@@ -108,7 +105,6 @@
             "url": "./../sources/dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech",
             "category": "sources",
             "title": "dissecting neural computations in the human auditory pathway using deep neural networks for speech",
-            "published": "2023-10-29",
             "tags": [
                 "clippings",
                 "speech-representations"
@@ -119,7 +115,6 @@
             "url": "./../sources/distillation-can-lead-to-subliminal-learning",
             "category": "sources",
             "title": "distillation can lead to subliminal learning",
-            "published": "2026-04-15",
             "tags": [
                 "clippings"
             ]
@@ -212,7 +207,6 @@
             "url": "./../sources/language-models-transmit-behavioural-traits-through-hidden-signals-in-data",
             "category": "sources",
             "title": "language models transmit behavioural traits through hidden signals in data",
-            "published": "2026-04-14",
             "tags": [
                 "clippings"
             ]
@@ -222,7 +216,6 @@
             "url": "./../sources/libribrain-dataset",
             "category": "sources",
             "title": "libribrain datasets at hugging face",
-            "published": "2025-12-02",
             "tags": [
                 "clippings",
                 "speech-representations",
@@ -286,7 +279,6 @@
             "url": "./../sources/moas-dataset",
             "category": "sources",
             "title": "mother of unification studies, a 204-subject multimodal neuroimaging dataset to study language processing",
-            "published": "2019-02-19",
             "tags": [
                 "clippings",
                 "datasets",
@@ -298,7 +290,6 @@
             "url": "./../sources/moas-paper",
             "category": "sources",
             "title": "a 204-subject multimodal neuroimaging dataset to study language processing",
-            "published": "2019-04-02",
             "tags": [
                 "clippings",
                 "datasets",
@@ -409,7 +400,6 @@
             "url": "./../sources/src-lorem-ipsum",
             "category": "sources",
             "title": "lorem ipsum",
-            "published": "2003-03-01",
             "tags": [
                 "clippings"
             ]
@@ -462,7 +452,6 @@
             "url": "./../sources/what-are-some-sota-alternatives-to-saes-for-mechanistic-interpretability",
             "category": "sources",
             "title": "what are some sota alternatives to saes for mechanistic interpretability",
-            "published": "2026-04-18",
             "tags": [
                 "clippings"
             ]
@@ -552,19 +541,6 @@
             "notes",
             "root",
             "sources"
-        ],
-        "published": [
-            "2003-03-01",
-            "2019-02-19",
-            "2019-04-02",
-            "2022-02-15",
-            "2023-10-29",
-            "2025-03-06",
-            "2025-12-02",
-            "2026-04-14",
-            "2026-04-15",
-            "2026-04-18",
-            "2026-04-20"
         ],
         "tags": [
             "ai-model",
