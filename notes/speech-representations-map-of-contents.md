@@ -1,5 +1,13 @@
 # Speech Representations in Brains and Machines - Map of Contents
 
+## Tasks
+
+See speech representations .md in yjorg. This map of contents is for organized outputs to show to others.
+
+## Drive folder
+
+[empty for now](https://drive.google.com/drive/folders/1FaWVfCucijIZ3H4OLj8mQ-htdavJRfZ4?usp=sharing)
+
 ## Datasets
 
 ## Literature Review	
