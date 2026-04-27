@@ -21,8 +21,8 @@ I’m checking the repo’s current CLI/package usage so I can give you a `uvx` 
 
 Use:
 
-```css
-Bashuvx --from marker-pdf marker_single /path/to/file.pdf --output_format markdown
+```bash
+uvx --from marker-pdf marker_single /path/to/file.pdf --output_format markdown --output_dir ./marker_out
 ```
 
 That matches the repo’s current package name (`marker-pdf`) and single-file CLI (`marker_single`), and `markdown` is one of the supported output formats. [GitHub+1](https://github.com/datalab-to/marker)
