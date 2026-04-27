@@ -22,6 +22,7 @@ title: Attributes
 - repo
 - representations
 - reverse-engineering
+- speech
 - speech-representations
 - tools
 

@@ -176,18 +176,6 @@
   - citable
   title: Dissecting neural computations in the human auditory pathway using deep neural
     networks for speech
-- _link: ./../sources/jamiepine_voicebox_-the-open-source-voice-synthesis-studio.html
-  author: null
-  created: 2026-04-22
-  description: The open-source voice synthesis studio. Contribute to jamiepine/voicebox
-    development by creating an account on GitHub.
-  source: https://github.com/jamiepine/voicebox
-  tags:
-  - clippings
-  - speech-representations
-  - ai-model
-  - repo
-  title: jamiepine-voicebox-The open-source voice synthesis studio
 - _link: ./../sources/relating-simple-sentence-representations-in-deep-neural-networks-and-the-brain.html
   author:
   - '[[Sharmistha Jat]]'
@@ -704,3 +692,100 @@
   - interpretability
   - citable
   title: Feature Discovery in Audio Models
+- _link: ./../sources/voicebox_-the-open-source-voice-synthesis-studio.html
+  author: null
+  created: 2026-04-22
+  description: The open-source voice synthesis studio. Contribute to jamiepine/voicebox
+    development by creating an account on GitHub.
+  source: https://github.com/jamiepine/voicebox
+  tags:
+  - clippings
+  - speech-representations
+  - ai-model
+  - repo
+  title: jamiepine-voicebox-The open-source voice synthesis studio
+- _link: ./../sources/deciphering-language-processing-in-the-human-brain-through-llm-representations.html
+  author:
+  - '[[Mariano Schain]]'
+  - '[[Software Engineer]]'
+  - '[[and Ariel Goldstein]]'
+  - '[[Visiting Researcher]]'
+  - '[[Google Research]]'
+  created: 2026-04-27
+  description: null
+  published: 2025-03-20
+  source: https://research.google/blog/deciphering-language-processing-in-the-human-brain-through-llm-representations/
+  tags:
+  - clippings
+  - speech-representations
+  - citable
+  - representations
+  title: Deciphering language processing in the human brain through LLM representations
+- _link: ./../sources/ai-generated-synthetic-neurons-speed-up-brain-mapping.html
+  author:
+  - '[[Michał Januszewski]]'
+  - '[[Research Scientist]]'
+  - '[[and Franz Rieger]]'
+  - '[[Student Researcher]]'
+  - '[[Google Research]]'
+  created: 2026-04-27
+  description: null
+  published: 2026-04-15
+  source: https://research.google/blog/ai-generated-synthetic-neurons-speed-up-brain-mapping/
+  tags:
+  - clippings
+  - citable
+  title: AI-generated synthetic neurons speed up brain mapping
+- _link: ./../sources/designing-synthetic-datasets-for-the-real-world_-mechanism-design-and-reasoning-from-first-principles.html
+  author:
+  - '[[Tim R. Davidson]]'
+  - '[[Student Researcher]]'
+  - '[[and Hamza Harkous]]'
+  - '[[Senior Staff Research Scientist]]'
+  - '[[Google]]'
+  created: 2026-04-27
+  description: null
+  published: 2026-04-15
+  source: https://research.google/blog/designing-synthetic-datasets-for-the-real-world-mechanism-design-and-reasoning-from-first-principles/
+  tags:
+  - clippings
+  - citable
+  title: 'Designing synthetic datasets for the real world: Mechanism design and reasoning
+    from first principles'
+- _link: ./../sources/automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers.html
+  author: null
+  created: 2026-04-27
+  description: null
+  source: https://arxiv.org/html/2501.17727v2
+  tags:
+  - clippings
+  - citable
+  - mechinterp
+  - interpretability
+  title: Automated Interpretability Metrics Do Not Distinguish Trained and Random
+    Transformers
+- _link: ./../sources/neural-oscillations-carry-speech-rhythm-through-to-comprehension.html
+  author:
+  - '[[Jonathan  E Peelle]]'
+  - '[[Matthew  H Davis]]'
+  created: 2026-04-27
+  description: A key feature of speech is the quasi-regular rhythmic information contained
+    in its slow amplitude modulations. In this article we review the information conv...
+  published: 2012-09-06
+  source: https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2012.00320/full
+  tags:
+  - clippings
+  - speech
+  - speech-representations
+  - citable
+  title: Neural Oscillations Carry Speech Rhythm through to Comprehension
+- _link: ./../sources/are-sparse-autoencoders-useful-a-case-study-in-sparse-probing.html
+  author: null
+  created: 2026-04-27
+  description: null
+  source: https://arxiv.org/html/2502.16681v1
+  tags:
+  - clippings
+  - mechinterp
+  - interpretability
+  title: Are Sparse Autoencoders Useful? A Case Study in Sparse Probing

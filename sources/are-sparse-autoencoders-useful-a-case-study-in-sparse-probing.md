@@ -2,7 +2,7 @@
 title: "Are Sparse Autoencoders Useful? A Case Study in Sparse Probing"
 source: "https://arxiv.org/html/2502.16681v1"
 author:
-published:
+
 created: 2026-04-27
 description:
 tags:

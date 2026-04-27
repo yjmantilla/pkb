@@ -12,6 +12,16 @@
             ]
         },
         {
+            "id": "ai-generated-synthetic-neurons-speed-up-brain-mapping",
+            "url": "./../sources/ai-generated-synthetic-neurons-speed-up-brain-mapping",
+            "category": "sources",
+            "title": "ai-generated synthetic neurons speed up brain mapping",
+            "tags": [
+                "clippings",
+                "citable"
+            ]
+        },
+        {
             "id": "all-llms-are-either-claude-like-or-gpt-like",
             "url": "./../sources/all-llms-are-either-claude-like-or-gpt-like",
             "category": "sources",
@@ -21,10 +31,33 @@
             ]
         },
         {
+            "id": "are-sparse-autoencoders-useful-a-case-study-in-sparse-probing",
+            "url": "./../sources/are-sparse-autoencoders-useful-a-case-study-in-sparse-probing",
+            "category": "sources",
+            "title": "are sparse autoencoders useful? a case study in sparse probing",
+            "tags": [
+                "clippings",
+                "mechinterp",
+                "interpretability"
+            ]
+        },
+        {
             "id": "attributes",
             "url": "./../attributes",
             "category": "root",
             "title": "attributes"
+        },
+        {
+            "id": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "url": "./../sources/automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "category": "sources",
+            "title": "automated interpretability metrics do not distinguish trained and random transformers",
+            "tags": [
+                "clippings",
+                "citable",
+                "mechinterp",
+                "interpretability"
+            ]
         },
         {
             "id": "brains-and-algorithms-partially-converge-in-natural-language-processing",
@@ -110,6 +143,28 @@
             "tags": [
                 "clippings",
                 "tools"
+            ]
+        },
+        {
+            "id": "deciphering-language-processing-in-the-human-brain-through-llm-representations",
+            "url": "./../sources/deciphering-language-processing-in-the-human-brain-through-llm-representations",
+            "category": "sources",
+            "title": "deciphering language processing in the human brain through llm representations",
+            "tags": [
+                "clippings",
+                "speech-representations",
+                "citable",
+                "representations"
+            ]
+        },
+        {
+            "id": "designing-synthetic-datasets-for-the-real-world_-mechanism-design-and-reasoning-from-first-principles",
+            "url": "./../sources/designing-synthetic-datasets-for-the-real-world_-mechanism-design-and-reasoning-from-first-principles",
+            "category": "sources",
+            "title": "designing synthetic datasets for the real world: mechanism design and reasoning from first principles",
+            "tags": [
+                "clippings",
+                "citable"
             ]
         },
         {
@@ -261,18 +316,6 @@
             ]
         },
         {
-            "id": "jamiepine_voicebox_-the-open-source-voice-synthesis-studio",
-            "url": "./../sources/jamiepine_voicebox_-the-open-source-voice-synthesis-studio",
-            "category": "sources",
-            "title": "jamiepine-voicebox-the open-source voice synthesis studio",
-            "tags": [
-                "clippings",
-                "speech-representations",
-                "ai-model",
-                "repo"
-            ]
-        },
-        {
             "id": "language-models-transmit-behavioural-traits-through-hidden-signals-in-data",
             "url": "./../sources/language-models-transmit-behavioural-traits-through-hidden-signals-in-data",
             "category": "sources",
@@ -376,6 +419,18 @@
             "tags": [
                 "clippings",
                 "datasets",
+                "speech-representations",
+                "citable"
+            ]
+        },
+        {
+            "id": "neural-oscillations-carry-speech-rhythm-through-to-comprehension",
+            "url": "./../sources/neural-oscillations-carry-speech-rhythm-through-to-comprehension",
+            "category": "sources",
+            "title": "neural oscillations carry speech rhythm through to comprehension",
+            "tags": [
+                "clippings",
+                "speech",
                 "speech-representations",
                 "citable"
             ]
@@ -508,6 +563,11 @@
             "title": "speech-representations-map-of-contents"
         },
         {
+            "id": "speech-representations-why-do-it",
+            "url": "./../notes/speech-representations-why-do-it",
+            "category": "notes"
+        },
+        {
             "id": "src-lorem-ipsum",
             "url": "./../sources/src-lorem-ipsum",
             "category": "sources",
@@ -521,6 +581,12 @@
             "url": "./../notes/stub",
             "category": "notes",
             "title": "stub"
+        },
+        {
+            "id": "Uncaptioned image",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "uncaptioned image"
         },
         {
             "id": "unknownnode",
@@ -567,6 +633,18 @@
             ]
         },
         {
+            "id": "voicebox_-the-open-source-voice-synthesis-studio",
+            "url": "./../sources/voicebox_-the-open-source-voice-synthesis-studio",
+            "category": "sources",
+            "title": "jamiepine-voicebox-the open-source voice synthesis studio",
+            "tags": [
+                "clippings",
+                "speech-representations",
+                "ai-model",
+                "repo"
+            ]
+        },
+        {
             "id": "what-are-some-sota-alternatives-to-saes-for-mechanistic-interpretability",
             "url": "./../sources/what-are-some-sota-alternatives-to-saes-for-mechanistic-interpretability",
             "category": "sources",
@@ -594,8 +672,332 @@
             "target": "dirs"
         },
         {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
+            "target": "Uncaptioned image"
+        },
+        {
             "source": "commentary_-investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences",
             "target": "investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences"
+        },
+        {
+            "source": "deciphering-language-processing-in-the-human-brain-through-llm-representations",
+            "target": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour"
         },
         {
             "source": "dirs",
@@ -679,6 +1081,10 @@
         },
         {
             "source": "stub",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "stub",
             "target": "unknownnode"
         },
         {
@@ -705,6 +1111,7 @@
             "repo",
             "representations",
             "reverse-engineering",
+            "speech",
             "speech-representations",
             "tools"
         ]
