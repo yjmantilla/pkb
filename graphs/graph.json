@@ -121,6 +121,12 @@
             ]
         },
         {
+            "id": "inferring_dnn_brain_alignment-using-rsa-may-be-problematic",
+            "url": "./../sources/inferring_dnn_brain_alignment-using-rsa-may-be-problematic",
+            "category": "sources",
+            "title": "inferring_dnn_brain_alignment-using-rsa-may-be-problematic"
+        },
+        {
             "id": "jamiepine_voicebox_-the-open-source-voice-synthesis-studio",
             "url": "./../sources/jamiepine_voicebox_-the-open-source-voice-synthesis-studio",
             "category": "sources",
@@ -147,6 +153,17 @@
             "category": "sources",
             "title": "libribrain datasets at hugging face",
             "published": "2025-12-02",
+            "tags": [
+                "clippings",
+                "speech-representations",
+                "datasets"
+            ]
+        },
+        {
+            "id": "libribrain2",
+            "url": "./../sources/libribrain2",
+            "category": "sources",
+            "title": "libribrain2 (update of dataset it seems)",
             "tags": [
                 "clippings",
                 "speech-representations",
@@ -192,6 +209,30 @@
             "tags": [
                 "clippings",
                 "tools"
+            ]
+        },
+        {
+            "id": "moas-dataset",
+            "url": "./../sources/moas-dataset",
+            "category": "sources",
+            "title": "mother of unification studies, a 204-subject multimodal neuroimaging dataset to study language processing",
+            "published": "2019-02-19",
+            "tags": [
+                "clippings",
+                "datasets",
+                "speech-representations"
+            ]
+        },
+        {
+            "id": "moas-paper",
+            "url": "./../sources/moas-paper",
+            "category": "sources",
+            "title": "a 204-subject multimodal neuroimaging dataset to study language processing",
+            "published": "2019-04-02",
+            "tags": [
+                "clippings",
+                "datasets",
+                "speech-representations"
             ]
         },
         {
@@ -254,6 +295,12 @@
                 "clippings",
                 "speech-representations"
             ]
+        },
+        {
+            "id": "speech-representations-datasets",
+            "url": "./../notes/speech-representations-datasets",
+            "category": "notes",
+            "title": "speech representations datasets"
         },
         {
             "id": "src-lorem-ipsum",
@@ -344,6 +391,22 @@
             "target": "wikilinks"
         },
         {
+            "source": "speech-representations-datasets",
+            "target": "libribrain-dataset"
+        },
+        {
+            "source": "speech-representations-datasets",
+            "target": "libribrain2"
+        },
+        {
+            "source": "speech-representations-datasets",
+            "target": "moas-dataset"
+        },
+        {
+            "source": "speech-representations-datasets",
+            "target": "moas-paper"
+        },
+        {
             "source": "stub",
             "target": "double brackets"
         },
@@ -369,6 +432,8 @@
         ],
         "published": [
             "2003-03-01",
+            "2019-02-19",
+            "2019-04-02",
             "2022-02-15",
             "2023-10-29",
             "2025-03-06",

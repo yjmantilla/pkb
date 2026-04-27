@@ -334,3 +334,75 @@
   - clippings
   - tools
   title: Markdown conversion with uv
+- _link: ./../sources/moas-paper.html
+  author:
+  - '[[Jan-Mathijs Schoffelen]]'
+  - '[[Robert Oostenveld]]'
+  - '[[Nietzsche H. L. Lam]]'
+  - '[[Julia Uddén]]'
+  - '[[Annika Hultén]]'
+  - '[[Peter Hagoort]]'
+  created: 2026-04-24
+  description: This dataset, colloquially known as the Mother Of Unification Studies
+    (MOUS) dataset, contains multimodal neuroimaging data that has been acquired from
+    204 healthy human subjects. The neuroimaging protocol consisted of magnetic resonance
+    imaging (MRI) to derive information at high spatial resolution about brain anatomy
+    and structural connections, and functional data during task, and at rest. In addition,
+    magnetoencephalography (MEG) was used to obtain high temporal resolution electrophysiological
+    measurements during task, and at rest. All subjects performed a language task,
+    during which they processed linguistic utterances that either consisted of normal
+    or scrambled sentences. Half of the subjects were reading the stimuli, the other
+    half listened to the stimuli. The resting state measurements consisted of 5 minutes
+    eyes-open for the MEG and 7 minutes eyes-closed for fMRI. The neuroimaging data,
+    as well as the information about the experimental events are shared according
+    to the Brain Imaging Data Structure (BIDS) format. This unprecedented neuroimaging
+    language data collection allows for the investigation of various aspects of the
+    neurobiological correlates of language. Machine-accessible metadata file describing
+    the reported data (ISA-Tab format)
+  published: 2019-04-02
+  source: https://www.nature.com/articles/s41597-019-0020-y
+  tags:
+  - clippings
+  - datasets
+  - speech-representations
+  title: A 204-subject multimodal neuroimaging dataset to study language processing
+- _link: ./../sources/moas-dataset.html
+  author: null
+  created: 2026-04-24
+  description: The Mother Of Unification Studies (MOUS) dataset contains multimodal
+    neuroimaging data that has been acquired from 204 healthy human subjects. The
+    neuroimaging protocol consisted of magnetic resonance imaging (MRI) to derive
+    information at high spatial resolution about brain anatomy and structural connections,
+    as well as functional data during task, and at rest. In addition, magnetoencephalography
+    (MEG) was used to obtain high temporal resolution electrophysiological measurements
+    during task, and at rest. All subjects performed a language task, during which
+    they had to process linguistic utterances that either consisted of normal or scrambled
+    sentences. Half of the subjects were reading the stimuli, the other half listened
+    to the stimuli. The resting state measurements consisted of 5minutes eyes-open
+    for the MEG and 7 minutes eyes-closed for fMRI. The neuroimaging data, as well
+    as the information about the experimental events are shared according to the Brain
+    Imaging Data Structure (BIDS) format. This unprecedented neuroimaging language
+    data collection allows for the investigation of various aspects of the neurobiological
+    correlates of language.
+  published: 2019-02-19
+  source: https://data.ru.nl/collections/di/dccn/DSC_3011020.09_236
+  tags:
+  - clippings
+  - datasets
+  - speech-representations
+  title: Mother of unification studies, a 204-subject multimodal neuroimaging dataset
+    to study language processing
+- _link: ./../sources/inferring_dnn_brain_alignment-using-rsa-may-be-problematic.html
+  title: INFERRING DNN-BRAIN ALIGNMENT USING REPRESENTATIONAL SIMILARITY ANALYSES
+    CAN BE PROBLEMATIC
+- _link: ./../sources/libribrain2.html
+  author: null
+  created: 2026-04-24
+  description: We’re on a journey to advance and democratize artificial intelligence
+    through open source and open science.
+  source: https://huggingface.co/datasets/pnpl/LibriBrain2
+  tags:
+  - clippings
+  - speech-representations
+  - datasets
+  title: libribrain2 (update of dataset it seems)
