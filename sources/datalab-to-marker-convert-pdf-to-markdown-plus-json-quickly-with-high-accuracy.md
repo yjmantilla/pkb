@@ -7,6 +7,7 @@ created: 2026-04-22
 description: "Convert PDF to markdown + JSON quickly with high accuracy - datalab-to/marker"
 tags:
   - "clippings"
+  - "tools"
 ---
 ## Marker
 

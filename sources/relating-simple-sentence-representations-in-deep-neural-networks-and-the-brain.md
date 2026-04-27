@@ -12,6 +12,7 @@ description: "Abstract page for arXiv paper 1906.11861: Relating Simple Sentence
 tags:
   - "clippings"
   - "speech-representations"
+  - "paper"
 ---
 ## Title:Relating Simple Sentence Representations in Deep Neural Networks and the Brain
 

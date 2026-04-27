@@ -12,6 +12,8 @@ tags:
 ---
 The dataset is currently empty. [Upload or create new data files](https://huggingface.co/datasets/pnpl/LibriBrain2/tree/main). Then, you will be able to explore them in the Dataset Viewer.
 
+[[libribrain-dataset]]
+
 LibriBrain2 is the second release from the PNPL dataset series. Together with [LibriBrain](https://huggingface.co/datasets/pnpl/LibriBrain), it forms **LibriBrain100**. Python loaders for accessing both datasets, and other information, coming soon.
 
 Total file size:

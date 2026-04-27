@@ -8,10 +8,13 @@ created: 2026-04-21
 description: "Our paper on Subliminal Learning was just published in Nature! Last July we released our preprint. It showed that LLMs can transmit traits"
 tags:
   - "clippings"
+  - "paper"
 ---
 **Owain Evans** @OwainEvans\_UK [2026-04-15](https://x.com/OwainEvans_UK/status/2044488099707949545)
 
 Our paper on Subliminal Learning was just published in Nature!
+
+[[language-models-transmit-behavioural-traits-through-hidden-signals-in-data]]
 
 Last July we released our preprint. It showed that LLMs can transmit traits (e.g. liking owls) through data that is unrelated to that trait (numbers that appear meaningless).
 

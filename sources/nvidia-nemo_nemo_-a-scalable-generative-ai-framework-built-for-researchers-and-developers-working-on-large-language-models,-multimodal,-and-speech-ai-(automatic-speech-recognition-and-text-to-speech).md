@@ -8,6 +8,8 @@ description: "A scalable generative AI framework built for researchers and devel
 tags:
   - "clippings"
   - "speech-representations"
+  - "repo"
+  - "ai-model"
 ---
 ## NVIDIA NeMo Speech
 

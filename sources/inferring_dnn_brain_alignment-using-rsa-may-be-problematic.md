@@ -1,3 +1,13 @@
+---
+title: "INFERRING DNN-BRAIN ALIGNMENT USING REPRESENTATIONAL SIMILARITY ANALYSES CAN BE PROBLEMATIC"
+tags:
+  - "clippings"
+  - "repo"
+  - "paper"
+  - "speech-representations"
+  - "representations"
+---
+
 # INFERRING DNN-BRAIN ALIGNMENT USING REPRESENTATIONAL SIMILARITY ANALYSES CAN BE PROBLEMATIC
 
 Marin Dujmovic & Jeffrey S Bowers ´

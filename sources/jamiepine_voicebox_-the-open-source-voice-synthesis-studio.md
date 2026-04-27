@@ -9,6 +9,7 @@ tags:
   - "clippings"
   - "speech-representations"
   - "ai-model"
+  - "repo"
 ---
 [![Voicebox](https://github.com/jamiepine/voicebox/raw/main/.github/assets/icon-dark.webp)](https://github.com/jamiepine/voicebox/blob/main/.github/assets/icon-dark.webp)
 

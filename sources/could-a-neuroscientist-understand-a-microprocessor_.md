@@ -9,6 +9,7 @@ created: 2026-04-27
 description: "Author Summary Neuroscience is held back by the fact that it is hard to evaluate if a conclusion is correct; the complexity of the systems under study and their experimental inaccessability make the assessment of algorithmic and data analytic technqiues challenging at best. We thus argue for testing approaches using known artifacts, where the correct interpretation is known. Here we present a microprocessor platform as one such test case. We find that many approaches in neuroscience, when used naïvely, fall short of producing a meaningful understanding."
 tags:
   - "clippings"
+  - "paper"
 ---
 ## Abstract
 

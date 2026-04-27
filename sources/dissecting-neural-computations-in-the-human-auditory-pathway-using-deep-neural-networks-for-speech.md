@@ -16,6 +16,7 @@ description: "The human auditory system extracts rich linguistic abstractions fr
 tags:
   - "clippings"
   - "speech-representations"
+  - "paper"
 ---
 ## Abstract
 

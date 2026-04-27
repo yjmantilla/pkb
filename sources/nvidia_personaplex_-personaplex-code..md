@@ -9,6 +9,7 @@ tags:
   - "clippings"
   - "speech-representations"
   - "ai-model"
+  - "repo"
 ---
 ## PersonaPlex: Voice and Role Control for Full Duplex Conversational Speech Models
 

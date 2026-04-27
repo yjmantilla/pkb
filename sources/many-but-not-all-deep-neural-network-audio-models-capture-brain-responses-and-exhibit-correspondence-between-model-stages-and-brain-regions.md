@@ -12,6 +12,7 @@ description: "This study presents a comprehensive analysis of the extent to whic
 tags:
   - "clippings"
   - "speech-representations"
+  - "paper"
 ---
 ## Abstract
 

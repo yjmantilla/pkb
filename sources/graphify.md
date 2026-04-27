@@ -9,6 +9,7 @@ description: "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, G
 tags:
   - "clippings"
   - "tools"
+  - "repo"
 ---
 [![Graphify](https://raw.githubusercontent.com/safishamsi/graphify/v4/docs/logo-text.svg)](https://graphifylabs.ai/)
 

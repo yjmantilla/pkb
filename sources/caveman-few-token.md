@@ -9,6 +9,7 @@ description: "🪨 why use many token when few token do trick — Claude Code sk
 tags:
   - "clippings"
   - "tools"
+  - "repo"
 ---
 [![](https://camo.githubusercontent.com/9e9c879d0179e6b0b9dbe2cab5ddbb9dedaf7962e1680c51b89f6f2d4aaa412a/68747470733a2f2f656d2d636f6e74656e742e7a6f626a2e6e65742f736f757263652f6170706c652f3339312f726f636b5f31666161382e706e67)](https://camo.githubusercontent.com/9e9c879d0179e6b0b9dbe2cab5ddbb9dedaf7962e1680c51b89f6f2d4aaa412a/68747470733a2f2f656d2d636f6e74656e742e7a6f626a2e6e65742f736f757263652f6170706c652f3339312f726f636b5f31666161382e706e67)
 
