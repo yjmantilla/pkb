@@ -1160,6 +1160,10 @@
             "target": "moas-paper"
         },
         {
+            "source": "speech-representations-map-of-contents",
+            "target": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides"
+        },
+        {
             "source": "stub",
             "target": "agent"
         },
