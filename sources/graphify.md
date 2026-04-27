@@ -3,7 +3,7 @@ title: "safishamsi graphify: AI coding assistant skill (Claude Code, Codex, Open
 source: "https://github.com/safishamsi/graphify"
 author:
   - "[[safishamsi]]"
-published:
+
 created: 2026-04-27
 description: "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, GitHub Copilot CLI, OpenClaw, Factory Droid, Trae, Google Antigravity). Turn any folder of code, docs, papers, images, or videos into a queryable knowledge graph - safishamsi/graphify"
 tags:

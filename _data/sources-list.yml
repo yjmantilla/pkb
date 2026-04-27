@@ -316,15 +316,6 @@
   - speech-representations
   - ai-model
   title: NVIDIA personaplex - PersonaPlex code.
-- _link: ./../sources/uvx-pdf-to-md-marker.html
-  author: null
-  created: 2026-04-22
-  description: ChatGPT conversation with 2 messages
-  source: https://chatgpt.com/c/69e95ebc-de60-83ea-8873-ee95cf22c42b
-  tags:
-  - clippings
-  - tools
-  title: UVX PDF to MD
 - _link: ./../sources/markdown-conversion-with-uv.html
   author: null
   created: 2026-04-22
@@ -334,6 +325,22 @@
   - clippings
   - tools
   title: Markdown conversion with uv
+- _link: ./../sources/graphify.html
+  author:
+  - '[[safishamsi]]'
+  created: 2026-04-27
+  description: AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini
+    CLI, GitHub Copilot CLI, OpenClaw, Factory Droid, Trae, Google Antigravity). Turn
+    any folder of code, docs, papers, images, or videos into a queryable knowledge
+    graph - safishamsi/graphify
+  source: https://github.com/safishamsi/graphify
+  tags:
+  - clippings
+  - tools
+  title: 'safishamsi graphify: AI coding assistant skill (Claude Code, Codex, OpenCode,
+    Cursor, Gemini CLI, GitHub Copilot CLI, OpenClaw, Factory Droid, Trae, Google
+    Antigravity). Turn any folder of code, docs, papers, images, or videos into a
+    queryable knowledge graph'
 - _link: ./../sources/moas-paper.html
   author:
   - '[[Jan-Mathijs Schoffelen]]'
@@ -366,6 +373,29 @@
   - datasets
   - speech-representations
   title: A 204-subject multimodal neuroimaging dataset to study language processing
+- _link: ./../sources/uvx-pdf-to-md-marker.html
+  author: null
+  created: 2026-04-22
+  description: ChatGPT conversation with 2 messages
+  source: https://chatgpt.com/c/69e95ebc-de60-83ea-8873-ee95cf22c42b
+  tags:
+  - clippings
+  - tools
+  title: UVX PDF to MD
+- _link: ./../sources/inferring_dnn_brain_alignment-using-rsa-may-be-problematic.html
+  title: INFERRING DNN-BRAIN ALIGNMENT USING REPRESENTATIONAL SIMILARITY ANALYSES
+    CAN BE PROBLEMATIC
+- _link: ./../sources/libribrain2.html
+  author: null
+  created: 2026-04-24
+  description: We’re on a journey to advance and democratize artificial intelligence
+    through open source and open science.
+  source: https://huggingface.co/datasets/pnpl/LibriBrain2
+  tags:
+  - clippings
+  - speech-representations
+  - datasets
+  title: libribrain2 (update of dataset it seems)
 - _link: ./../sources/moas-dataset.html
   author: null
   created: 2026-04-24
@@ -392,17 +422,129 @@
   - speech-representations
   title: Mother of unification studies, a 204-subject multimodal neuroimaging dataset
     to study language processing
-- _link: ./../sources/inferring_dnn_brain_alignment-using-rsa-may-be-problematic.html
-  title: INFERRING DNN-BRAIN ALIGNMENT USING REPRESENTATIONAL SIMILARITY ANALYSES
-    CAN BE PROBLEMATIC
-- _link: ./../sources/libribrain2.html
-  author: null
-  created: 2026-04-24
-  description: We’re on a journey to advance and democratize artificial intelligence
-    through open source and open science.
-  source: https://huggingface.co/datasets/pnpl/LibriBrain2
+- _link: ./../sources/caveman-few-token.html
+  author:
+  - '[[JuliusBrussee]]'
+  created: 2026-04-26
+  description: 🪨 why use many token when few token do trick — Claude Code skill that
+    cuts 65% of tokens by talking like caveman - JuliusBrussee/caveman
+  source: https://github.com/juliusbrussee/caveman
+  tags:
+  - clippings
+  - tools
+  title: 'JuliusBrussee/caveman: 🪨 why use many token when few token do trick — Claude
+    Code skill that cuts 65% of tokens by talking like caveman'
+- _link: ./../sources/voice-pro-repo.html
+  author:
+  - '[[abus-aikorea]]'
+  created: 2026-04-26
+  description: Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS,
+    kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio
+    processing, YouTube download, Demucs vocal isolation, and multilingual translation.
+    - abus-aikorea/voice-pro
+  source: https://github.com/abus-aikorea/voice-pro
   tags:
   - clippings
   - speech-representations
-  - datasets
-  title: libribrain2 (update of dataset it seems)
+  - ai-model
+  title: 'abus-aikorea voice-pro: Gradio WebUI for creators and developers, featuring
+    key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice),
+    with Whisper audio processing, YouTube download, Demucs vocal isolation, and multilingual
+    translation.'
+- _link: ./../sources/could-a-neuroscientist-understand-a-microprocessor_.html
+  author:
+  - '[[Eric Jonas]]'
+  - '[[Konrad Paul Kording]]'
+  created: 2026-04-27
+  description: Author Summary Neuroscience is held back by the fact that it is hard
+    to evaluate if a conclusion is correct; the complexity of the systems under study
+    and their experimental inaccessability make the assessment of algorithmic and
+    data analytic technqiues challenging at best. We thus argue for testing approaches
+    using known artifacts, where the correct interpretation is known. Here we present
+    a microprocessor platform as one such test case. We find that many approaches
+    in neuroscience, when used naïvely, fall short of producing a meaningful understanding.
+  source: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005268
+  tags:
+  - clippings
+  title: Could a Neuroscientist Understand a Microprocessor?
+- _link: ./../sources/can-a-biologist-fix-a-radio_—or,-what-i-learned-while-studying-apoptosis.html
+  author:
+  - '[[Yuri Lazebnik]]'
+  created: 2026-04-27
+  description: As a freshly minted Assistant Professor, I feared that everything in
+    my field wouldbe discovered before I even had a chance to set up my laboratory.
+    Indeed, the fieldof apoptosis, which I had recently joined, was developing at
+    a mind-boggling speed.Components of the previously mysterious process were being
+    discovered almost weekly,frequent scientific meetings had little overlap in their
+    contents, and it seemed thatevery issue of Cell, Nature, or Science had to have
+    at least one paper on apoptosis.My fear led me to seek advice from David Papermaster
+    (currently at the Universityof Connecticut), who I knew to be a person with pronounced
+    common sense and extensiveexperience. David listened to my outpouring of primal
+    fear and explained why I shouldnot worry.
+  source: https://www.cell.com/fulltext/S1535-6108%2802%2900133-2
+  tags:
+  - clippings
+  - methods
+  - reverse-engineering
+  title: Can a biologist fix a radio?—Or, what I learned while studying apoptosis
+- _link: ./../sources/rebasing-rebase-pyprep.html
+  author: null
+  created: 2026-04-27
+  description: 'PyPREP: A Python implementation of the Preprocessing Pipeline (PREP)
+    for EEG data - pyprep/.github/CONTRIBUTING.md at 902b1391aa681a3c6d6ab2a8f9462a4f5f83d491
+    · sappelhoff/pyprep'
+  source: https://github.com/sappelhoff/pyprep/blob/902b1391aa681a3c6d6ab2a8f9462a4f5f83d491/.github/CONTRIBUTING.md
+  tags:
+  - clippings
+  - programming
+  title: rebasing rebase pyprep .github CONTRIBUTING.md at 902b1391aa681a3c6d6ab2a8f9462a4f5f83d491
+- _link: ./../sources/using-tmux.html
+  author: null
+  created: 2026-04-27
+  description: Dishonesty Benchmark. Contribute to NolanSmyth/misalignment-bounty-template
+    development by creating an account on GitHub.
+  source: https://github.com/NolanSmyth/misalignment-bounty-template
+  tags:
+  - clippings
+  - programming
+  title: using tmux
+- _link: ./../sources/check-start-time-slurm.html
+  author: null
+  created: 2026-04-27
+  description: Dishonesty Benchmark. Contribute to NolanSmyth/misalignment-bounty-template
+    development by creating an account on GitHub.
+  source: https://github.com/NolanSmyth/misalignment-bounty-template
+  tags:
+  - clippings
+  - programming
+  title: check start time slurm drac compute canada
+- _link: ./../sources/check-results-compute-canada-slurm.html
+  author: null
+  created: 2026-04-27
+  description: Dishonesty Benchmark. Contribute to NolanSmyth/misalignment-bounty-template
+    development by creating an account on GitHub.
+  source: https://github.com/NolanSmyth/misalignment-bounty-template
+  tags:
+  - clippings
+  - programming
+  title: check results drac slurm
+- _link: ./../sources/downloads-and-environment-installations-slurm.html
+  author: null
+  created: 2026-04-27
+  description: Dishonesty Benchmark. Contribute to NolanSmyth/misalignment-bounty-template
+    development by creating an account on GitHub.
+  source: https://github.com/NolanSmyth/misalignment-bounty-template
+  tags:
+  - clippings
+  - programming
+  title: downloads and environment installations slurm
+- _link: ./../sources/no-build-in-drac-slurm.html
+  author: null
+  created: 2026-04-27
+  description: Dishonesty Benchmark. Contribute to NolanSmyth/misalignment-bounty-template
+    development by creating an account on GitHub.
+  source: https://github.com/NolanSmyth/misalignment-bounty-template
+  tags:
+  - clippings
+  - programming
+  title: no build in drac slurm

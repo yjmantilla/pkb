@@ -28,6 +28,9 @@ title: Attributes
 - ai-model
 - clippings
 - datasets
+- methods
+- programming
+- reverse-engineering
 - speech-representations
 - tools
 

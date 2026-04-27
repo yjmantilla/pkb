@@ -2,7 +2,7 @@
 title: "rebasing rebase pyprep .github CONTRIBUTING.md at 902b1391aa681a3c6d6ab2a8f9462a4f5f83d491"
 source: "https://github.com/sappelhoff/pyprep/blob/902b1391aa681a3c6d6ab2a8f9462a4f5f83d491/.github/CONTRIBUTING.md"
 author:
-published:
+
 created: 2026-04-27
 description: "PyPREP: A Python implementation of the Preprocessing Pipeline (PREP) for EEG data - pyprep/.github/CONTRIBUTING.md at 902b1391aa681a3c6d6ab2a8f9462a4f5f83d491 · sappelhoff/pyprep"
 tags:

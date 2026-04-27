@@ -3,7 +3,7 @@ title: "Can a biologist fix a radio?—Or, what I learned while studying apoptos
 source: "https://www.cell.com/fulltext/S1535-6108%2802%2900133-2"
 author:
   - "[[Yuri Lazebnik]]"
-published:
+
 created: 2026-04-27
 description: "As a freshly minted Assistant Professor, I feared that everything in my field wouldbe discovered before I even had a chance to set up my laboratory. Indeed, the fieldof apoptosis, which I had recently joined, was developing at a mind-boggling speed.Components of the previously mysterious process were being discovered almost weekly,frequent scientific meetings had little overlap in their contents, and it seemed thatevery issue of Cell, Nature, or Science had to have at least one paper on apoptosis.My fear led me to seek advice from David Papermaster (currently at the Universityof Connecticut), who I knew to be a person with pronounced common sense and extensiveexperience. David listened to my outpouring of primal fear and explained why I shouldnot worry."
 tags:

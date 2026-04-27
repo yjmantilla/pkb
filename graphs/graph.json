@@ -39,6 +39,56 @@
             ]
         },
         {
+            "id": "can-a-biologist-fix-a-radio_\u2014or,-what-i-learned-while-studying-apoptosis",
+            "url": "./../sources/can-a-biologist-fix-a-radio_\u2014or,-what-i-learned-while-studying-apoptosis",
+            "category": "sources",
+            "title": "can a biologist fix a radio?\u2014or, what i learned while studying apoptosis",
+            "tags": [
+                "clippings",
+                "methods",
+                "reverse-engineering"
+            ]
+        },
+        {
+            "id": "caveman-few-token",
+            "url": "./../sources/caveman-few-token",
+            "category": "sources",
+            "title": "juliusbrussee/caveman: \ud83e\udea8 why use many token when few token do trick \u2014 claude code skill that cuts 65% of tokens by talking like caveman",
+            "tags": [
+                "clippings",
+                "tools"
+            ]
+        },
+        {
+            "id": "check-results-compute-canada-slurm",
+            "url": "./../sources/check-results-compute-canada-slurm",
+            "category": "sources",
+            "title": "check results drac slurm",
+            "tags": [
+                "clippings",
+                "programming"
+            ]
+        },
+        {
+            "id": "check-start-time-slurm",
+            "url": "./../sources/check-start-time-slurm",
+            "category": "sources",
+            "title": "check start time slurm drac compute canada",
+            "tags": [
+                "clippings",
+                "programming"
+            ]
+        },
+        {
+            "id": "could-a-neuroscientist-understand-a-microprocessor_",
+            "url": "./../sources/could-a-neuroscientist-understand-a-microprocessor_",
+            "category": "sources",
+            "title": "could a neuroscientist understand a microprocessor?",
+            "tags": [
+                "clippings"
+            ]
+        },
+        {
             "id": "datalab-to-marker-convert-pdf-to-markdown-plus-json-quickly-with-high-accuracy",
             "url": "./../sources/datalab-to-marker-convert-pdf-to-markdown-plus-json-quickly-with-high-accuracy",
             "category": "sources",
@@ -81,6 +131,16 @@
             "title": "double brackets"
         },
         {
+            "id": "downloads-and-environment-installations-slurm",
+            "url": "./../sources/downloads-and-environment-installations-slurm",
+            "category": "sources",
+            "title": "downloads and environment installations slurm",
+            "tags": [
+                "clippings",
+                "programming"
+            ]
+        },
+        {
             "id": "example",
             "url": "./../notes/example",
             "category": "notes",
@@ -93,6 +153,16 @@
             "title": "grade: probing knowledge gaps in llms through gradient subspace dynamics",
             "tags": [
                 "clippings"
+            ]
+        },
+        {
+            "id": "graphify",
+            "url": "./../sources/graphify",
+            "category": "sources",
+            "title": "safishamsi graphify: ai coding assistant skill (claude code, codex, opencode, cursor, gemini cli, github copilot cli, openclaw, factory droid, trae, google antigravity). turn any folder of code, docs, papers, images, or videos into a queryable knowledge graph",
+            "tags": [
+                "clippings",
+                "tools"
             ]
         },
         {
@@ -236,6 +306,16 @@
             ]
         },
         {
+            "id": "no-build-in-drac-slurm",
+            "url": "./../sources/no-build-in-drac-slurm",
+            "category": "sources",
+            "title": "no build in drac slurm",
+            "tags": [
+                "clippings",
+                "programming"
+            ]
+        },
+        {
             "id": "node-with-drawing",
             "url": "./../notes/node-with-drawing",
             "category": "notes",
@@ -252,6 +332,12 @@
             "url": "./../notes/node2",
             "category": "notes",
             "title": "node 2"
+        },
+        {
+            "id": "note-from-mobile",
+            "url": "./../notes/note-from-mobile",
+            "category": "notes",
+            "title": "note-from-mobile"
         },
         {
             "id": "nvidia-nemo_nemo_-a-scalable-generative-ai-framework-built-for-researchers-and-developers-working-on-large-language-models,-multimodal,-and-speech-ai-(automatic-speech-recognition-and-text-to-speech)",
@@ -287,6 +373,16 @@
             "title": "readme"
         },
         {
+            "id": "rebasing-rebase-pyprep",
+            "url": "./../sources/rebasing-rebase-pyprep",
+            "category": "sources",
+            "title": "rebasing rebase pyprep .github contributing.md at 902b1391aa681a3c6d6ab2a8f9462a4f5f83d491",
+            "tags": [
+                "clippings",
+                "programming"
+            ]
+        },
+        {
             "id": "relating-simple-sentence-representations-in-deep-neural-networks-and-the-brain",
             "url": "./../sources/relating-simple-sentence-representations-in-deep-neural-networks-and-the-brain",
             "category": "sources",
@@ -301,6 +397,12 @@
             "url": "./../notes/speech-representations-datasets",
             "category": "notes",
             "title": "speech representations datasets"
+        },
+        {
+            "id": "speech-representations-map-of-contents",
+            "url": "./../notes/speech-representations-map-of-contents",
+            "category": "notes",
+            "title": "speech-representations-map-of-contents"
         },
         {
             "id": "src-lorem-ipsum",
@@ -325,6 +427,16 @@
             "title": "unknownnode"
         },
         {
+            "id": "using-tmux",
+            "url": "./../sources/using-tmux",
+            "category": "sources",
+            "title": "using tmux",
+            "tags": [
+                "clippings",
+                "programming"
+            ]
+        },
+        {
             "id": "uvx-pdf-to-md-marker",
             "url": "./../sources/uvx-pdf-to-md-marker",
             "category": "sources",
@@ -332,6 +444,17 @@
             "tags": [
                 "clippings",
                 "tools"
+            ]
+        },
+        {
+            "id": "voice-pro-repo",
+            "url": "./../sources/voice-pro-repo",
+            "category": "sources",
+            "title": "abus-aikorea voice-pro: gradio webui for creators and developers, featuring key tts (edge-tts, kokoro) and zero-shot voice cloning (e2 & f5-tts, cosyvoice), with whisper audio processing, youtube download, demucs vocal isolation, and multilingual translation.",
+            "tags": [
+                "clippings",
+                "speech-representations",
+                "ai-model"
             ]
         },
         {
@@ -447,6 +570,9 @@
             "ai-model",
             "clippings",
             "datasets",
+            "methods",
+            "programming",
+            "reverse-engineering",
             "speech-representations",
             "tools"
         ]

@@ -3,7 +3,7 @@ title: "abus-aikorea voice-pro: Gradio WebUI for creators and developers, featur
 source: "https://github.com/abus-aikorea/voice-pro"
 author:
   - "[[abus-aikorea]]"
-published:
+
 created: 2026-04-26
 description: "Gradio WebUI for creators and developers, featuring key TTS (Edge-TTS, kokoro) and zero-shot Voice Cloning (E2 & F5-TTS, CosyVoice), with Whisper audio processing, YouTube download, Demucs vocal isolation, and multilingual translation. - abus-aikorea/voice-pro"
 tags:
