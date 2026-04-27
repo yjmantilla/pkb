@@ -18,6 +18,7 @@ title: Attributes
 - interpretability
 - mechinterp
 - methods
+- pkb
 - programming
 - rag
 - repo
