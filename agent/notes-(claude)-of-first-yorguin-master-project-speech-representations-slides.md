@@ -1,4 +1,3 @@
-
 ---
 title: "notes (claude) of first yorguin master project speech representations slides"
 author: claude
@@ -65,17 +64,25 @@ The last entry is boxed in red on the slide — the closest precedent to this pr
 Three key excerpts from prior papers are quoted to show what researchers themselves claim:
 
 **From Caucheteux & King (2022):**
+[[brains-and-algorithms-partially-converge-in-natural-language-processing]]
+
 > *"Overall, this study shows that modern language algorithms partially converge towards brain-like solutions, and thus delineates **a promising path to unravel the foundations of natural language processing**."*
 
 **From Li et al. (2023, Nature Neuroscience):**
+[[dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech]]
+
 > *"These results reveal convergence between DNN model representations and the biological auditory pathway, **offering new approaches for modeling neural coding in the auditory cortex**."*
 
 **From Tuckute et al. (2023):**
+[[many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions]]
+
 > *"The results generally support the **promise of deep neural networks as models of audition**, though they also indicate that current models do not explain auditory cortical responses in their entirety."*
 
 *Interpretation: These quotes establish the scientific legitimacy and optimism of the approach. Brain-AI alignment via RSA is not just a curiosity — researchers believe it could genuinely illuminate how the brain processes speech. The final quote, however, contains a crucial caveat: current models are promising but incomplete.*
 
 But there is a counterpoint. A paper by **Dujmović, Bowers & Adolfi** titled *"Inferring DNN-brain alignment using Representational Similarity Analyses can be problematic"* (University of Bristol / Max-Planck) is shown alongside the optimistic quotes. A highlighted passage reads:
+
+[[inferring_dnn_brain_alignment-using-rsa-may-be-problematic]]
 
 > *"…claiming a DNN is a good model of biological vision and object recognition is more than a claim that DNNs learn human-like representations, but a claim that the two systems are mechanistically similar."*
 
@@ -132,6 +139,9 @@ After having actually done the RSA work (the project this talk is motivating cam
 > *"Indeed, I'm not alone on fixating in this gap"*
 
 **From Li et al. (2023, Nature Neuroscience):**
+
+[[dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech]]
+
 > *"We cannot assert that any of these computations are implemented in the cortex or that gradient-based learning mirrors brain mechanisms. **Despite correlational evidence, formal fine-grained causal and ablation analyses remain to be conducted** to investigate the detailed relationship between computational components in DNNs and model-predicted neural responses."*
 
 This is one of the most prominent papers in the space explicitly calling for the kind of work this project aims to do.
@@ -140,18 +150,27 @@ Additionally, two more works are cited:
 
 **Prince, Alvarez & Konkle (preprint)** — *"Representation with a capital 'R': measuring functional alignment with causal perturbation"*
 
+[[representation-with-a-capital-r-measuring-functional-alignment]]
+
 This paper draws a distinction between:
 - **"representation"** (lowercase): encoding format, basis set, measurement — i.e., what RSA operates on, the geometry of a DNN layer's latent space.
 - **"Representation"** (capital R): encoding with a **functional role** — i.e., whether the representation causally mediates the computation, verified through **causal perturbation** (ablations, lesions).
 
 *The figure shows: DNN layer latent space → Representational geometry (RSA side) versus causal perturbation showing which units are face-selective, body-selective, scene-selective, and what happens when they are lesioned (functional alignment side).*
 
-**Tosato, Tikeng Notsawo, Helbling, Rish & Dumas (arXiv, July 2024)** — *"Lost in Translation: The Algorithmic Gap Between LMs and the Brain"*
+> *"Complementary insight could be gained from applying recent techniques from the **fields of mechanistic interpretability and AI safety**, which explore how information routes and circuits operate in neural networks."*
+
+
 
 *Interpretation: The "algorithmic gap" is the name for exactly the problem this project is trying to address. The field has identified it; the literature has named it; but as of the time of this presentation, nobody has implemented a framework that closes it.*
 
-And from the Tuckute et al. paper:
-> *"Complementary insight could be gained from applying recent techniques from the **fields of mechanistic interpretability and AI safety**, which explore how information routes and circuits operate in neural networks."*
+
+
+
+**Tosato, Tikeng Notsawo, Helbling, Rish & Dumas (arXiv, July 2024)** — *"Lost in Translation: The Algorithmic Gap Between LMs and the Brain"* 
+
+[[lost-in-translation_-the-algorithmic-gap-between-lms-and-the-brain]]
+
 
 *Interpretation: This is a direct invitation — from a top-tier neuroscience paper — to import mechinterp tools into NeuroAI. This project accepts that invitation.*
 
@@ -433,3 +452,14 @@ With 61 phonemes, there are 61×60/2 = 1,830 pairwise comparisons per neuron, an
 ---
 
 *End of document.*
+
+
+[//begin]: # "Autogenerated link references for markdown compatibility"
+[brains-and-algorithms-partially-converge-in-natural-language-processing]: ./../sources/brains-and-algorithms-partially-converge-in-natural-language-processing "brains-and-algorithms-partially-converge-in-natural-language-processing"
+[dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech]: ./../sources/dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech "dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech"
+[dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech]: ./../sources/dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech "dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech"
+[inferring_dnn_brain_alignment-using-rsa-may-be-problematic]: ./../sources/inferring_dnn_brain_alignment-using-rsa-may-be-problematic "inferring_dnn_brain_alignment-using-rsa-may-be-problematic"
+[lost-in-translation_-the-algorithmic-gap-between-lms-and-the-brain]: ./../sources/lost-in-translation_-the-algorithmic-gap-between-lms-and-the-brain "lost-in-translation_-the-algorithmic-gap-between-lms-and-the-brain"
+[many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions]: ./../sources/many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions "many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions"
+[representation-with-a-capital-r-measuring-functional-alignment]: ./../sources/representation-with-a-capital-r-measuring-functional-alignment "representation-with-a-capital-r-measuring-functional-alignment"
+[//end]: # "Autogenerated link references"

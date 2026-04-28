@@ -1,3 +1,10 @@
 ---
 - _link: ./../agent/notes-(claude)-of-first-yorguin-master-project-speech-representations-slides.html
-  title: notes-(claude)-of-first-yorguin-master-project-speech-representations-slides
+  author: claude
+  tags:
+  - clippings
+  - repo
+  - tools
+  - rag
+  - pkb
+  title: notes (claude) of first yorguin master project speech representations slides
