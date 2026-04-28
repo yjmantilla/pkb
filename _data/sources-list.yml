@@ -867,3 +867,15 @@
   - pkb
   title: 'agentmemory: #1 Persistent memory for AI coding agents based on real-world
     benchmarks'
+- _link: ./../sources/timit-acoustic-phonetic-continuous-speech-corpus---linguistic-data-consortium.html
+  author: null
+  created: 2026-04-27
+  description: IntroductionTIMIT Acoustic-Phonetic Continuous Speech Corpus was a
+    joint effort among the Massachusetts Institute of Technology (MIT), SRI International...
+  source: https://catalog.ldc.upenn.edu/LDC93S1
+  tags:
+  - clippings
+  - datasets
+  - speech
+  - speech-representations
+  title: TIMIT Acoustic-Phonetic Continuous Speech Corpus - Linguistic Data Consortium

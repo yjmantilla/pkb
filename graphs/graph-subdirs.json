@@ -535,7 +535,14 @@
             "id": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
             "url": "./../agent/notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
             "category": "agent",
-            "title": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides"
+            "title": "notes (claude) of first yorguin master project speech representations slides",
+            "tags": [
+                "clippings",
+                "repo",
+                "tools",
+                "rag",
+                "pkb"
+            ]
         },
         {
             "id": "nvidia-nemo_nemo_-a-scalable-generative-ai-framework-built-for-researchers-and-developers-working-on-large-language-models,-multimodal,-and-speech-ai-(automatic-speech-recognition-and-text-to-speech)",
@@ -659,6 +666,18 @@
             "url": "./../notes/stub",
             "category": "notes",
             "title": "stub"
+        },
+        {
+            "id": "timit-acoustic-phonetic-continuous-speech-corpus---linguistic-data-consortium",
+            "url": "./../sources/timit-acoustic-phonetic-continuous-speech-corpus---linguistic-data-consortium",
+            "category": "sources",
+            "title": "timit acoustic-phonetic continuous speech corpus - linguistic data consortium",
+            "tags": [
+                "clippings",
+                "datasets",
+                "speech",
+                "speech-representations"
+            ]
         },
         {
             "id": "Uncaptioned image",
@@ -1103,19 +1122,43 @@
         },
         {
             "source": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
+            "target": "are-sparse-autoencoders-useful-a-case-study-in-sparse-probing"
+        },
+        {
+            "source": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
+            "target": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers"
+        },
+        {
+            "source": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
             "target": "brains-and-algorithms-partially-converge-in-natural-language-processing"
         },
         {
             "source": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
+            "target": "deciphering-language-processing-in-the-human-brain-through-llm-representations"
+        },
+        {
+            "source": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
             "target": "dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech"
         },
         {
             "source": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
             "target": "dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech"
+        },
+        {
+            "source": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
+            "target": "feature-discovery-in-audio-models"
         },
         {
             "source": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
             "target": "inferring_dnn_brain_alignment-using-rsa-may-be-problematic"
+        },
+        {
+            "source": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
+            "target": "interpreting-openai-s-whisper"
+        },
+        {
+            "source": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
+            "target": "investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences"
         },
         {
             "source": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
@@ -1127,7 +1170,23 @@
         },
         {
             "source": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
+            "target": "many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions"
+        },
+        {
+            "source": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
+            "target": "neural-oscillations-carry-speech-rhythm-through-to-comprehension"
+        },
+        {
+            "source": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
+            "target": "relating-simple-sentence-representations-in-deep-neural-networks-and-the-brain"
+        },
+        {
+            "source": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
             "target": "representation-with-a-capital-r-measuring-functional-alignment"
+        },
+        {
+            "source": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
+            "target": "timit-acoustic-phonetic-continuous-speech-corpus---linguistic-data-consortium"
         },
         {
             "source": "README",

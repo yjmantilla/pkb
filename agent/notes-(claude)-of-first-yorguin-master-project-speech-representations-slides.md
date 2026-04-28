@@ -248,9 +248,16 @@ Honest uncertainty acknowledged upfront. Then the candidate tools:
 Two baseline strategies from prior work are shown:
 
 **From Tuckute et al. (2023, PLOS Biology):**
+
+[[many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions]]
+
 > *"We compared each of these models to an untrained baseline model that is commonly used in cognitive neuroscience. The baseline model consisted of a set of spectrotemporal modulation filters applied to a model of the cochlea (henceforth referred to as the SpectroTemporal model). The SpectroTemporal baseline model was explicitly constructed to capture tuning properties observed in the auditory cortex and previously been found to account for auditory cortical responses to some extent, particularly in primary auditory cortex, and thus provided a strong baseline for model comparison."*
 
+
 **From Jat et al. (2019, ACL):**
+
+[[relating-simple-sentence-representations-in-deep-neural-networks-and-the-brain]]
+
 > *"Random Embedding Model: In this model, we represent each word in a context by a randomly generated 300-dimensional vector. Each dimension is uniformly sampled between [0,1]. The results from this model help us establish the random baseline."*
 
 *Interpretation: Any claim that a trained model (e.g., Whisper) aligns with the brain must be benchmarked against a system that has no learned structure. The SpectroTemporal model is a principled biological baseline (it mimics known cochlear/auditory cortex processing). The random embedding model is a statistical baseline (it sets the floor for what alignment looks like by chance). Both are needed: one to test against known brain-like signal processing, one to ensure statistical validity.*
@@ -277,6 +284,8 @@ Two baseline strategies from prior work are shown:
 > *"What is the construct? Is the model fluent? Is the model \_\_\_\_\_\_\_\_\_ ?"*
 
 Alongside the question, a paper is shown: **Favela & Machery** — *"Investigating the concept of representation in the neural and psychological sciences"*
+
+[[investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences]]
 
 And a highlighted theoretical position: **"The Speculative Proposal: Representations as Promissory Notes"**
 
@@ -312,6 +321,9 @@ A fishing hook emoji points to the MLP sub-layer within one of the Transformer E
 ### Related Work (Interpretability Side)
 
 **Ellena Reid** — *"Interpreting OpenAI's Whisper"* (blog post, dataset: LibriSpeech)
+
+[[interpreting-openai-s-whisper]]
+
 - Method: **Find maximally activating samples** for each neuron
 - Also applied **SAEs (Sparse Autoencoders)**
 - Finding: Neurons in the MLP layers of the encoder are highly interpretable. A table of the first 50 neurons in `block.2.mlp.1` shows clear phoneme selectivity:
@@ -331,6 +343,9 @@ A fishing hook emoji points to the MLP sub-layer within one of the Transformer E
 | … | … |
 
 **Konstantine Sadov** — *"Feature Discovery in Audio Models"* (Mozilla Builders, dataset: LibriSpeech)
+
+[[feature-discovery-in-audio-models]]
+
 - Method: **Get distribution of activation values per phoneme**
 - Also applied SAEs
 - Focused on the same neuron: `block.2.mlp.1`, index 1 (the 'j/ch/sh' neuron)
@@ -347,6 +362,8 @@ A plot shows mean activation values (with 95% CI) for phonemes j, sh, tr, s, ch,
 ### Related Work (Neuroscience Side)
 
 **Schain & Goldstein (Google Research, March 2025)** — *"Deciphering language processing in the human brain through LLM representations"*
+
+[[deciphering-language-processing-in-the-human-brain-through-llm-representations]]
 
 > *"Large Language Models (LLMs) optimized for predicting subsequent utterances and adapting to tasks using contextual embeddings can process natural language at a level close to human proficiency. This study shows that neural activity in the human brain aligns linearly with the internal contextual embeddings of speech and language within large language models (LLMs) as they process everyday conversations."*
 
@@ -365,9 +382,15 @@ A plot shows mean activation values (with 95% CI) for phonemes j, sh, tr, s, ch,
 Two papers are shown:
 
 **Heap, Lawson, Farnik & Aitchison** — *"Sparse Autoencoders Can Interpret Randomly Initialized Transformers"*
+
+[[automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers]]
+
 > SAEs applied to **random** (untrained) transformers produce similarly interpretable latents as those applied to trained models. SAE quality metrics are broadly similar for random and trained transformers across model sizes and layers.
 
 **Kantamneni, Engels, Rajamanoharan, Tegmark & Nanda** — *"Are Sparse Autoencoders Useful? A Case Study in Sparse Probing"*
+
+[[are-sparse-autoencoders-useful-a-case-study-in-sparse-probing]]
+
 > SAEs occasionally perform better than baselines on individual datasets but cannot consistently outperform ensemble methods. The work highlights shortcomings of current SAEs and the need to rigorously evaluate interpretability methods on downstream tasks.
 
 *Interpretation: SAEs — a popular mechinterp tool — are under serious scrutiny. If randomly initialized transformers produce equally "interpretable" SAE latents, then SAE-derived interpretations of trained models may not reflect learned structure at all. This is a sobering constraint on the methodology and motivates the convergent-evidence approach described below.*
@@ -388,6 +411,8 @@ Rather than relying on any single method, the analysis plan triangulates through
   - **Amplitude-modulated noise** → generates noise with the envelope of the phoneme (preserves amplitude modulation, destroys spectral content)
 
 *The slide also references: Peelle JE and Davis MH (2012) "Neural oscillations carry speech rhythm through to comprehension." Front. Psychology 3:320, which shows (A) regions responsive to amplitude modulation (bilateral auditory cortex, primary processing) and (B) regions responsive to intelligible speech (extending into frontal and temporal association areas). This establishes the neuroscientific relevance of controlling for amplitude envelope specifically.*
+
+[[neural-oscillations-carry-speech-rhythm-through-to-comprehension]]
 
 **2. Linear Probing**
 - Train simple linear classifiers on neuron activations
@@ -410,6 +435,8 @@ Rather than relying on any single method, the analysis plan triangulates through
 ### Preliminary Results: Statistical Discrimination Analysis
 
 **Dataset:** TIMIT — *"Acoustic-Phonetic Continuous Speech Corpus"* (Garofolo et al., 1993, LDC93S1). 61 phonemes including stops, fricatives, vowels, nasals, and silence/noise markers:
+
+[[timit-acoustic-phonetic-continuous-speech-corpus---linguistic-data-consortium]]
 
 ```
 ['h#', 'sh', 'iy', 'hv', 'ae', 'dcl', 'y', 'ix', 'd', 'aa', 'kcl', 's', 'ux', 'tcl', 
@@ -455,11 +482,21 @@ With 61 phonemes, there are 61×60/2 = 1,830 pairwise comparisons per neuron, an
 
 
 [//begin]: # "Autogenerated link references for markdown compatibility"
+[are-sparse-autoencoders-useful-a-case-study-in-sparse-probing]: ./../sources/are-sparse-autoencoders-useful-a-case-study-in-sparse-probing "are-sparse-autoencoders-useful-a-case-study-in-sparse-probing"
+[automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers]: ./../sources/automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers"
 [brains-and-algorithms-partially-converge-in-natural-language-processing]: ./../sources/brains-and-algorithms-partially-converge-in-natural-language-processing "brains-and-algorithms-partially-converge-in-natural-language-processing"
+[deciphering-language-processing-in-the-human-brain-through-llm-representations]: ./../sources/deciphering-language-processing-in-the-human-brain-through-llm-representations "deciphering-language-processing-in-the-human-brain-through-llm-representations"
 [dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech]: ./../sources/dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech "dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech"
 [dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech]: ./../sources/dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech "dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech"
+[feature-discovery-in-audio-models]: ./../sources/feature-discovery-in-audio-models "feature-discovery-in-audio-models"
 [inferring_dnn_brain_alignment-using-rsa-may-be-problematic]: ./../sources/inferring_dnn_brain_alignment-using-rsa-may-be-problematic "inferring_dnn_brain_alignment-using-rsa-may-be-problematic"
+[interpreting-openai-s-whisper]: ./../sources/interpreting-openai-s-whisper "interpreting-openai-s-whisper"
+[investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences]: ./../sources/investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences "investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences"
 [lost-in-translation_-the-algorithmic-gap-between-lms-and-the-brain]: ./../sources/lost-in-translation_-the-algorithmic-gap-between-lms-and-the-brain "lost-in-translation_-the-algorithmic-gap-between-lms-and-the-brain"
 [many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions]: ./../sources/many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions "many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions"
+[many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions]: ./../sources/many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions "many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions"
+[neural-oscillations-carry-speech-rhythm-through-to-comprehension]: ./../sources/neural-oscillations-carry-speech-rhythm-through-to-comprehension "neural-oscillations-carry-speech-rhythm-through-to-comprehension"
+[relating-simple-sentence-representations-in-deep-neural-networks-and-the-brain]: ./../sources/relating-simple-sentence-representations-in-deep-neural-networks-and-the-brain "relating-simple-sentence-representations-in-deep-neural-networks-and-the-brain"
 [representation-with-a-capital-r-measuring-functional-alignment]: ./../sources/representation-with-a-capital-r-measuring-functional-alignment "representation-with-a-capital-r-measuring-functional-alignment"
+[timit-acoustic-phonetic-continuous-speech-corpus---linguistic-data-consortium]: ./../sources/timit-acoustic-phonetic-continuous-speech-corpus---linguistic-data-consortium "timit-acoustic-phonetic-continuous-speech-corpus---linguistic-data-consortium"
 [//end]: # "Autogenerated link references"
