@@ -55,6 +55,24 @@
             ]
         },
         {
+            "id": "artificial-intelligence,-interactive-measurements,-and-assemblage-theory",
+            "url": "./../sources/artificial-intelligence,-interactive-measurements,-and-assemblage-theory",
+            "category": "sources",
+            "title": "artificial intelligence, interactive measurements, and assemblage theory",
+            "tags": [
+                "clippings"
+            ]
+        },
+        {
+            "id": "artificial-intelligence-as-sorcery",
+            "url": "./../sources/artificial-intelligence-as-sorcery",
+            "category": "sources",
+            "title": "artificial intelligence as sorcery",
+            "tags": [
+                "clippings"
+            ]
+        },
+        {
             "id": "attributes",
             "url": "./../attributes",
             "category": "root",
@@ -93,6 +111,15 @@
                 "clippings",
                 "speech-representations",
                 "citable"
+            ]
+        },
+        {
+            "id": "c.-west-churchman's-systems-epistemology-and-llms",
+            "url": "./../sources/c.-west-churchman's-systems-epistemology-and-llms",
+            "category": "sources",
+            "title": "c. west churchman's systems epistemology and llms",
+            "tags": [
+                "clippings"
             ]
         },
         {
@@ -233,6 +260,42 @@
             "tags": [
                 "clippings",
                 "programming"
+            ]
+        },
+        {
+            "id": "engineers-as-philosophers,-part-1",
+            "url": "./../sources/engineers-as-philosophers,-part-1",
+            "category": "sources",
+            "title": "engineers as philosophers, part 1",
+            "tags": [
+                "clippings"
+            ]
+        },
+        {
+            "id": "engineers-as-philosophers,-part-2",
+            "url": "./../sources/engineers-as-philosophers,-part-2",
+            "category": "sources",
+            "title": "engineers as philosophers, part 2",
+            "tags": [
+                "clippings"
+            ]
+        },
+        {
+            "id": "engineers-as-philosophers,-part-3",
+            "url": "./../sources/engineers-as-philosophers,-part-3",
+            "category": "sources",
+            "title": "engineers as philosophers, part 3",
+            "tags": [
+                "clippings"
+            ]
+        },
+        {
+            "id": "engineers-as-philosophers,-part-4",
+            "url": "./../sources/engineers-as-philosophers,-part-4",
+            "category": "sources",
+            "title": "engineers as philosophers, part 4",
+            "tags": [
+                "clippings"
             ]
         },
         {
@@ -566,6 +629,15 @@
                 "speech-representations",
                 "ai-model",
                 "repo"
+            ]
+        },
+        {
+            "id": "on-computational-positivism",
+            "url": "./../sources/on-computational-positivism",
+            "category": "sources",
+            "title": "on computational positivism",
+            "tags": [
+                "clippings"
             ]
         },
         {

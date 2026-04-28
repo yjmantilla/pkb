@@ -1,0 +1,24 @@
+---
+title: "Artificial Intelligence as Sorcery"
+source: "https://realizable.substack.com/p/artificial-intelligence-as-sorcery?utm_source=profile&utm_medium=reader2"
+author:
+  - "[[Maxim Raginsky]]"
+published: 2025-03-30
+created: 2026-04-27
+description: "Repurposing Stanislav Andreski a bit."
+tags:
+  - "clippings"
+---
+In 1972, the sociologist [Stanislav Andreski](https://en.wikipedia.org/wiki/Stanislav_Andreski) has published a book called *Social Sciences as Sorcery* —a sardonic diatribe arguing that “much of what passes as scientific study of human behavior boils down to an equivalent of sorcery.” Taking aim at thinkers like Talcott Parsons, Claude Lévi-Strauss, and David Easton (to name just a few), Andreski wrote that,
+
+> more than that of his colleagues in the natural sciences, the position of an ‘expert’ in the study of human behavior resembles that of a sorcerer who can make the crops come up or the rain fall by uttering an incantation. And because the facts with which he deals are seldom verifiable, his customers are able to demand to be told what they like to hear, and will punish the uncooperative soothsayer who insists on saying what they would rather not know — as the princes used to punish the court physicians for failing to cure them.
+
+Without getting into the merits of Andreski’s polemic, his general diagnosis was directonally correct. The phenomena he had identified, captured by pithy chapter titles like “Manipulation through description,” “The smoke screen of jargon,” “Hiding behind methodology,” “Quantification as camouflage,” and “Ideology underneath terminology,” are all very real and all present to this day. However, the powerful image of what was supposed to be empirical inquiry turning into sorcery applies today, more or less in the way Andreski had phrased it, to the field of artificial intelligence, but with a few twists and ironies.
+
+The subjects of Andreski’s criticism were all highbrow academics, their larger cultural influence as public intellectuals powered by the cachet of scholarly tomes and serious publications in prestigious journals. The flow of ideas was from academia to the society at large. With AI, however, it is academic researchers who have succumbed to magical thinking and ritualistic incantations [originating largely in industry](https://www.penguinrandomhouse.com/books/743569/empire-of-ai-by-karen-hao/) and fed by the [credulous](https://www.nytimes.com/2025/03/04/opinion/ezra-klein-podcast-ben-buchanan.html) [coverage](https://www.theguardian.com/technology/article/2024/aug/24/yuval-noah-harari-ai-book-extract-nexus) in popular press. Every phenomenon identified by Andreski is on display here, including the neverending stream of academic publications where researchers interact with massive models like ChatGPT or Claude and deploy loaded terminology to promote the view that the only way to predict or to control the functioning of such systems is [by an intricate system of charms, spells, and incantations](https://arxiv.org/abs/2311.01449). When Herbert Simon wrote in *The Sciences of the Artificial* about approaching the scientific inquiry about computers as a subfield of natural history, where we would “study them as we would rabbits or chipmunks and discover how they behave under different patterns of environmental stimulation,” he was probably imagining something closer to ethology in the spirit of Konrad Lorenz and Nikolaas Tinbergen, not papers about [sparks of AGI](https://arxiv.org/abs/2303.12712) or the [evil vector](https://arxiv.org/abs/2502.17424). Alas, the technocratic impulse is wedded to [crude animism](https://x.com/dwarkesh_sp/status/1735346394779750877).
+
+The appeal to AI as [some abstract intelligence you can tap into](https://darioamodei.com/machines-of-loving-grace) for any purpose, without considering the appropriateness of it as a technology in each given setting from a pragmatist point of view, is driven largely by ideology. This should give us some pause. As Andreski wrote in the chapter aptly titled “Techno-totemism and creeping crypto-totalitarianism,”
+
+> to come back to pseudo-cybernetics: its veiled promiscuously conservative ideological message has endeared it to the bosses throughout the world (no matter whether capitalist, communist, clericalist, militarist, racialist or what not) and enabled its devotees to obtain control over funds which, of course, brought them applause from the academic multitudes. Profiting from the awe which any mathematical-sounding terms inspire among the non-numerate practitioners of the social sciences, as well as from the mathematically competent scientists’ naivety about social and political problems, the pushers of pseudo-cybernetics have been able to achieve fame as experts on politics without ever having said anything relevant.
+
+Sounds [familiar](https://www.techpolicy.press/doge-plan-to-push-ai-across-the-us-federal-government-is-wildly-dangerous/)?
