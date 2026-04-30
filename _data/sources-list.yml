@@ -96,6 +96,7 @@
   - clippings
   - speech-representations
   - datasets
+  - speech
   title: Libribrain Datasets at Hugging Face
 - _link: ./../sources/distillation-can-lead-to-subliminal-learning.html
   author:
@@ -1094,3 +1095,11 @@
   - citable
   title: A 10-hour within-participant magnetoencephalography narrative dataset to
     test models of language comprehension
+- _link: ./../sources/brain-score.html
+  tags:
+  - clippings
+  - speech-representations
+  - representations
+  - citable
+  title: Brain-Score - Which Artificial Neural Network for Object Recognition is most
+    Brain-Like?

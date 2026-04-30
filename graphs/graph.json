@@ -141,6 +141,18 @@
             ]
         },
         {
+            "id": "brain-score",
+            "url": "./../sources/brain-score",
+            "category": "sources",
+            "title": "brain-score - which artificial neural network for object recognition is most brain-like?",
+            "tags": [
+                "clippings",
+                "speech-representations",
+                "representations",
+                "citable"
+            ]
+        },
+        {
             "id": "brains-and-algorithms-partially-converge-in-natural-language-processing",
             "url": "./../sources/brains-and-algorithms-partially-converge-in-natural-language-processing",
             "category": "sources",
@@ -483,7 +495,8 @@
             "tags": [
                 "clippings",
                 "speech-representations",
-                "datasets"
+                "datasets",
+                "speech"
             ]
         },
         {
