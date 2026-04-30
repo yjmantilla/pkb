@@ -959,3 +959,26 @@
   tags:
   - clippings
   title: Artificial Intelligence, Interactive Measurements, and Assemblage Theory
+- _link: ./../sources/arkaroy14_waydroid_network_spoof_-xposed-module-to-spoof-wifi-or-cellular-to-waydroid-running-on-ethernet.html
+  author: null
+  created: 2026-04-28
+  description: Xposed Module to Spoof Wifi or Cellular to waydroid running on ethernet
+    - arkaroy14/waydroid_network_spoof
+  source: https://github.com/arkaroy14/waydroid_network_spoof
+  tags:
+  - clippings
+  - tools
+  - repo
+  title: 'arkaroy14 waydroid_network_spoof: Xposed Module to Spoof Wifi or Cellular
+    to waydroid running on ethernet'
+- _link: ./../sources/there-will-be-a-scientific-theory-of-deep-learning.html
+  author: null
+  created: 2026-04-28
+  description: null
+  source: https://arxiv.org/html/2604.21691v1
+  tags:
+  - clippings
+  - citable
+  - methods
+  - reverse-engineering
+  title: There Will Be a Scientific Theory of Deep Learning

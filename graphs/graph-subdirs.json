@@ -55,6 +55,17 @@
             ]
         },
         {
+            "id": "arkaroy14_waydroid_network_spoof_-xposed-module-to-spoof-wifi-or-cellular-to-waydroid-running-on-ethernet",
+            "url": "./../sources/arkaroy14_waydroid_network_spoof_-xposed-module-to-spoof-wifi-or-cellular-to-waydroid-running-on-ethernet",
+            "category": "sources",
+            "title": "arkaroy14 waydroid_network_spoof: xposed module to spoof wifi or cellular to waydroid running on ethernet",
+            "tags": [
+                "clippings",
+                "tools",
+                "repo"
+            ]
+        },
+        {
             "id": "artificial-intelligence,-interactive-measurements,-and-assemblage-theory",
             "url": "./../sources/artificial-intelligence,-interactive-measurements,-and-assemblage-theory",
             "category": "sources",
@@ -738,6 +749,18 @@
             "url": "./../notes/stub",
             "category": "notes",
             "title": "stub"
+        },
+        {
+            "id": "there-will-be-a-scientific-theory-of-deep-learning",
+            "url": "./../sources/there-will-be-a-scientific-theory-of-deep-learning",
+            "category": "sources",
+            "title": "there will be a scientific theory of deep learning",
+            "tags": [
+                "clippings",
+                "citable",
+                "methods",
+                "reverse-engineering"
+            ]
         },
         {
             "id": "timit-acoustic-phonetic-continuous-speech-corpus---linguistic-data-consortium",
