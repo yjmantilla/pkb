@@ -1148,3 +1148,174 @@
   - speech-representations
   - citable
   title: Mechanistic Interpretability for AI Safety A Review
+- _link: ./../sources/a-survey-on-speech-large-language-models-for-understanding.html
+  author: null
+  created: 2026-04-30
+  description: Speech understanding is essential for interpreting the diverse forms
+    of information embedded in spoken language, including linguistic, paralinguistic,
+    and non-l
+  source: https://ieeexplore.ieee.org/abstract/document/11278041
+  tags:
+  - clippings
+  - speech-representations
+  - speech
+  - citable
+  - ai-model
+  title: A Survey on Speech Large Language Models for Understanding
+- _link: ./../sources/whisper-kan-for-speech-emotion-recognition.html
+  author:
+  - '[[Adil Chakhtouna]]'
+  - '[[Sara Sekkate]]'
+  - '[[Abdellah Adib]]'
+  created: 2026-04-30
+  description: Speech Emotion Recognition (SER) is a critical component of human-computer
+    interaction, with speech serving as a primary modality for understanding emotional
+    states. In this study, we propose Whisper-KAN, a novel framework that combines
+    the Whisper pretrained...
+  published: 2026-01-01
+  source: https://link.springer.com/chapter/10.1007/978-3-032-01536-5_23
+  tags:
+  - clippings
+  - speech
+  - ai-model
+  - speech-representations
+  - citable
+  title: Whisper-KAN for Speech Emotion Recognition
+- _link: ./../sources/audiotrust_-benchmarking-the-multifaceted-trustworthiness-of-audio-large-language-models.html
+  author: null
+  created: 2026-04-30
+  description: null
+  source: https://arxiv.org/html/2505.16211v4
+  tags:
+  - clippings
+  - citable
+  - speech
+  - speech-representations
+  - citable
+  - benchmark
+  title: 'AudioTrust: Benchmarking the Multifaceted Trustworthiness of Audio Large
+    Language Models'
+- _link: ./../sources/what-do-speech-foundation-models-not-learn-about-speech_.html
+  author: null
+  created: 2026-04-30
+  description: null
+  source: https://arxiv.org/html/2410.12948v1
+  tags:
+  - clippings
+  - speech
+  - ai-model
+  - speech-representations
+  - citable
+  title: What Do Speech Foundation Models Not Learn About Speech?
+- _link: ./../sources/probing-whisper-for-dysarthric-speech-in-detection-and-assessment.html
+  author: null
+  created: 2026-04-30
+  description: Large-scale end-to-end models such as Whisper have shown strong performance
+    on diverse speech tasks, but their internal behavior on pathological speech remains
+  source: https://ieeexplore.ieee.org/abstract/document/11464429
+  tags:
+  - clippings
+  - speech
+  - speech-representations
+  - citable
+  title: Probing Whisper for Dysarthric Speech in Detection and Assessment
+- _link: ./../sources/audio-explainable-artificial-intelligence_-a-review.html
+  author:
+  - '[[Alican Akman]]'
+  - '[[Björn W. Schuller]]'
+  created: 2026-04-30
+  description: Artificial intelligence (AI) capabilities have grown rapidly with the
+    introduction of cutting-edge deep-model architectures and learning strategies.
+    Explainable AI (XAI) methods aim to make the cap...
+  published: 2024-01-23
+  source: https://spj.science.org/doi/full/10.34133/icomputing.0074
+  tags:
+  - clippings
+  - interpretability
+  - speech
+  - ai-model
+  - speech-representations
+  title: 'Audio Explainable Artificial Intelligence: A Review'
+- _link: ./../sources/improving-audio-explanations-using-audio-language-models.html
+  author:
+  - '[[Alican Akman]]'
+  - '[[Qiyang Sun]]'
+  - '[[Björn W. Schuller]]'
+  created: 2026-04-30
+  description: Foundation models are widely utilised for their strong representational
+    capabilities, driven by training on extensive datasets with self-supervised learning.
+    Th
+  source: https://ieeexplore.ieee.org/abstract/document/10847866/references#references
+  tags:
+  - clippings
+  - speech
+  - ai-model
+  - speech-representations
+  - citable
+  title: Improving Audio Explanations Using Audio Language Models
+- _link: ./../sources/perceptual-musical-features-for-interpretable-audio-tagging.html
+  author: null
+  created: 2026-04-30
+  description: In the age of music streaming platforms, the task of automatically
+    tagging music audio has garnered significant attention, driving researchers to
+    devise methods
+  source: https://ieeexplore.ieee.org/abstract/document/10669903
+  tags:
+  - clippings
+  - music
+  - citable
+  - ai-model
+  title: Perceptual Musical Features for Interpretable Audio Tagging
+- _link: ./../sources/interpretable-embeddings-of-speech-explain-and-enhance-the-brain-encoding-performance-of-audio-models.html
+  author: null
+  created: 2026-04-30
+  description: null
+  source: https://arxiv.org/html/2507.16080v2
+  tags:
+  - clippings
+  - speech
+  - speech-representations
+  - citable
+  - interpretability
+  - methods
+  - highlighted
+  title: Interpretable Embeddings of Speech Explain and Enhance the Brain Encoding
+    Performance of Audio Models
+- _link: ./../sources/larger-and-more-instructable-language-models-become-less-reliable.html
+  author:
+  - '[[Lexin Zhou]]'
+  - '[[Wout Schellaert]]'
+  - '[[Fernando Martínez-Plumed]]'
+  - '[[Yael Moros-Daval]]'
+  - '[[Cèsar Ferri]]'
+  - '[[José Hernández-Orallo]]'
+  created: 2026-04-30
+  description: The prevailing methods to make large language models more powerful
+    and amenable have been based on continuous scaling up (that is, increasing their
+    size, data volume and computational resources1) and bespoke shaping up (including
+    post-filtering2,3, fine tuning or use of human feedback4,5). However, larger and
+    more instructable large language models may have become less reliable. By studying
+    the relationship between difficulty concordance, task avoidance and prompting
+    stability of several language model families, here we show that easy instances
+    for human participants are also easy for the models, but scaled-up, shaped-up
+    models do not secure areas of low difficulty in which either the model does not
+    err or human supervision can spot the errors. We also find that early models often
+    avoid user questions but scaled-up, shaped-up models tend to give an apparently
+    sensible yet wrong answer much more often, including errors on difficult questions
+    that human supervisors frequently overlook. Moreover, we observe that stability
+    to different natural phrasings of the same question is improved by scaling-up
+    and shaping-up interventions, but pockets of variability persist across difficulty
+    levels. These findings highlight the need for a fundamental shift in the design
+    and development of general-purpose artificial intelligence, particularly in high-stakes
+    areas for which a predictable distribution of errors is paramount. Scaling up
+    and shaping up large language models increased their tendency to provide sensible
+    yet incorrect answers at difficulty levels humans cannot supervise, highlighting
+    the need for a fundamental shift in artificial intelligence design towards reliability.
+  published: 2024-09-24
+  source: https://www.nature.com/articles/s41586-024-07930-y
+  tags:
+  - clippings
+  - llm
+  - citable
+  - scale
+  title: Larger and more instructable language models become less reliable

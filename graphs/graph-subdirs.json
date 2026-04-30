@@ -14,6 +14,19 @@
             ]
         },
         {
+            "id": "a-survey-on-speech-large-language-models-for-understanding",
+            "url": "./../sources/a-survey-on-speech-large-language-models-for-understanding",
+            "category": "sources",
+            "title": "a survey on speech large language models for understanding",
+            "tags": [
+                "clippings",
+                "speech-representations",
+                "speech",
+                "citable",
+                "ai-model"
+            ]
+        },
+        {
             "id": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
             "url": "./../sources/a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
             "category": "sources",
@@ -115,6 +128,33 @@
             "url": "./../attributes",
             "category": "root",
             "title": "attributes"
+        },
+        {
+            "id": "audio-explainable-artificial-intelligence_-a-review",
+            "url": "./../sources/audio-explainable-artificial-intelligence_-a-review",
+            "category": "sources",
+            "title": "audio explainable artificial intelligence: a review",
+            "tags": [
+                "clippings",
+                "interpretability",
+                "speech",
+                "ai-model",
+                "speech-representations"
+            ]
+        },
+        {
+            "id": "audiotrust_-benchmarking-the-multifaceted-trustworthiness-of-audio-large-language-models",
+            "url": "./../sources/audiotrust_-benchmarking-the-multifaceted-trustworthiness-of-audio-large-language-models",
+            "category": "sources",
+            "title": "audiotrust: benchmarking the multifaceted trustworthiness of audio large language models",
+            "tags": [
+                "clippings",
+                "citable",
+                "speech",
+                "speech-representations",
+                "citable",
+                "benchmark"
+            ]
         },
         {
             "id": "automated-interpretability-metrics-do-not-distinguish-trained-and-random-transformers",
@@ -427,6 +467,19 @@
             ]
         },
         {
+            "id": "improving-audio-explanations-using-audio-language-models",
+            "url": "./../sources/improving-audio-explanations-using-audio-language-models",
+            "category": "sources",
+            "title": "improving audio explanations using audio language models",
+            "tags": [
+                "clippings",
+                "speech",
+                "ai-model",
+                "speech-representations",
+                "citable"
+            ]
+        },
+        {
             "id": "inferring_dnn_brain_alignment-using-rsa-may-be-problematic",
             "url": "./../sources/inferring_dnn_brain_alignment-using-rsa-may-be-problematic",
             "category": "sources",
@@ -437,6 +490,21 @@
                 "citable",
                 "speech-representations",
                 "representations"
+            ]
+        },
+        {
+            "id": "interpretable-embeddings-of-speech-explain-and-enhance-the-brain-encoding-performance-of-audio-models",
+            "url": "./../sources/interpretable-embeddings-of-speech-explain-and-enhance-the-brain-encoding-performance-of-audio-models",
+            "category": "sources",
+            "title": "interpretable embeddings of speech explain and enhance the brain encoding performance of audio models",
+            "tags": [
+                "clippings",
+                "speech",
+                "speech-representations",
+                "citable",
+                "interpretability",
+                "methods",
+                "highlighted"
             ]
         },
         {
@@ -485,6 +553,18 @@
             "tags": [
                 "clippings",
                 "citable"
+            ]
+        },
+        {
+            "id": "larger-and-more-instructable-language-models-become-less-reliable",
+            "url": "./../sources/larger-and-more-instructable-language-models-become-less-reliable",
+            "category": "sources",
+            "title": "larger and more instructable language models become less reliable",
+            "tags": [
+                "clippings",
+                "llm",
+                "citable",
+                "scale"
             ]
         },
         {
@@ -685,6 +765,22 @@
             "title": "note-from-mobile"
         },
         {
+            "id": "notes-(claude)-of-caucheteux-2022-brains-and-algorithms-partially-converge-nlp",
+            "url": "./../agent/notes-(claude)-of-caucheteux-2022-brains-and-algorithms-partially-converge-nlp",
+            "category": "agent",
+            "title": "notes (claude) of caucheteux 2022 - brains and algorithms partially converge in nlp",
+            "type": "paper",
+            "tags": [
+                "speech-representations",
+                "language-models",
+                "fmri",
+                "meg",
+                "dnn-brain-comparison",
+                "transformers"
+            ],
+            "status": "note"
+        },
+        {
             "id": "notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
             "url": "./../agent/notes-(claude)-of-first-yorguin-master-project-speech-representations-slides",
             "category": "agent",
@@ -696,6 +792,139 @@
                 "rag",
                 "pkb"
             ]
+        },
+        {
+            "id": "notes-(claude)-of-gaps-libribrain-rsa",
+            "url": "./../agent/notes-(claude)-of-gaps-libribrain-rsa",
+            "category": "agent",
+            "title": "rsa gaps for libribrain dataset",
+            "type": "note",
+            "tags": [
+                "speech-representations",
+                "meg",
+                "rsa",
+                "libribrain",
+                "dnn-brain-comparison",
+                "narrative",
+                "gaps"
+            ],
+            "status": "note"
+        },
+        {
+            "id": "notes-(claude)-of-gaps-meg-masc-rsa",
+            "url": "./../agent/notes-(claude)-of-gaps-meg-masc-rsa",
+            "category": "agent",
+            "title": "rsa gaps for meg masc dataset",
+            "type": "note",
+            "tags": [
+                "speech-representations",
+                "meg",
+                "rsa",
+                "meg-masc",
+                "dnn-brain-comparison",
+                "context",
+                "phoneme",
+                "gaps"
+            ],
+            "status": "note"
+        },
+        {
+            "id": "notes-(claude)-of-gaps-mous-rsa",
+            "url": "./../agent/notes-(claude)-of-gaps-mous-rsa",
+            "category": "agent",
+            "title": "rsa gaps for mous dataset",
+            "type": "note",
+            "tags": [
+                "speech-representations",
+                "meg",
+                "fmri",
+                "rsa",
+                "mous",
+                "dnn-brain-comparison",
+                "syntax",
+                "gaps"
+            ],
+            "status": "note"
+        },
+        {
+            "id": "notes-(claude)-of-gaps-veronique-rsa",
+            "url": "./../agent/notes-(claude)-of-gaps-veronique-rsa",
+            "category": "agent",
+            "title": "rsa gaps for veronique dataset",
+            "type": "note",
+            "tags": [
+                "speech-representations",
+                "meg",
+                "rsa",
+                "veronique",
+                "dnn-brain-comparison",
+                "speech-rate",
+                "dld",
+                "development",
+                "gaps"
+            ],
+            "status": "note"
+        },
+        {
+            "id": "notes-(claude)-of-goldstein-2025-unified-acoustic-speech-language-embedding",
+            "url": "./../agent/notes-(claude)-of-goldstein-2025-unified-acoustic-speech-language-embedding",
+            "category": "agent",
+            "title": "notes (claude) of goldstein 2025 - unified acoustic-to-speech-to-language embedding captures neural basis of nlp",
+            "type": "paper",
+            "tags": [
+                "speech-representations",
+                "ecog",
+                "whisper",
+                "dnn-brain-comparison",
+                "speech-production",
+                "speech-comprehension",
+                "real-world"
+            ],
+            "status": "note"
+        },
+        {
+            "id": "notes-(claude)-of-jat-2019-relating-simple-sentence-representations-dnn-brain",
+            "url": "./../agent/notes-(claude)-of-jat-2019-relating-simple-sentence-representations-dnn-brain",
+            "category": "agent",
+            "title": "notes (claude) of jat 2019 - relating simple sentence representations in dnns and the brain",
+            "type": "paper",
+            "tags": [
+                "speech-representations",
+                "meg",
+                "dnn-brain-comparison",
+                "bert",
+                "language-models"
+            ],
+            "status": "note"
+        },
+        {
+            "id": "notes-(claude)-of-li-2023-dissecting-neural-computations-auditory-pathway",
+            "url": "./../agent/notes-(claude)-of-li-2023-dissecting-neural-computations-auditory-pathway",
+            "category": "agent",
+            "title": "notes (claude) of li 2023 - dissecting neural computations in the human auditory pathway",
+            "type": "paper",
+            "tags": [
+                "speech-representations",
+                "auditory-cortex",
+                "ecog",
+                "dnn-brain-comparison",
+                "self-supervised"
+            ],
+            "status": "note"
+        },
+        {
+            "id": "notes-(claude)-of-tuckute-2023-many-but-not-all-dnn-audio-models",
+            "url": "./../agent/notes-(claude)-of-tuckute-2023-many-but-not-all-dnn-audio-models",
+            "category": "agent",
+            "title": "notes (claude) of tuckute 2023 - many but not all dnn audio models capture brain responses",
+            "type": "paper",
+            "tags": [
+                "speech-representations",
+                "auditory-cortex",
+                "fmri",
+                "dnn-brain-comparison"
+            ],
+            "status": "note"
         },
         {
             "id": "nvidia-nemo_nemo_-a-scalable-generative-ai-framework-built-for-researchers-and-developers-working-on-large-language-models,-multimodal,-and-speech-ai-(automatic-speech-recognition-and-text-to-speech)",
@@ -749,6 +978,30 @@
             "url": "./../notes/stub",
             "category": "notes",
             "title": "other-note-filename"
+        },
+        {
+            "id": "perceptual-musical-features-for-interpretable-audio-tagging",
+            "url": "./../sources/perceptual-musical-features-for-interpretable-audio-tagging",
+            "category": "sources",
+            "title": "perceptual musical features for interpretable audio tagging",
+            "tags": [
+                "clippings",
+                "music",
+                "citable",
+                "ai-model"
+            ]
+        },
+        {
+            "id": "probing-whisper-for-dysarthric-speech-in-detection-and-assessment",
+            "url": "./../sources/probing-whisper-for-dysarthric-speech-in-detection-and-assessment",
+            "category": "sources",
+            "title": "probing whisper for dysarthric speech in detection and assessment",
+            "tags": [
+                "clippings",
+                "speech",
+                "speech-representations",
+                "citable"
+            ]
         },
         {
             "id": "rag,-llm-wiki,-or-gbrain_-how-your-agent-remembers-changes-everything",
@@ -963,6 +1216,32 @@
             "title": "what are some sota alternatives to saes for mechanistic interpretability",
             "tags": [
                 "clippings"
+            ]
+        },
+        {
+            "id": "what-do-speech-foundation-models-not-learn-about-speech_",
+            "url": "./../sources/what-do-speech-foundation-models-not-learn-about-speech_",
+            "category": "sources",
+            "title": "what do speech foundation models not learn about speech?",
+            "tags": [
+                "clippings",
+                "speech",
+                "ai-model",
+                "speech-representations",
+                "citable"
+            ]
+        },
+        {
+            "id": "whisper-kan-for-speech-emotion-recognition",
+            "url": "./../sources/whisper-kan-for-speech-emotion-recognition",
+            "category": "sources",
+            "title": "whisper-kan for\u00a0speech emotion recognition",
+            "tags": [
+                "clippings",
+                "speech",
+                "ai-model",
+                "speech-representations",
+                "citable"
             ]
         },
         {
@@ -1511,23 +1790,61 @@
         "tags": [
             "ai-model",
             "ai-models",
+            "auditory-cortex",
+            "benchmark",
+            "bert",
             "citable",
             "clippings",
+            "context",
             "datasets",
+            "development",
+            "dld",
+            "dnn-brain-comparison",
+            "ecog",
+            "fmri",
+            "gaps",
             "graph",
+            "highlighted",
             "interpretability",
+            "language-models",
+            "libribrain",
+            "llm",
             "mechinterp",
+            "meg",
+            "meg-masc",
             "methods",
+            "mous",
+            "music",
+            "narrative",
+            "phoneme",
             "pkb",
             "programming",
             "rag",
+            "real-world",
             "repo",
             "representations",
             "reverse-engineering",
+            "rsa",
+            "scale",
+            "self-supervised",
             "speech",
+            "speech-comprehension",
+            "speech-production",
+            "speech-rate",
             "speech-representations",
+            "syntax",
             "tool",
-            "tools"
+            "tools",
+            "transformers",
+            "veronique",
+            "whisper"
+        ],
+        "type": [
+            "note",
+            "paper"
+        ],
+        "status": [
+            "note"
         ]
     },
     "ignored_attributes": [

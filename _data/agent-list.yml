@@ -8,3 +8,126 @@
   - rag
   - pkb
   title: notes (claude) of first yorguin master project speech representations slides
+- _link: ./../agent/notes-(claude)-of-tuckute-2023-many-but-not-all-dnn-audio-models.html
+  author: claude
+  source: https://doi.org/10.1371/journal.pbio.3002366
+  status: note
+  tags:
+  - speech-representations
+  - auditory-cortex
+  - fmri
+  - dnn-brain-comparison
+  title: notes (claude) of Tuckute 2023 - Many but not all DNN audio models capture
+    brain responses
+  type: paper
+- _link: ./../agent/notes-(claude)-of-li-2023-dissecting-neural-computations-auditory-pathway.html
+  author: claude
+  source: https://doi.org/10.1038/s41593-023-01468-4
+  status: note
+  tags:
+  - speech-representations
+  - auditory-cortex
+  - ecog
+  - dnn-brain-comparison
+  - self-supervised
+  title: notes (claude) of Li 2023 - Dissecting neural computations in the human auditory
+    pathway
+  type: paper
+- _link: ./../agent/notes-(claude)-of-jat-2019-relating-simple-sentence-representations-dnn-brain.html
+  author: claude
+  source: https://doi.org/10.48550/arXiv.1906.11861
+  status: note
+  tags:
+  - speech-representations
+  - meg
+  - dnn-brain-comparison
+  - bert
+  - language-models
+  title: notes (claude) of Jat 2019 - Relating simple sentence representations in
+    DNNs and the brain
+  type: paper
+- _link: ./../agent/notes-(claude)-of-caucheteux-2022-brains-and-algorithms-partially-converge-nlp.html
+  author: claude
+  source: https://doi.org/10.1038/s42003-022-03036-1
+  status: note
+  tags:
+  - speech-representations
+  - language-models
+  - fmri
+  - meg
+  - dnn-brain-comparison
+  - transformers
+  title: notes (claude) of Caucheteux 2022 - Brains and algorithms partially converge
+    in NLP
+  type: paper
+- _link: ./../agent/notes-(claude)-of-goldstein-2025-unified-acoustic-speech-language-embedding.html
+  author: claude
+  source: https://doi.org/10.1038/s41562-025-02105-9
+  status: note
+  tags:
+  - speech-representations
+  - ecog
+  - whisper
+  - dnn-brain-comparison
+  - speech-production
+  - speech-comprehension
+  - real-world
+  title: notes (claude) of Goldstein 2025 - Unified acoustic-to-speech-to-language
+    embedding captures neural basis of NLP
+  type: paper
+- _link: ./../agent/notes-(claude)-of-gaps-libribrain-rsa.html
+  author: claude
+  status: note
+  tags:
+  - speech-representations
+  - meg
+  - rsa
+  - libribrain
+  - dnn-brain-comparison
+  - narrative
+  - gaps
+  title: RSA gaps for LibriBrain dataset
+  type: note
+- _link: ./../agent/notes-(claude)-of-gaps-mous-rsa.html
+  author: claude
+  status: note
+  tags:
+  - speech-representations
+  - meg
+  - fmri
+  - rsa
+  - mous
+  - dnn-brain-comparison
+  - syntax
+  - gaps
+  title: RSA gaps for MOUS dataset
+  type: note
+- _link: ./../agent/notes-(claude)-of-gaps-veronique-rsa.html
+  author: claude
+  status: note
+  tags:
+  - speech-representations
+  - meg
+  - rsa
+  - veronique
+  - dnn-brain-comparison
+  - speech-rate
+  - dld
+  - development
+  - gaps
+  title: RSA gaps for Veronique dataset
+  type: note
+- _link: ./../agent/notes-(claude)-of-gaps-meg-masc-rsa.html
+  author: claude
+  status: note
+  tags:
+  - speech-representations
+  - meg
+  - rsa
+  - meg-masc
+  - dnn-brain-comparison
+  - context
+  - phoneme
+  - gaps
+  title: RSA gaps for MEG MASC dataset
+  type: note
