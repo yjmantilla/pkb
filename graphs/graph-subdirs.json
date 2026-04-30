@@ -428,6 +428,19 @@
             ]
         },
         {
+            "id": "introducing-meg-masc-a-high-quality-magneto-encephalography-dataset-for-evaluating-natural-speech-processing",
+            "url": "./../sources/introducing-meg-masc-a-high-quality-magneto-encephalography-dataset-for-evaluating-natural-speech-processing",
+            "category": "sources",
+            "title": "introducing meg-masc a high-quality magneto-encephalography dataset for evaluating natural speech processing",
+            "tags": [
+                "clippings",
+                "datasets",
+                "speech",
+                "speech-representations",
+                "citable"
+            ]
+        },
+        {
             "id": "investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences",
             "url": "./../sources/investigating-the-concept-of-representation-in-the-neural-and-psychological-sciences",
             "category": "sources",
@@ -1369,6 +1382,10 @@
         {
             "source": "representation-with-a-capital-r-measuring-functional-alignment-(openreview)",
             "target": "representation-with-a-capital-r-measuring-functional-alignment"
+        },
+        {
+            "source": "speech-representations-datasets",
+            "target": "introducing-meg-masc-a-high-quality-magneto-encephalography-dataset-for-evaluating-natural-speech-processing"
         },
         {
             "source": "speech-representations-datasets",

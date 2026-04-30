@@ -1030,3 +1030,35 @@
   - speech-representations
   title: Mother of unification studies, a 204-subject multimodal neuroimaging dataset
     to study language processing
+- _link: ./../sources/introducing-meg-masc-a-high-quality-magneto-encephalography-dataset-for-evaluating-natural-speech-processing.html
+  author:
+  - '[[Laura Gwilliams]]'
+  - '[[Graham Flick]]'
+  - '[[Alec Marantz]]'
+  - '[[Liina Pylkkänen]]'
+  - '[[David Poeppel]]'
+  - '[[Jean-Rémi King]]'
+  created: 2026-04-29
+  description: The “MEG-MASC” dataset provides a curated set of raw magnetoencephalography
+    (MEG) recordings of 27 English speakers who listened to two hours of naturalistic
+    stories. Each participant performed two identical sessions, involving listening
+    to four fictional stories from the Manually Annotated Sub-Corpus (MASC) intermixed
+    with random word lists and comprehension questions. We time-stamp the onset and
+    offset of each word and phoneme in the metadata of the recording, and organize
+    the dataset according to the ‘Brain Imaging Data Structure’ (BIDS). This data
+    collection provides a suitable benchmark to large-scale encoding and decoding
+    analyses of temporally-resolved brain responses to speech. We provide the Python
+    code to replicate several validations analyses of the MEG evoked responses such
+    as the temporal decoding of phonetic features and word frequency. All code and
+    MEG, audio and text data are publicly available to keep with best practices in
+    transparent and reproducible research.
+  published: 2023-12-03
+  source: https://www.nature.com/articles/s41597-023-02752-5
+  tags:
+  - clippings
+  - datasets
+  - speech
+  - speech-representations
+  - citable
+  title: Introducing MEG-MASC a high-quality magneto-encephalography dataset for evaluating
+    natural speech processing
