@@ -972,39 +972,6 @@
   title: Symphonie des oscillations cérébrales lors de la perception de la parole.
     études comportementale et en magnétoencéphalographie chez les enfants neurotypiques
     et dysphasiques
-- _link: ./../sources/mous-paper.html
-  author:
-  - '[[Jan-Mathijs Schoffelen]]'
-  - '[[Robert Oostenveld]]'
-  - '[[Nietzsche H. L. Lam]]'
-  - '[[Julia Uddén]]'
-  - '[[Annika Hultén]]'
-  - '[[Peter Hagoort]]'
-  created: 2026-04-24
-  description: This dataset, colloquially known as the Mother Of Unification Studies
-    (MOUS) dataset, contains multimodal neuroimaging data that has been acquired from
-    204 healthy human subjects. The neuroimaging protocol consisted of magnetic resonance
-    imaging (MRI) to derive information at high spatial resolution about brain anatomy
-    and structural connections, and functional data during task, and at rest. In addition,
-    magnetoencephalography (MEG) was used to obtain high temporal resolution electrophysiological
-    measurements during task, and at rest. All subjects performed a language task,
-    during which they processed linguistic utterances that either consisted of normal
-    or scrambled sentences. Half of the subjects were reading the stimuli, the other
-    half listened to the stimuli. The resting state measurements consisted of 5 minutes
-    eyes-open for the MEG and 7 minutes eyes-closed for fMRI. The neuroimaging data,
-    as well as the information about the experimental events are shared according
-    to the Brain Imaging Data Structure (BIDS) format. This unprecedented neuroimaging
-    language data collection allows for the investigation of various aspects of the
-    neurobiological correlates of language. Machine-accessible metadata file describing
-    the reported data (ISA-Tab format)
-  published: 2019-04-02
-  source: https://www.nature.com/articles/s41597-019-0020-y
-  tags:
-  - clippings
-  - datasets
-  - speech-representations
-  - citable
-  title: A 204-subject multimodal neuroimaging dataset to study language processing
 - _link: ./../sources/mous-dataset.html
   author: null
   created: 2026-04-24
@@ -1103,3 +1070,69 @@
   - citable
   title: Brain-Score - Which Artificial Neural Network for Object Recognition is most
     Brain-Like?
+- _link: ./../sources/neural-oscillations-track-natural-but-not-artificial-fast-speech_-novel-insights-from-speech-brain-coupling-using-meg.html
+  author:
+  - '[[AbstractNeural oscillations contribute to speech parsing via cortical tracking
+    of hierarchical linguistic structures]]'
+  - '[[including syllable rate. While the properties of neural entrainment have been
+    largely probed with speech stimuli at either normal or artificially accelerated
+    rates]]'
+  - '[[the important case of natural fast speech has been largely overlooked. Using
+    magnetoencephalography]]'
+  - '[[we found that listening to naturally-produced speech was associated with cortico-acoustic
+    coupling]]'
+  - '[[both at normal (∼6 syllables/s) and fast (∼9 syllables/s) rates]]'
+  - '[[with a corresponding shift in peak entrainment frequency. Interestingly]]'
+  - '[[time-compressed sentences did not yield such coupling]]'
+  - '[[despite being generated at the same rate as the natural fast sentences. Additionally]]'
+  - '[[neural activity in right motor cortex exhibited stronger tuning to natural
+    fast rather than to artificially accelerated speech]]'
+  - '[[and showed evidence for stronger phase-coupling with left temporo-parietal
+    and motor areas. These findings are highly relevant for our understanding of the
+    role played by auditory and motor cortex oscillations in the perception of naturally
+    produced speech.]]'
+  created: 2026-04-29
+  description: Neural oscillations contribute to speech parsing via cortical tracking
+    of hierarchical linguistic structures, including syllable rate. While the prope…
+  source: https://www.sciencedirect.com/science/article/pii/S1053811921008508
+  tags:
+  - clippings
+  - speech
+  - speech-representations
+  - citable
+  - datasets
+  title: Neural oscillations track natural but not artificial fast speech - Novel
+    insights from speech-brain coupling using MEG
+- _link: ./../sources/mous-paper-a-204-subject-multimodal-neuroimaging-dataset-to-study-language-processing.html
+  author:
+  - '[[Jan-Mathijs Schoffelen]]'
+  - '[[Robert Oostenveld]]'
+  - '[[Nietzsche H. L. Lam]]'
+  - '[[Julia Uddén]]'
+  - '[[Annika Hultén]]'
+  - '[[Peter Hagoort]]'
+  created: 2026-04-24
+  description: This dataset, colloquially known as the Mother Of Unification Studies
+    (MOUS) dataset, contains multimodal neuroimaging data that has been acquired from
+    204 healthy human subjects. The neuroimaging protocol consisted of magnetic resonance
+    imaging (MRI) to derive information at high spatial resolution about brain anatomy
+    and structural connections, and functional data during task, and at rest. In addition,
+    magnetoencephalography (MEG) was used to obtain high temporal resolution electrophysiological
+    measurements during task, and at rest. All subjects performed a language task,
+    during which they processed linguistic utterances that either consisted of normal
+    or scrambled sentences. Half of the subjects were reading the stimuli, the other
+    half listened to the stimuli. The resting state measurements consisted of 5 minutes
+    eyes-open for the MEG and 7 minutes eyes-closed for fMRI. The neuroimaging data,
+    as well as the information about the experimental events are shared according
+    to the Brain Imaging Data Structure (BIDS) format. This unprecedented neuroimaging
+    language data collection allows for the investigation of various aspects of the
+    neurobiological correlates of language. Machine-accessible metadata file describing
+    the reported data (ISA-Tab format)
+  published: 2019-04-02
+  source: https://www.nature.com/articles/s41597-019-0020-y
+  tags:
+  - clippings
+  - datasets
+  - speech-representations
+  - citable
+  title: A 204-subject multimodal neuroimaging dataset to study language processing

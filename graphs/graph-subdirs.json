@@ -601,8 +601,8 @@
             ]
         },
         {
-            "id": "mous-paper",
-            "url": "./../sources/mous-paper",
+            "id": "mous-paper-a-204-subject-multimodal-neuroimaging-dataset-to-study-language-processing",
+            "url": "./../sources/mous-paper-a-204-subject-multimodal-neuroimaging-dataset-to-study-language-processing",
             "category": "sources",
             "title": "a 204-subject multimodal neuroimaging dataset to study language processing",
             "tags": [
@@ -622,6 +622,19 @@
                 "speech",
                 "speech-representations",
                 "citable"
+            ]
+        },
+        {
+            "id": "neural-oscillations-track-natural-but-not-artificial-fast-speech_-novel-insights-from-speech-brain-coupling-using-meg",
+            "url": "./../sources/neural-oscillations-track-natural-but-not-artificial-fast-speech_-novel-insights-from-speech-brain-coupling-using-meg",
+            "category": "sources",
+            "title": "neural oscillations track natural but not artificial fast speech - novel insights from speech-brain coupling using meg",
+            "tags": [
+                "clippings",
+                "speech",
+                "speech-representations",
+                "citable",
+                "datasets"
             ]
         },
         {
@@ -1431,7 +1444,11 @@
         },
         {
             "source": "speech-representations-datasets",
-            "target": "mous-paper"
+            "target": "mous-paper-a-204-subject-multimodal-neuroimaging-dataset-to-study-language-processing"
+        },
+        {
+            "source": "speech-representations-datasets",
+            "target": "neural-oscillations-track-natural-but-not-artificial-fast-speech_-novel-insights-from-speech-brain-coupling-using-meg"
         },
         {
             "source": "speech-representations-datasets",
