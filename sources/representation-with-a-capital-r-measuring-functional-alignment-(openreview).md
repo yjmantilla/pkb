@@ -13,6 +13,7 @@ tags:
   - "citable"
   - "representations"
   - "speech-representations"
+  - "speech"
 ---
 
 [[representation-with-a-capital-r-measuring-functional-alignment]]

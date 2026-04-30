@@ -3,7 +3,7 @@ title: "robert-mcdermott ai-knowledge-graph: AI Powered Knowledge Graph Generato
 source: "https://github.com/robert-mcdermott/ai-knowledge-graph"
 author:
   - "[[robert-mcdermott]]"
-published:
+
 created: 2026-04-28
 description: "AI Powered Knowledge Graph Generator. Contribute to robert-mcdermott/ai-knowledge-graph development by creating an account on GitHub."
 tags:

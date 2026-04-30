@@ -35,6 +35,20 @@
             ]
         },
         {
+            "id": "ai-powered-knowledge-graph-generator",
+            "url": "./../sources/ai-powered-knowledge-graph-generator",
+            "category": "sources",
+            "title": "robert-mcdermott ai-knowledge-graph: ai powered knowledge graph generator",
+            "tags": [
+                "clippings",
+                "tools",
+                "pkb",
+                "rag",
+                "graph",
+                "repo"
+            ]
+        },
+        {
             "id": "all-llms-are-either-claude-like-or-gpt-like",
             "url": "./../sources/all-llms-are-either-claude-like-or-gpt-like",
             "category": "sources",
@@ -537,8 +551,8 @@
             ]
         },
         {
-            "id": "moas-dataset",
-            "url": "./../sources/moas-dataset",
+            "id": "mous-dataset",
+            "url": "./../sources/mous-dataset",
             "category": "sources",
             "title": "mother of unification studies, a 204-subject multimodal neuroimaging dataset to study language processing",
             "tags": [
@@ -548,8 +562,8 @@
             ]
         },
         {
-            "id": "moas-paper",
-            "url": "./../sources/moas-paper",
+            "id": "mous-paper",
+            "url": "./../sources/mous-paper",
             "category": "sources",
             "title": "a 204-subject multimodal neuroimaging dataset to study language processing",
             "tags": [
@@ -652,6 +666,20 @@
             ]
         },
         {
+            "id": "openai_whisper_-robust-speech-recognition-via-large-scale-weak-supervision",
+            "url": "./../sources/openai_whisper_-robust-speech-recognition-via-large-scale-weak-supervision",
+            "category": "sources",
+            "title": "openai/whisper: robust speech recognition via large-scale weak supervision",
+            "tags": [
+                "clippings",
+                "speech",
+                "speech-representations",
+                "ai-model",
+                "repo",
+                "citable"
+            ]
+        },
+        {
             "id": "other-note-filename",
             "url": "./../notes/stub",
             "category": "notes",
@@ -715,7 +743,21 @@
                 "clippings",
                 "citable",
                 "representations",
-                "speech-representations"
+                "speech-representations",
+                "speech"
+            ]
+        },
+        {
+            "id": "robust-speech-recognition-via-large-scale-weak-supervision",
+            "url": "./../sources/robust-speech-recognition-via-large-scale-weak-supervision",
+            "category": "sources",
+            "title": "robust speech recognition via large-scale weak supervision",
+            "tags": [
+                "clippings",
+                "citable",
+                "speech-representations",
+                "speech",
+                "ai-models"
             ]
         },
         {
@@ -749,6 +791,19 @@
             "url": "./../notes/stub",
             "category": "notes",
             "title": "stub"
+        },
+        {
+            "id": "symphonie-des-oscillations-cerebrales-lors-de-la-perception-de-la-parole.-etudes-comportementale-et-en-magnetoencephalographie-chez-les-enfants-neurotypiques-et-dysphasiques",
+            "url": "./../sources/symphonie-des-oscillations-cerebrales-lors-de-la-perception-de-la-parole.-etudes-comportementale-et-en-magnetoencephalographie-chez-les-enfants-neurotypiques-et-dysphasiques",
+            "category": "sources",
+            "title": "symphonie des oscillations c\u00e9r\u00e9brales lors de la perception de la parole. \u00e9tudes comportementale et en magn\u00e9toenc\u00e9phalographie chez les enfants neurotypiques et dysphasiques",
+            "tags": [
+                "clippings",
+                "citable",
+                "representations",
+                "speech-representations",
+                "datasets"
+            ]
         },
         {
             "id": "there-will-be-a-scientific-theory-of-deep-learning",
@@ -1309,11 +1364,15 @@
         },
         {
             "source": "speech-representations-datasets",
-            "target": "moas-dataset"
+            "target": "mous-dataset"
         },
         {
             "source": "speech-representations-datasets",
-            "target": "moas-paper"
+            "target": "mous-paper"
+        },
+        {
+            "source": "speech-representations-datasets",
+            "target": "symphonie-des-oscillations-cerebrales-lors-de-la-perception-de-la-parole.-etudes-comportementale-et-en-magnetoencephalographie-chez-les-enfants-neurotypiques-et-dysphasiques"
         },
         {
             "source": "speech-representations-map-of-contents",
@@ -1350,9 +1409,11 @@
         ],
         "tags": [
             "ai-model",
+            "ai-models",
             "citable",
             "clippings",
             "datasets",
+            "graph",
             "interpretability",
             "mechinterp",
             "methods",

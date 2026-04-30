@@ -345,39 +345,6 @@
     Cursor, Gemini CLI, GitHub Copilot CLI, OpenClaw, Factory Droid, Trae, Google
     Antigravity). Turn any folder of code, docs, papers, images, or videos into a
     queryable knowledge graph'
-- _link: ./../sources/moas-paper.html
-  author:
-  - '[[Jan-Mathijs Schoffelen]]'
-  - '[[Robert Oostenveld]]'
-  - '[[Nietzsche H. L. Lam]]'
-  - '[[Julia Uddén]]'
-  - '[[Annika Hultén]]'
-  - '[[Peter Hagoort]]'
-  created: 2026-04-24
-  description: This dataset, colloquially known as the Mother Of Unification Studies
-    (MOUS) dataset, contains multimodal neuroimaging data that has been acquired from
-    204 healthy human subjects. The neuroimaging protocol consisted of magnetic resonance
-    imaging (MRI) to derive information at high spatial resolution about brain anatomy
-    and structural connections, and functional data during task, and at rest. In addition,
-    magnetoencephalography (MEG) was used to obtain high temporal resolution electrophysiological
-    measurements during task, and at rest. All subjects performed a language task,
-    during which they processed linguistic utterances that either consisted of normal
-    or scrambled sentences. Half of the subjects were reading the stimuli, the other
-    half listened to the stimuli. The resting state measurements consisted of 5 minutes
-    eyes-open for the MEG and 7 minutes eyes-closed for fMRI. The neuroimaging data,
-    as well as the information about the experimental events are shared according
-    to the Brain Imaging Data Structure (BIDS) format. This unprecedented neuroimaging
-    language data collection allows for the investigation of various aspects of the
-    neurobiological correlates of language. Machine-accessible metadata file describing
-    the reported data (ISA-Tab format)
-  published: 2019-04-02
-  source: https://www.nature.com/articles/s41597-019-0020-y
-  tags:
-  - clippings
-  - datasets
-  - speech-representations
-  - citable
-  title: A 204-subject multimodal neuroimaging dataset to study language processing
 - _link: ./../sources/uvx-pdf-to-md-marker.html
   author: null
   created: 2026-04-22
@@ -407,32 +374,6 @@
   - speech-representations
   - datasets
   title: libribrain2 (update of dataset it seems)
-- _link: ./../sources/moas-dataset.html
-  author: null
-  created: 2026-04-24
-  description: The Mother Of Unification Studies (MOUS) dataset contains multimodal
-    neuroimaging data that has been acquired from 204 healthy human subjects. The
-    neuroimaging protocol consisted of magnetic resonance imaging (MRI) to derive
-    information at high spatial resolution about brain anatomy and structural connections,
-    as well as functional data during task, and at rest. In addition, magnetoencephalography
-    (MEG) was used to obtain high temporal resolution electrophysiological measurements
-    during task, and at rest. All subjects performed a language task, during which
-    they had to process linguistic utterances that either consisted of normal or scrambled
-    sentences. Half of the subjects were reading the stimuli, the other half listened
-    to the stimuli. The resting state measurements consisted of 5minutes eyes-open
-    for the MEG and 7 minutes eyes-closed for fMRI. The neuroimaging data, as well
-    as the information about the experimental events are shared according to the Brain
-    Imaging Data Structure (BIDS) format. This unprecedented neuroimaging language
-    data collection allows for the investigation of various aspects of the neurobiological
-    correlates of language.
-  published: 2019-02-19
-  source: https://data.ru.nl/collections/di/dccn/DSC_3011020.09_236
-  tags:
-  - clippings
-  - datasets
-  - speech-representations
-  title: Mother of unification studies, a 204-subject multimodal neuroimaging dataset
-    to study language processing
 - _link: ./../sources/caveman-few-token.html
   author:
   - '[[JuliusBrussee]]'
@@ -589,6 +530,7 @@
   - citable
   - representations
   - speech-representations
+  - speech
   title: 'Representation with a capital ''R'': measuring functional alignment (openreview)'
 - _link: ./../sources/representation-with-a-capital-r-measuring-functional-alignment.html
   author:
@@ -982,3 +924,109 @@
   - methods
   - reverse-engineering
   title: There Will Be a Scientific Theory of Deep Learning
+- _link: ./../sources/ai-powered-knowledge-graph-generator.html
+  author:
+  - '[[robert-mcdermott]]'
+  created: 2026-04-28
+  description: AI Powered Knowledge Graph Generator. Contribute to robert-mcdermott/ai-knowledge-graph
+    development by creating an account on GitHub.
+  source: https://github.com/robert-mcdermott/ai-knowledge-graph
+  tags:
+  - clippings
+  - tools
+  - pkb
+  - rag
+  - graph
+  - repo
+  title: 'robert-mcdermott ai-knowledge-graph: AI Powered Knowledge Graph Generator'
+- _link: ./../sources/openai_whisper_-robust-speech-recognition-via-large-scale-weak-supervision.html
+  author: null
+  created: 2026-04-29
+  description: Robust Speech Recognition via Large-Scale Weak Supervision - openai/whisper
+  source: https://github.com/openai/whisper
+  tags:
+  - clippings
+  - speech
+  - speech-representations
+  - ai-model
+  - repo
+  - citable
+  title: 'openai/whisper: Robust Speech Recognition via Large-Scale Weak Supervision'
+- _link: ./../sources/robust-speech-recognition-via-large-scale-weak-supervision.html
+  tags:
+  - clippings
+  - citable
+  - speech-representations
+  - speech
+  - ai-models
+  title: Robust Speech Recognition via Large-Scale Weak Supervision
+- _link: ./../sources/symphonie-des-oscillations-cerebrales-lors-de-la-perception-de-la-parole.-etudes-comportementale-et-en-magnetoencephalographie-chez-les-enfants-neurotypiques-et-dysphasiques.html
+  source: https://theses.hal.science/tel-01887759
+  tags:
+  - clippings
+  - citable
+  - representations
+  - speech-representations
+  - datasets
+  title: Symphonie des oscillations cérébrales lors de la perception de la parole.
+    études comportementale et en magnétoencéphalographie chez les enfants neurotypiques
+    et dysphasiques
+- _link: ./../sources/mous-paper.html
+  author:
+  - '[[Jan-Mathijs Schoffelen]]'
+  - '[[Robert Oostenveld]]'
+  - '[[Nietzsche H. L. Lam]]'
+  - '[[Julia Uddén]]'
+  - '[[Annika Hultén]]'
+  - '[[Peter Hagoort]]'
+  created: 2026-04-24
+  description: This dataset, colloquially known as the Mother Of Unification Studies
+    (MOUS) dataset, contains multimodal neuroimaging data that has been acquired from
+    204 healthy human subjects. The neuroimaging protocol consisted of magnetic resonance
+    imaging (MRI) to derive information at high spatial resolution about brain anatomy
+    and structural connections, and functional data during task, and at rest. In addition,
+    magnetoencephalography (MEG) was used to obtain high temporal resolution electrophysiological
+    measurements during task, and at rest. All subjects performed a language task,
+    during which they processed linguistic utterances that either consisted of normal
+    or scrambled sentences. Half of the subjects were reading the stimuli, the other
+    half listened to the stimuli. The resting state measurements consisted of 5 minutes
+    eyes-open for the MEG and 7 minutes eyes-closed for fMRI. The neuroimaging data,
+    as well as the information about the experimental events are shared according
+    to the Brain Imaging Data Structure (BIDS) format. This unprecedented neuroimaging
+    language data collection allows for the investigation of various aspects of the
+    neurobiological correlates of language. Machine-accessible metadata file describing
+    the reported data (ISA-Tab format)
+  published: 2019-04-02
+  source: https://www.nature.com/articles/s41597-019-0020-y
+  tags:
+  - clippings
+  - datasets
+  - speech-representations
+  - citable
+  title: A 204-subject multimodal neuroimaging dataset to study language processing
+- _link: ./../sources/mous-dataset.html
+  author: null
+  created: 2026-04-24
+  description: The Mother Of Unification Studies (MOUS) dataset contains multimodal
+    neuroimaging data that has been acquired from 204 healthy human subjects. The
+    neuroimaging protocol consisted of magnetic resonance imaging (MRI) to derive
+    information at high spatial resolution about brain anatomy and structural connections,
+    as well as functional data during task, and at rest. In addition, magnetoencephalography
+    (MEG) was used to obtain high temporal resolution electrophysiological measurements
+    during task, and at rest. All subjects performed a language task, during which
+    they had to process linguistic utterances that either consisted of normal or scrambled
+    sentences. Half of the subjects were reading the stimuli, the other half listened
+    to the stimuli. The resting state measurements consisted of 5minutes eyes-open
+    for the MEG and 7 minutes eyes-closed for fMRI. The neuroimaging data, as well
+    as the information about the experimental events are shared according to the Brain
+    Imaging Data Structure (BIDS) format. This unprecedented neuroimaging language
+    data collection allows for the investigation of various aspects of the neurobiological
+    correlates of language.
+  published: 2019-02-19
+  source: https://data.ru.nl/collections/di/dccn/DSC_3011020.09_236
+  tags:
+  - clippings
+  - datasets
+  - speech-representations
+  title: Mother of unification studies, a 204-subject multimodal neuroimaging dataset
+    to study language processing
