@@ -577,6 +577,19 @@
             ]
         },
         {
+            "id": "mechanistic-interpretability-for-ai-safety-a-review",
+            "url": "./../sources/mechanistic-interpretability-for-ai-safety-a-review",
+            "category": "sources",
+            "title": "mechanistic interpretability for ai safety a review",
+            "tags": [
+                "clippings",
+                "interpretability",
+                "mechinterp",
+                "speech-representations",
+                "citable"
+            ]
+        },
+        {
             "id": "mempalace_mempalace_-the-best-benchmarked-open-source-ai-memory-system.-and-it's-free.",
             "url": "./../sources/mempalace_mempalace_-the-best-benchmarked-open-source-ai-memory-system.-and-it's-free.",
             "category": "sources",
@@ -1313,6 +1326,14 @@
         {
             "source": "libribrain2",
             "target": "libribrain-dataset"
+        },
+        {
+            "source": "mechanistic-interpretability-for-ai-safety-a-review",
+            "target": "Uncaptioned image"
+        },
+        {
+            "source": "mechanistic-interpretability-for-ai-safety-a-review",
+            "target": "Uncaptioned image"
         },
         {
             "source": "node2",

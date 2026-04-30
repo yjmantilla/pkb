@@ -1136,3 +1136,15 @@
   - speech-representations
   - citable
   title: A 204-subject multimodal neuroimaging dataset to study language processing
+- _link: ./../sources/mechanistic-interpretability-for-ai-safety-a-review.html
+  author: null
+  created: 2026-04-30
+  description: null
+  source: https://arxiv.org/html/2404.14082v3
+  tags:
+  - clippings
+  - interpretability
+  - mechinterp
+  - speech-representations
+  - citable
+  title: Mechanistic Interpretability for AI Safety A Review

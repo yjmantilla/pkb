@@ -13,6 +13,79 @@ tags:
   - "representations"
   - "speech-representations"
 ---
+
+# My avis on slack:
+
+What happens when a philosopher of science researches a population of neuroscientists to dig deeper about what do we mean when we say representations.
+
+Answer according to his findings : yeap, we dont really know. but there is a reason to that... and some interesting properties of the concept of representation.
+
+Moreover, the way he conducted the experiment (given scientist fake papers) was very amusing to me.
+
+Though, i feel his point of we not having strong commitments about the scales were a representation arise is not a problem in that, at least for me, representations can and will arise at different scales, depending on the scale of the "network/circuit" that is employing it.
+
+Talk : The Untenable Status Quo: The Concept of Representation in the Neural and Psychological Sciences
+https://www.youtube.com/watch?v=oJAQKU3lmbQ&list=PLhK4xqnociM9pRarym6z_xP06ZeJEi7dK&index=2
+
+and paper: Investigating the concept of representation in the neural and psychological sciences
+
+https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2023.1165622/full
+
+author : Edouard Machery
+Distinguished Professor of History and Philosophy of Science, University of Pittsburgh
+
+https://scholar.google.ca/citations?hl=en&user=pgZm_58AAAAJ&view_op=list_works&sortby=pubdate
+
+
+
+AI Summary: 
+Winter 2025
+
+The speaker critically examines the use of "representation" in neuroscience, arguing that the concept is both unclear and confused yet remains fundamental in the field. Neuroscientists frequently describe brain activity in representational terms, but there is no clear consensus on what "representation" actually means in this context.
+Key Points:
+
+The Concept of Representation in Neuroscience
+
+Neuroscientists commonly describe brain states as representations (e.g., visual, auditory, cognitive).
+Methods like fMRI adaptation, multivariate pattern analysis (MVPA), and representational similarity analysis (RSA) explicitly aim to identify neural representations.
+
+Problems with Representation in Neuroscience
+
+Unclear usage: Neuroscientists do not consistently define what makes a brain state a representation.
+Confused concept: The term is used interchangeably for causal correlates (natural signs) and true representational content (which can misrepresent).
+
+No clear commitments: Studies show neuroscientists are unsure about:
+
+The scale at which representations occur (neurons vs. networks).
+Whether causal function matters for representation.
+
+Whether misrepresentation (a key philosophical criterion) applies to brain states.
+
+Why This Matters
+
+The lack of clarity leads to inconsistencies in research methods and theoretical claims.
+Neuroscience may be using "representation" as a promissory note—a placeholder concept that maintains links between psychology and neural data without precise commitments.
+
+The "Promissory Note" Hypothesis
+
+The speaker proposes that representation functions as a "promissory note" in neuroscience.
+Psychological models often rely on representations and transformations of representations (e.g., letters → phonemes → words in reading).
+Neuroscientists use "representation" at the neural level to signal an expected but currently unknown connection between cognitive theories and brain activity.
+However, this usage remains deliberately vague, allowing for flexibility in future theoretical developments.
+
+Possible Approaches
+
+Reforming the concept: Difficult, as neuroscientists do not engage deeply with philosophical refinements.
+Eliminating representation: Impractical, as it's deeply embedded in neuroscience.
+Understanding its function: Inspired by Reinberger’s work on genes, the speaker suggests representation serves as a cross-disciplinary bridge, enabling information flow between AI, neuroscience, and psychology.
+Takeaway for NeuroAI
+
+The concept of representation is central but imprecise.
+NeuroAI research should be aware of this ambiguity when interpreting neuroscientific data.
+Future work should focus on defining representation in a way that aligns with mechanistic models and computational frameworks.
+
+# Paper
+
 - 1\. Department of Philosophy, University of Central Florida, Orlando, FL, United States
 - 2\. Cognitive Sciences Program, University of Central Florida, Orlando, FL, United States
 - 3\. Department of History and Philosophy of Science, University of Pittsburgh, Pittsburgh, PA, United States
