@@ -14,6 +14,18 @@
             ]
         },
         {
+            "id": "a-matplotlib-maintainer-closed-a-pull-request-made-by-an-ai.-the-_ai_-went-on-to-publish-a-rant-filled-blog-post-about-the-_human_-maintainer.",
+            "url": "./../sources/a-matplotlib-maintainer-closed-a-pull-request-made-by-an-ai.-the-_ai_-went-on-to-publish-a-rant-filled-blog-post-about-the-_human_-maintainer.",
+            "category": "sources",
+            "title": "a matplotlib maintainer closed a pull request made by an ai. the \"ai\" went on to publish a rant-filled blog post about the \"human\" maintainer.",
+            "tags": [
+                "clippings",
+                "llm",
+                "incident",
+                "story"
+            ]
+        },
+        {
             "id": "a-survey-on-speech-large-language-models-for-understanding",
             "url": "./../sources/a-survey-on-speech-large-language-models-for-understanding",
             "category": "sources",
@@ -1805,6 +1817,7 @@
             "gaps",
             "graph",
             "highlighted",
+            "incident",
             "interpretability",
             "language-models",
             "libribrain",
@@ -1832,6 +1845,7 @@
             "speech-production",
             "speech-rate",
             "speech-representations",
+            "story",
             "syntax",
             "tool",
             "tools",

@@ -1319,3 +1319,18 @@
   - citable
   - scale
   title: Larger and more instructable language models become less reliable
+- _link: ./../sources/a-matplotlib-maintainer-closed-a-pull-request-made-by-an-ai.-the-_ai_-went-on-to-publish-a-rant-filled-blog-post-about-the-_human_-maintainer..html
+  author:
+  - '[[mekmookbro]]'
+  created: 2026-04-30
+  description: Yeah, this whole thing made me go "what the fuck" as well, lol. Day
+    by day it feels like we're sliding into a Black Mirror plot.
+  published: 2026-02-13
+  source: https://www.reddit.com/r/webdev/comments/1r3umod/a_matplotlib_maintainer_closed_a_pull_request/
+  tags:
+  - clippings
+  - llm
+  - incident
+  - story
+  title: A Matplotlib maintainer closed a pull request made by an AI. The "AI" went
+    on to publish a rant-filled blog post about the "human" maintainer.
