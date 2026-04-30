@@ -13,9 +13,11 @@ title: Attributes
 ## tags
 
 - ai-model
+- ai-models
 - citable
 - clippings
 - datasets
+- graph
 - interpretability
 - mechinterp
 - methods
