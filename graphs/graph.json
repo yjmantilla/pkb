@@ -1,6 +1,19 @@
 {
     "nodes": [
         {
+            "id": "a-10-hour-within-participant-magnetoencephalography-narrative-dataset-to-test-models-of-language-comprehension",
+            "url": "./../sources/a-10-hour-within-participant-magnetoencephalography-narrative-dataset-to-test-models-of-language-comprehension",
+            "category": "sources",
+            "title": "a 10-hour within-participant magnetoencephalography narrative dataset to test models of language comprehension",
+            "tags": [
+                "clippings",
+                "speech",
+                "speech-representations",
+                "datasets",
+                "citable"
+            ]
+        },
+        {
             "id": "a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
             "url": "./../sources/a-unified-acoustic-to-speech-to-language-embedding-space-captures-the-neural-basis-of-natural-language-processing-in-everyday-conversations---nature-human-behaviour",
             "category": "sources",
@@ -1366,6 +1379,10 @@
         {
             "source": "representation-with-a-capital-r-measuring-functional-alignment-(openreview)",
             "target": "representation-with-a-capital-r-measuring-functional-alignment"
+        },
+        {
+            "source": "speech-representations-datasets",
+            "target": "a-10-hour-within-participant-magnetoencephalography-narrative-dataset-to-test-models-of-language-comprehension"
         },
         {
             "source": "speech-representations-datasets",
