@@ -12,3 +12,4 @@ docs/.jekyll-metadata
 .test-workspace
 _site/*
 Gemfile.lock
+vendor/
