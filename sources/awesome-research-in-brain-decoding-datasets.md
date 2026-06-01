@@ -3,7 +3,7 @@ title: "NeuSpeech awesome-brain-decoding: collection of awesome research in brai
 source: "https://github.com/NeuSpeech/awesome-brain-decoding#brain-to-speech"
 author:
   - "[[NeuSpeech]]"
-published:
+
 created: 2026-04-30
 description: "collection of awesome research in brain decoding, including interaction with multi-modalities, theories, and foundation models. - NeuSpeech/awesome-brain-decoding"
 tags:
