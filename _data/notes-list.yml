@@ -11,8 +11,6 @@
   title: Node1
 - _link: ./../notes/node2.html
   title: Node 2
-- _link: ./../notes/stub.html
-  title: Stub
 - _link: ./../notes/words-search-text-node.html
   title: Words Search Text Node
 - _link: ./../notes/speech-representations-datasets.html
@@ -29,3 +27,5 @@
   title: Epilepsy Datasets
 - _link: ./../notes/epilepsy-map-of-contents.html
   title: Epilepsy MOP
+- _link: ./../notes/stub.html
+  title: Stub

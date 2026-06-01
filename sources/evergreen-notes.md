@@ -2,7 +2,7 @@
 title: "Evergreen notes"
 source: "https://notes.leahferguson.com/40+Atomic/Evergreen+notes"
 author:
-published:
+
 created: 2026-05-04
 description: "Home - Leah Ferguson"
 tags:

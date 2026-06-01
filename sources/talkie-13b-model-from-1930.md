@@ -2,7 +2,7 @@
 title: "Introducing talkie: a 13B vintage language model from 1930"
 source: "https://talkie-lm.com/introducing-talkie"
 author:
-published:
+
 created: 2026-05-01
 description:
 tags:

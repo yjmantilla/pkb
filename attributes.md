@@ -40,6 +40,7 @@ title: Attributes
 - meg
 - meg-masc
 - methods
+- ml
 - ml-theory
 - mous
 - music
@@ -47,6 +48,7 @@ title: Attributes
 - phoneme
 - pkb
 - programming
+- python
 - rag
 - real-world
 - repo
@@ -63,6 +65,7 @@ title: Attributes
 - speech-representations
 - story
 - syntax
+- tooks
 - tool
 - tools
 - transformers

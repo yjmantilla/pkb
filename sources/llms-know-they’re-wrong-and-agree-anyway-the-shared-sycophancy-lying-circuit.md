@@ -2,7 +2,7 @@
 title: "LLMs Know They’re Wrong and Agree Anyway: The Shared Sycophancy-Lying Circuit"
 source: "https://arxiv.org/html/2604.19117v4"
 author:
-published:
+
 created: 2026-05-11
 description:
 tags:

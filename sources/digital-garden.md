@@ -2,7 +2,7 @@
 title: "Digital garden"
 source: "https://notes.leahferguson.com/40+Atomic/Digital+garden"
 author:
-published:
+
 created: 2026-05-04
 description: "Home - Leah Ferguson"
 tags:

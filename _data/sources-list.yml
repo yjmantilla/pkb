@@ -1334,6 +1334,41 @@
   - story
   title: A Matplotlib maintainer closed a pull request made by an AI. The "AI" went
     on to publish a rant-filled blog post about the "human" maintainer.
+- _link: ./../sources/10-cli-tools-that-made-the-biggest-impact-on-transforming-my-terminal-based-workflow.html
+  author:
+  - '[[piotr1215]]'
+  created: 2026-05-04
+  description: 'EDIT: Added a companion video https://youtu.be/fU8HB1cvG9w Awesome
+    tools that I learned about from the comments:'
+  published: 2024-08-11
+  source: https://www.reddit.com/r/commandline/comments/1epjppl/10_cli_tools_that_made_the_biggest_impact_on/
+  tags:
+  - clippings
+  - tools
+  title: 10 CLI Tools That Made the Biggest Impact On Transforming My Terminal-Based
+    Workflow
+- _link: ./../sources/agarrharr_awesome-cli-apps_a-curated-list-of-command-line-apps.html
+  author: null
+  created: 2026-05-04
+  description: A curated list of command line apps. Contribute to agarrharr/awesome-cli-apps
+    development by creating an account on GitHub.
+  source: https://github.com/agarrharr/awesome-cli-apps
+  tags:
+  - clippings
+  - tools
+  - repo
+  title: agarrharr awesome-cli-apps A curated list of command line apps
+- _link: ./../sources/angrysearch_-linux-file-search,-instant-results-as-you-type.html
+  author: null
+  created: 2026-05-04
+  description: Linux file search, instant results as you type. Contribute to DoTheEvo/ANGRYsearch
+    development by creating an account on GitHub.
+  source: https://github.com/DoTheEvo/ANGRYsearch
+  tags:
+  - clippings
+  - tools
+  - repo
+  title: 'DoTheEvo/ANGRYsearch: Linux file search, instant results as you type'
 - _link: ./../sources/awesome-research-in-brain-decoding-datasets.html
   author:
   - '[[NeuSpeech]]'
@@ -1348,41 +1383,51 @@
   title: 'NeuSpeech awesome-brain-decoding: collection of awesome research in brain
     decoding, including interaction with multi-modalities, theories, and foundation
     models.'
-- _link: ./../sources/agarrharr_awesome-cli-apps_a-curated-list-of-command-line-apps.html
+- _link: ./../sources/discoverphysics_-benchmarking-llms-for-out-of-the-box-scientific-thinking.html
+  author: null
+  created: 2026-06-01
+  description: null
+  source: https://arxiv.org/html/2605.26087v1
+  tags:
+  - clippings
+  - citable
+  - llms
+  title: 'DiscoverPhysics: Benchmarking LLMs for Out-of-the-Box Scientific Thinking'
+- _link: ./../sources/list-of-markdown-presentation-tools.html
   author: null
   created: 2026-05-04
-  description: A curated list of command line apps. Contribute to agarrharr/awesome-cli-apps
-    development by creating an account on GitHub.
-  source: https://github.com/agarrharr/awesome-cli-apps
+  description: 'List of markdown presentation tools. GitHub Gist: instantly share
+    code, notes, and snippets.'
+  source: https://gist.github.com/johnloy/27dd124ad40e210e91c70dd1c24ac8c8
+  tags:
+  - clippings
+  - tools
+  - slides
+  title: List of markdown presentation tools
+- _link: ./../sources/m-bain_whisperx_-whisperx_--automatic-speech-recognition-with-word-level-timestamps-(&-diarization).html
+  author: null
+  created: 2026-05-14
+  description: 'WhisperX:  Automatic Speech Recognition with Word-level Timestamps
+    (& Diarization) - m-bain/whisperX'
+  source: https://github.com/m-bain/whisperx
   tags:
   - clippings
   - tools
   - repo
-  title: agarrharr awesome-cli-apps A curated list of command line apps
-- _link: ./../sources/mosh_-the-mobile-shell.html
-  author:
-  - '[[Keith Winstein <mosh-devel@mit.edu>]]'
+  title: 'm-bain/whisperX: WhisperX:  Automatic Speech Recognition with Word-level
+    Timestamps (& Diarization)'
+- _link: ./../sources/marp_-markdown-presentation-ecosystem.html
+  author: null
   created: 2026-05-04
-  description: Mobile shell that supports roaming and intelligent local echo. Like
-    SSH secure shell, but allows mobility and more responsive and robust.
-  source: https://mosh.org/#getting
+  description: Marp (also known as the Markdown Presentation Ecosystem) provides an
+    intuitive experience for creating beautiful slide decks. You only have to focus
+    on writing your story in a Markdown document.
+  source: https://marp.app/
   tags:
   - clippings
   - tools
-  title: 'Mosh: the mobile shell'
-- _link: ./../sources/10-cli-tools-that-made-the-biggest-impact-on-transforming-my-terminal-based-workflow.html
-  author:
-  - '[[piotr1215]]'
-  created: 2026-05-04
-  description: 'EDIT: Added a companion video https://youtu.be/fU8HB1cvG9w Awesome
-    tools that I learned about from the comments:'
-  published: 2024-08-11
-  source: https://www.reddit.com/r/commandline/comments/1epjppl/10_cli_tools_that_made_the_biggest_impact_on/
-  tags:
-  - clippings
-  - tools
-  title: 10 CLI Tools That Made the Biggest Impact On Transforming My Terminal-Based
-    Workflow
+  - slides
+  title: 'Marp: Markdown Presentation Ecosystem'
 - _link: ./../sources/microsoft_vibevoice_-open-source-frontier-voice-ai.html
   author: null
   created: 2026-05-04
@@ -1396,71 +1441,17 @@
   - speech-representations
   - ai-model
   title: microsoft VibeVoice Open-Source Frontier Voice AI
-- _link: ./../sources/using-an-api-to-retrieve-and-process-every-playlist-from-a-youtube-account.html
+- _link: ./../sources/mosh_-the-mobile-shell.html
   author:
-  - '[[Denis Bélanger 💎⚡✨]]'
+  - '[[Keith Winstein <mosh-devel@mit.edu>]]'
   created: 2026-05-04
-  description: More
-  published: 2025-02-13
-  source: https://medium.com/@python-javascript-php-html-css/using-an-api-to-retrieve-and-process-every-playlist-from-a-youtube-account-b4a4757aa1c0
-  tags:
-  - clippings
-  title: Using an API to Retrieve and Process Every Playlist from a YouTube Account
-- _link: ./../sources/revisiting-the-platonic-representation-hypothesis-an-aristotelian-view.html
-  author: null
-  created: 2026-05-04
-  description: null
-  published: 2026-02-17
-  source: https://brbiclab.epfl.ch/projects/aristotelian/?fbclid=IwY2xjawRlrq5leHRuA2FlbQIxMABicmlkETFWZWY3QkRZYk51S2p0RE40c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrolzS8TSMC9-2KvC9pNDqD7qqfPgohHoKIUY4Sp-FyQx9FEJu7tBe5OUDCJ_aem_zInzguTofxdXnOcXPmCwUA
-  tags:
-  - clippings
-  - citable
-  - ml-theory
-  title: Revisiting the Platonic Representation Hypothesis An Aristotelian View
-- _link: ./../sources/revisiting-the-platonic-representation-hypothesis-an-aristotelian-view-paper.html
-  author: null
-  created: 2026-05-04
-  description: null
-  source: https://arxiv.org/html/2602.14486v1
-  tags:
-  - clippings
-  - citable
-  - ml-theory
-  title: 'Revisiting the Platonic Representation Hypothesis: An Aristotelian View'
-- _link: ./../sources/angrysearch_-linux-file-search,-instant-results-as-you-type.html
-  author: null
-  created: 2026-05-04
-  description: Linux file search, instant results as you type. Contribute to DoTheEvo/ANGRYsearch
-    development by creating an account on GitHub.
-  source: https://github.com/DoTheEvo/ANGRYsearch
+  description: Mobile shell that supports roaming and intelligent local echo. Like
+    SSH secure shell, but allows mobility and more responsive and robust.
+  source: https://mosh.org/#getting
   tags:
   - clippings
   - tools
-  - repo
-  title: 'DoTheEvo/ANGRYsearch: Linux file search, instant results as you type'
-- _link: ./../sources/list-of-markdown-presentation-tools.html
-  author: null
-  created: 2026-05-04
-  description: 'List of markdown presentation tools. GitHub Gist: instantly share
-    code, notes, and snippets.'
-  source: https://gist.github.com/johnloy/27dd124ad40e210e91c70dd1c24ac8c8
-  tags:
-  - clippings
-  - tools
-  - slides
-  title: List of markdown presentation tools
-- _link: ./../sources/marp_-markdown-presentation-ecosystem.html
-  author: null
-  created: 2026-05-04
-  description: Marp (also known as the Markdown Presentation Ecosystem) provides an
-    intuitive experience for creating beautiful slide decks. You only have to focus
-    on writing your story in a Markdown document.
-  source: https://marp.app/
-  tags:
-  - clippings
-  - tools
-  - slides
-  title: 'Marp: Markdown Presentation Ecosystem'
+  title: 'Mosh: the mobile shell'
 - _link: ./../sources/omni-ieeg_-a-large-scale,-comprehensive-ieeg-dataset-and-benchmark-for-epilepsy-research.html
   author:
   - '[[Omni-iEEG]]'
@@ -1510,25 +1501,159 @@
   - tool
   - repo
   title: pet Simple command-line snippet manager
-- _link: ./../sources/m-bain_whisperx_-whisperx_--automatic-speech-recognition-with-word-level-timestamps-(&-diarization).html
+- _link: ./../sources/revisiting-the-platonic-representation-hypothesis-an-aristotelian-view-paper.html
   author: null
-  created: 2026-05-14
-  description: 'WhisperX:  Automatic Speech Recognition with Word-level Timestamps
-    (& Diarization) - m-bain/whisperX'
-  source: https://github.com/m-bain/whisperx
+  created: 2026-05-04
+  description: null
+  source: https://arxiv.org/html/2602.14486v1
   tags:
   - clippings
-  - tools
-  - repo
-  title: 'm-bain/whisperX: WhisperX:  Automatic Speech Recognition with Word-level
-    Timestamps (& Diarization)'
-- _link: ./../sources/discoverphysics_-benchmarking-llms-for-out-of-the-box-scientific-thinking.html
+  - citable
+  - ml-theory
+  title: 'Revisiting the Platonic Representation Hypothesis: An Aristotelian View'
+- _link: ./../sources/revisiting-the-platonic-representation-hypothesis-an-aristotelian-view.html
   author: null
-  created: 2026-06-01
+  created: 2026-05-04
   description: null
-  source: https://arxiv.org/html/2605.26087v1
+  published: 2026-02-17
+  source: https://brbiclab.epfl.ch/projects/aristotelian/?fbclid=IwY2xjawRlrq5leHRuA2FlbQIxMABicmlkETFWZWY3QkRZYk51S2p0RE40c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrolzS8TSMC9-2KvC9pNDqD7qqfPgohHoKIUY4Sp-FyQx9FEJu7tBe5OUDCJ_aem_zInzguTofxdXnOcXPmCwUA
+  tags:
+  - clippings
+  - citable
+  - ml-theory
+  title: Revisiting the Platonic Representation Hypothesis An Aristotelian View
+- _link: ./../sources/using-an-api-to-retrieve-and-process-every-playlist-from-a-youtube-account.html
+  author:
+  - '[[Denis Bélanger 💎⚡✨]]'
+  created: 2026-05-04
+  description: More
+  published: 2025-02-13
+  source: https://medium.com/@python-javascript-php-html-css/using-an-api-to-retrieve-and-process-every-playlist-from-a-youtube-account-b4a4757aa1c0
+  tags:
+  - clippings
+  title: Using an API to Retrieve and Process Every Playlist from a YouTube Account
+- _link: ./../sources/emergence-explains-nothing-and-is-bad-science.html
+  author:
+  - '[[John Heil]]'
+  created: 2026-05-09
+  description: Life, consciousness and the cosmos are not “emergent”
+  source: https://iai.tv/articles/emergence-explains-nothing-and-is-bad-science-auid-3385?utm_source=instagram&utm_medium=feed&fbclid=PAVERFWARs30tleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAae5IDvNO8pXmY8iKp6csD0B5m9VlWmJ8ZdtgB_2xTGIZ4PQbyGJnkEJ85TkSg_aem_ndjNTS498VGRu3S99J83wQ
+  tags:
+  - clippings
+  title: Emergence explains nothing and is bad science
+- _link: ./../sources/i-was-burning-through-claude-code’s-weekly-limit-in-3-days.-here’s-how-i-fixed-it.html
+  author:
+  - '[[Kunalbhardwaj]]'
+  created: 2026-05-03
+  description: I build drone guidance systems for a living. Ground control stations,
+    onboard computers, MAVLink protocols, gimbal control loops — real-time
+  published: 2026-05-02
+  source: https://medium.com/@kunalbhardwaj598/i-was-burning-through-claude-codes-weekly-limit-in-3-days-here-s-how-i-fixed-it-0344c555abda
+  tags:
+  - clippings
+  - llm
+  - ai-model
+  title: I Was Burning Through Claude Code’s Weekly Limit in 3 Days. Here’s How I
+    Fixed It.
+- _link: ./../sources/i-gave-claude-code-a-0.02-call-coworker-and-stopped-hitting-pro-limits-here's-the-full-setup.html
+  author:
+  - '[[More-Hunter-3457]]'
+  created: 2026-05-03
+  description: Was hitting my weekly Pro limit by Wednesday every single week. Tried
+    compact, Sonnet for simple tasks, tighter prompts — nothing worked.
+  published: 2026-05-02
+  source: https://www.reddit.com/r/ClaudeAI/comments/1t1o43w/i_gave_claude_code_a_002call_coworker_and_stopped/?share_id=HHDeUbYkQsuDPcDQQFnRB&utm_content=2&utm_medium=ios_app&utm_name=ioscss&utm_source=share&utm_term=1
+  tags:
+  - clippings
+  - llm
+  - tooks
+  title: I gave Claude Code a $0.02/call coworker and stopped hitting Pro limits —
+    here's the full setup
+- _link: ./../sources/llms-know-they’re-wrong-and-agree-anyway-the-shared-sycophancy-lying-circuit.html
+  author: null
+  created: 2026-05-11
+  description: null
+  source: https://arxiv.org/html/2604.19117v4
   tags:
   - clippings
   - citable
   - llms
-  title: 'DiscoverPhysics: Benchmarking LLMs for Out-of-the-Box Scientific Thinking'
+  title: 'LLMs Know They’re Wrong and Agree Anyway: The Shared Sycophancy-Lying Circuit'
+- _link: ./../sources/the-world-inside-neural-networks.html
+  author: null
+  created: 2026-05-18
+  description: How neural geometry will unlock understanding and control of AI
+  source: https://www.goodfire.ai/research/the-world-inside-neural-networks#
+  tags:
+  - clippings
+  - reverse-engineering
+  - ml
+  title: The World Inside Neural Networks
+- _link: ./../sources/digital-garden.html
+  author: null
+  created: 2026-05-04
+  description: Home - Leah Ferguson
+  source: https://notes.leahferguson.com/40+Atomic/Digital+garden
+  tags:
+  - clippings
+  title: Digital garden
+- _link: ./../sources/evergreen-notes.html
+  author: null
+  created: 2026-05-04
+  description: Home - Leah Ferguson
+  source: https://notes.leahferguson.com/40+Atomic/Evergreen+notes
+  tags:
+  - clippings
+  title: Evergreen notes
+- _link: ./../sources/obsidian-second-brain-claude-code-skill.html
+  author:
+  - '[[eugeniughelbur]]'
+  created: 2026-05-04
+  description: Claude Code skill for Obsidian. Turn your vault into a living AI-first
+    second brain. 31 commands, vault-first research, scheduled agents. - eugeniughelbur/obsidian-second-brain
+  source: https://github.com/eugeniughelbur/obsidian-second-brain
+  tags:
+  - clippings
+  - rag
+  - llm
+  - pkb
+  title: 'obsidian-second-brain: Claude Code skill for Obsidian. Turn your vault into
+    a living AI-first second brain. 31 commands, vault-first research, scheduled agents.'
+- _link: ./../sources/talkie-13b-model-from-1930.html
+  author: null
+  created: 2026-05-01
+  description: null
+  source: https://talkie-lm.com/introducing-talkie
+  tags:
+  - clippings
+  - ai-model
+  - llm
+  title: 'Introducing talkie: a 13B vintage language model from 1930'
+- _link: ./../sources/textual-interface-gui-tui-python.html
+  author:
+  - '[[Textualize]]'
+  created: 2026-04-30
+  description: The lean application framework for Python.  Build sophisticated user
+    interfaces with a simple Python API. Run your apps in the terminal and a web browser.
+    - Textualize/textual
+  source: https://github.com/textualize/textual
+  tags:
+  - clippings
+  - tools
+  - programming
+  - python
+  title: 'Textualize/textual: The lean application framework for Python.  Build sophisticated
+    user interfaces with a simple Python API. Run your apps in the terminal and a
+    web browser.'
+- _link: ./../sources/hyperresearch_-agent-driven-research-knowledge-base.-agents-collect,-search,-and-synthesize-web-research-into-a-persistent,-searchable-wiki..html
+  author: null
+  created: 2026-06-01
+  description: Agent-driven research knowledge base. Agents collect, search, and synthesize
+    web research into a persistent, searchable wiki. - jordan-gibbs/hyperresearch
+  source: https://github.com/jordan-gibbs/hyperresearch
+  tags:
+  - clippings
+  - llms
+  - tools
+  title: 'jordan-gibbs/hyperresearch: Agent-driven research knowledge base. Agents
+    collect, search, and synthesize web research into a persistent, searchable wiki.'

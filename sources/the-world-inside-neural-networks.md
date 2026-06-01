@@ -2,7 +2,7 @@
 title: "The World Inside Neural Networks"
 source: "https://www.goodfire.ai/research/the-world-inside-neural-networks#"
 author:
-published:
+
 created: 2026-05-18
 description: "How neural geometry will unlock understanding and control of AI"
 tags:

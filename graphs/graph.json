@@ -365,6 +365,15 @@
             ]
         },
         {
+            "id": "digital-garden",
+            "url": "./../sources/digital-garden",
+            "category": "sources",
+            "title": "digital garden",
+            "tags": [
+                "clippings"
+            ]
+        },
+        {
             "id": "dirs",
             "url": "./../dirs/dirs",
             "category": "dirs",
@@ -419,6 +428,15 @@
             ]
         },
         {
+            "id": "emergence-explains-nothing-and-is-bad-science",
+            "url": "./../sources/emergence-explains-nothing-and-is-bad-science",
+            "category": "sources",
+            "title": "emergence explains nothing and is bad science",
+            "tags": [
+                "clippings"
+            ]
+        },
+        {
             "id": "engineers-as-philosophers,-part-1",
             "url": "./../sources/engineers-as-philosophers,-part-1",
             "category": "sources",
@@ -465,6 +483,15 @@
             "url": "./../notes/epilepsy-map-of-contents",
             "category": "notes",
             "title": "epilepsy-map-of-contents"
+        },
+        {
+            "id": "evergreen-notes",
+            "url": "./../sources/evergreen-notes",
+            "category": "sources",
+            "title": "evergreen notes",
+            "tags": [
+                "clippings"
+            ]
         },
         {
             "id": "example",
@@ -542,6 +569,39 @@
                 "clippings",
                 "repo",
                 "interpretability"
+            ]
+        },
+        {
+            "id": "hyperresearch_-agent-driven-research-knowledge-base.-agents-collect,-search,-and-synthesize-web-research-into-a-persistent,-searchable-wiki.",
+            "url": "./../sources/hyperresearch_-agent-driven-research-knowledge-base.-agents-collect,-search,-and-synthesize-web-research-into-a-persistent,-searchable-wiki.",
+            "category": "sources",
+            "title": "jordan-gibbs/hyperresearch: agent-driven research knowledge base. agents collect, search, and synthesize web research into a persistent, searchable wiki.",
+            "tags": [
+                "clippings",
+                "llms",
+                "tools"
+            ]
+        },
+        {
+            "id": "i-gave-claude-code-a-0.02-call-coworker-and-stopped-hitting-pro-limits-here's-the-full-setup",
+            "url": "./../sources/i-gave-claude-code-a-0.02-call-coworker-and-stopped-hitting-pro-limits-here's-the-full-setup",
+            "category": "sources",
+            "title": "i gave claude code a $0.02/call coworker and stopped hitting pro limits \u2014 here's the full setup",
+            "tags": [
+                "clippings",
+                "llm",
+                "tooks"
+            ]
+        },
+        {
+            "id": "i-was-burning-through-claude-code\u2019s-weekly-limit-in-3-days.-here\u2019s-how-i-fixed-it",
+            "url": "./../sources/i-was-burning-through-claude-code\u2019s-weekly-limit-in-3-days.-here\u2019s-how-i-fixed-it",
+            "category": "sources",
+            "title": "i was burning through claude code\u2019s weekly limit in 3 days. here\u2019s how i fixed it.",
+            "tags": [
+                "clippings",
+                "llm",
+                "ai-model"
             ]
         },
         {
@@ -699,6 +759,17 @@
                 "repo",
                 "tool",
                 "rag"
+            ]
+        },
+        {
+            "id": "llms-know-they\u2019re-wrong-and-agree-anyway-the-shared-sycophancy-lying-circuit",
+            "url": "./../sources/llms-know-they\u2019re-wrong-and-agree-anyway-the-shared-sycophancy-lying-circuit",
+            "category": "sources",
+            "title": "llms know they\u2019re wrong and agree anyway: the shared sycophancy-lying circuit",
+            "tags": [
+                "clippings",
+                "citable",
+                "llms"
             ]
         },
         {
@@ -893,6 +964,12 @@
             "title": "node 2"
         },
         {
+            "id": "notdone",
+            "url": "./../notdone",
+            "category": "root",
+            "title": "notdone"
+        },
+        {
             "id": "note-from-mobile",
             "url": "./../notes/note-from-mobile",
             "category": "notes",
@@ -1082,6 +1159,18 @@
                 "speech-representations",
                 "ai-model",
                 "repo"
+            ]
+        },
+        {
+            "id": "obsidian-second-brain-claude-code-skill",
+            "url": "./../sources/obsidian-second-brain-claude-code-skill",
+            "category": "sources",
+            "title": "obsidian-second-brain: claude code skill for obsidian. turn your vault into a living ai-first second brain. 31 commands, vault-first research, scheduled agents.",
+            "tags": [
+                "clippings",
+                "rag",
+                "llm",
+                "pkb"
             ]
         },
         {
@@ -1330,6 +1419,40 @@
                 "representations",
                 "speech-representations",
                 "datasets"
+            ]
+        },
+        {
+            "id": "talkie-13b-model-from-1930",
+            "url": "./../sources/talkie-13b-model-from-1930",
+            "category": "sources",
+            "title": "introducing talkie: a 13b vintage language model from 1930",
+            "tags": [
+                "clippings",
+                "ai-model",
+                "llm"
+            ]
+        },
+        {
+            "id": "textual-interface-gui-tui-python",
+            "url": "./../sources/textual-interface-gui-tui-python",
+            "category": "sources",
+            "title": "textualize/textual: the lean application framework for python.  build sophisticated user interfaces with a simple python api. run your apps in the terminal and a web browser.",
+            "tags": [
+                "clippings",
+                "tools",
+                "programming",
+                "python"
+            ]
+        },
+        {
+            "id": "the-world-inside-neural-networks",
+            "url": "./../sources/the-world-inside-neural-networks",
+            "category": "sources",
+            "title": "the world inside neural networks",
+            "tags": [
+                "clippings",
+                "reverse-engineering",
+                "ml"
             ]
         },
         {
@@ -1905,6 +2028,14 @@
             "target": "timit-acoustic-phonetic-continuous-speech-corpus---linguistic-data-consortium"
         },
         {
+            "source": "obsidian-second-brain-claude-code-skill",
+            "target": "wikilinks"
+        },
+        {
+            "source": "obsidian-second-brain-claude-code-skill",
+            "target": "wikilinks"
+        },
+        {
             "source": "pet_-simple-command-line-snippet-manager",
             "target": "snippets"
         },
@@ -2046,6 +2177,7 @@
             "meg",
             "meg-masc",
             "methods",
+            "ml",
             "ml-theory",
             "mous",
             "music",
@@ -2053,6 +2185,7 @@
             "phoneme",
             "pkb",
             "programming",
+            "python",
             "rag",
             "real-world",
             "repo",
@@ -2069,6 +2202,7 @@
             "speech-representations",
             "story",
             "syntax",
+            "tooks",
             "tool",
             "tools",
             "transformers",

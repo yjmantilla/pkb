@@ -3,7 +3,7 @@ title: "Textualize/textual: The lean application framework for Python.  Build so
 source: "https://github.com/textualize/textual"
 author:
   - "[[Textualize]]"
-published:
+
 created: 2026-04-30
 description: "The lean application framework for Python.  Build sophisticated user interfaces with a simple Python API. Run your apps in the terminal and a web browser. - Textualize/textual"
 tags:

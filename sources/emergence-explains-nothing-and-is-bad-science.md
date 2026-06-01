@@ -3,7 +3,7 @@ title: "Emergence explains nothing and is bad science"
 source: "https://iai.tv/articles/emergence-explains-nothing-and-is-bad-science-auid-3385?utm_source=instagram&utm_medium=feed&fbclid=PAVERFWARs30tleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA8xMjQwMjQ1NzQyODc0MTQAAae5IDvNO8pXmY8iKp6csD0B5m9VlWmJ8ZdtgB_2xTGIZ4PQbyGJnkEJ85TkSg_aem_ndjNTS498VGRu3S99J83wQ"
 author:
   - "[[John Heil]]"
-published:
+
 created: 2026-05-09
 description: "Life, consciousness and the cosmos are not “emergent”"
 tags:
