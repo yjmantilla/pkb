@@ -1,6 +1,16 @@
 {
     "nodes": [
         {
+            "id": "10-cli-tools-that-made-the-biggest-impact-on-transforming-my-terminal-based-workflow",
+            "url": "./../sources/10-cli-tools-that-made-the-biggest-impact-on-transforming-my-terminal-based-workflow",
+            "category": "sources",
+            "title": "10 cli tools that made the biggest impact on transforming my terminal-based workflow",
+            "tags": [
+                "clippings",
+                "tools"
+            ]
+        },
+        {
             "id": "a-10-hour-within-participant-magnetoencephalography-narrative-dataset-to-test-models-of-language-comprehension",
             "url": "./../sources/a-10-hour-within-participant-magnetoencephalography-narrative-dataset-to-test-models-of-language-comprehension",
             "category": "sources",
@@ -50,6 +60,17 @@
             ]
         },
         {
+            "id": "agarrharr_awesome-cli-apps_a-curated-list-of-command-line-apps",
+            "url": "./../sources/agarrharr_awesome-cli-apps_a-curated-list-of-command-line-apps",
+            "category": "sources",
+            "title": "agarrharr awesome-cli-apps a curated list of command line apps",
+            "tags": [
+                "clippings",
+                "tools",
+                "repo"
+            ]
+        },
+        {
             "id": "agentmemory_-persistent-memory-for-ai-coding-agents-based-on-real-world-benchmarks",
             "url": "./../sources/agentmemory_-persistent-memory-for-ai-coding-agents-based-on-real-world-benchmarks",
             "category": "sources",
@@ -93,6 +114,17 @@
             "title": "all llms are either claude-like or gpt-like method",
             "tags": [
                 "clippings"
+            ]
+        },
+        {
+            "id": "angrysearch_-linux-file-search,-instant-results-as-you-type",
+            "url": "./../sources/angrysearch_-linux-file-search,-instant-results-as-you-type",
+            "category": "sources",
+            "title": "dotheevo/angrysearch: linux file search, instant results as you type",
+            "tags": [
+                "clippings",
+                "tools",
+                "repo"
             ]
         },
         {
@@ -178,6 +210,17 @@
                 "citable",
                 "mechinterp",
                 "interpretability"
+            ]
+        },
+        {
+            "id": "awesome-research-in-brain-decoding-datasets",
+            "url": "./../sources/awesome-research-in-brain-decoding-datasets",
+            "category": "sources",
+            "title": "neuspeech awesome-brain-decoding: collection of awesome research in brain decoding, including interaction with multi-modalities, theories, and foundation models.",
+            "tags": [
+                "clippings",
+                "speech",
+                "speech-representations"
             ]
         },
         {
@@ -328,6 +371,17 @@
             "title": "dirs"
         },
         {
+            "id": "discoverphysics_-benchmarking-llms-for-out-of-the-box-scientific-thinking",
+            "url": "./../sources/discoverphysics_-benchmarking-llms-for-out-of-the-box-scientific-thinking",
+            "category": "sources",
+            "title": "discoverphysics: benchmarking llms for out-of-the-box scientific thinking",
+            "tags": [
+                "clippings",
+                "citable",
+                "llms"
+            ]
+        },
+        {
             "id": "dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech",
             "url": "./../sources/dissecting-neural-computations-in-the-human-auditory-pathway-using-deep-neural-networks-for-speech",
             "category": "sources",
@@ -399,6 +453,18 @@
             "tags": [
                 "clippings"
             ]
+        },
+        {
+            "id": "epilepsy-datasets",
+            "url": "./../notes/epilepsy-datasets",
+            "category": "notes",
+            "title": "epilepsy-datasets"
+        },
+        {
+            "id": "epilepsy-map-of-contents",
+            "url": "./../notes/epilepsy-map-of-contents",
+            "category": "notes",
+            "title": "epilepsy-map-of-contents"
         },
         {
             "id": "example",
@@ -603,6 +669,17 @@
             ]
         },
         {
+            "id": "list-of-markdown-presentation-tools",
+            "url": "./../sources/list-of-markdown-presentation-tools",
+            "category": "sources",
+            "title": "list of markdown presentation tools",
+            "tags": [
+                "clippings",
+                "tools",
+                "slides"
+            ]
+        },
+        {
             "id": "llm-wiki",
             "url": "./../sources/llm-wiki",
             "category": "sources",
@@ -642,6 +719,17 @@
             ]
         },
         {
+            "id": "m-bain_whisperx_-whisperx_--automatic-speech-recognition-with-word-level-timestamps-(&-diarization)",
+            "url": "./../sources/m-bain_whisperx_-whisperx_--automatic-speech-recognition-with-word-level-timestamps-(&-diarization)",
+            "category": "sources",
+            "title": "m-bain/whisperx: whisperx:  automatic speech recognition with word-level timestamps (& diarization)",
+            "tags": [
+                "clippings",
+                "tools",
+                "repo"
+            ]
+        },
+        {
             "id": "many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions",
             "url": "./../sources/many-but-not-all-deep-neural-network-audio-models-capture-brain-responses-and-exhibit-correspondence-between-model-stages-and-brain-regions",
             "category": "sources",
@@ -669,6 +757,17 @@
             ]
         },
         {
+            "id": "marp_-markdown-presentation-ecosystem",
+            "url": "./../sources/marp_-markdown-presentation-ecosystem",
+            "category": "sources",
+            "title": "marp: markdown presentation ecosystem",
+            "tags": [
+                "clippings",
+                "tools",
+                "slides"
+            ]
+        },
+        {
             "id": "mechanistic-interpretability-for-ai-safety-a-review",
             "url": "./../sources/mechanistic-interpretability-for-ai-safety-a-review",
             "category": "sources",
@@ -692,6 +791,29 @@
                 "repo",
                 "pkb",
                 "rag"
+            ]
+        },
+        {
+            "id": "microsoft_vibevoice_-open-source-frontier-voice-ai",
+            "url": "./../sources/microsoft_vibevoice_-open-source-frontier-voice-ai",
+            "category": "sources",
+            "title": "microsoft vibevoice open-source frontier voice ai",
+            "tags": [
+                "clippings",
+                "repo",
+                "speech",
+                "speech-representations",
+                "ai-model"
+            ]
+        },
+        {
+            "id": "mosh_-the-mobile-shell",
+            "url": "./../sources/mosh_-the-mobile-shell",
+            "category": "sources",
+            "title": "mosh: the mobile shell",
+            "tags": [
+                "clippings",
+                "tools"
             ]
         },
         {
@@ -963,6 +1085,42 @@
             ]
         },
         {
+            "id": "omni-ieeg_-a-large-scale,-comprehensive-ieeg-dataset-and-benchmark-for-epilepsy-research",
+            "url": "./../sources/omni-ieeg_-a-large-scale,-comprehensive-ieeg-dataset-and-benchmark-for-epilepsy-research",
+            "category": "sources",
+            "title": "omni-ieeg: a large-scale, comprehensive ieeg dataset and benchmark for epilepsy research",
+            "tags": [
+                "clippings",
+                "datasets",
+                "epilepsy",
+                "citable"
+            ]
+        },
+        {
+            "id": "omni-ieeg_-a-large-scale,-comprehensive-ieeg-dataset-and-benchmark-for-epilepsy-research.md",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "omni-ieeg_-a-large-scale,-comprehensive-ieeg-dataset-and-benchmark-for-epilepsy-research.md"
+        },
+        {
+            "id": "omni-ieeg_open-review-a-large-scale,-comprehensive-ieeg-dataset-and-benchmark...",
+            "url": "./../sources/omni-ieeg_open-review-a-large-scale,-comprehensive-ieeg-dataset-and-benchmark...",
+            "category": "sources",
+            "title": "omni-ieeg openreview a large-scale, comprehensive ieeg dataset and benchmark...",
+            "tags": [
+                "clippings",
+                "datasets",
+                "epilepsy",
+                "citable"
+            ]
+        },
+        {
+            "id": "omni-ieeg_open-review-a-large-scale,-comprehensive-ieeg-dataset-and-benchmark....md",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "omni-ieeg_open-review-a-large-scale,-comprehensive-ieeg-dataset-and-benchmark....md"
+        },
+        {
             "id": "on-computational-positivism",
             "url": "./../sources/on-computational-positivism",
             "category": "sources",
@@ -1001,6 +1159,17 @@
                 "music",
                 "citable",
                 "ai-model"
+            ]
+        },
+        {
+            "id": "pet_-simple-command-line-snippet-manager",
+            "url": "./../sources/pet_-simple-command-line-snippet-manager",
+            "category": "sources",
+            "title": "pet simple command-line snippet manager",
+            "tags": [
+                "clippings",
+                "tool",
+                "repo"
             ]
         },
         {
@@ -1078,6 +1247,28 @@
             ]
         },
         {
+            "id": "revisiting-the-platonic-representation-hypothesis-an-aristotelian-view",
+            "url": "./../sources/revisiting-the-platonic-representation-hypothesis-an-aristotelian-view",
+            "category": "sources",
+            "title": "revisiting the platonic representation hypothesis an aristotelian view",
+            "tags": [
+                "clippings",
+                "citable",
+                "ml-theory"
+            ]
+        },
+        {
+            "id": "revisiting-the-platonic-representation-hypothesis-an-aristotelian-view-paper",
+            "url": "./../sources/revisiting-the-platonic-representation-hypothesis-an-aristotelian-view-paper",
+            "category": "sources",
+            "title": "revisiting the platonic representation hypothesis: an aristotelian view",
+            "tags": [
+                "clippings",
+                "citable",
+                "ml-theory"
+            ]
+        },
+        {
             "id": "robust-speech-recognition-via-large-scale-weak-supervision",
             "url": "./../sources/robust-speech-recognition-via-large-scale-weak-supervision",
             "category": "sources",
@@ -1089,6 +1280,12 @@
                 "speech",
                 "ai-models"
             ]
+        },
+        {
+            "id": "snippets",
+            "url": "./../notes/stub",
+            "category": "notes",
+            "title": "snippets"
         },
         {
             "id": "speech-representations-datasets",
@@ -1170,6 +1367,15 @@
             "url": "./../notes/stub",
             "category": "notes",
             "title": "unknownnode"
+        },
+        {
+            "id": "using-an-api-to-retrieve-and-process-every-playlist-from-a-youtube-account",
+            "url": "./../sources/using-an-api-to-retrieve-and-process-every-playlist-from-a-youtube-account",
+            "category": "sources",
+            "title": "using an api to retrieve and process every playlist from a youtube account",
+            "tags": [
+                "clippings"
+            ]
         },
         {
             "id": "using-tmux",
@@ -1611,6 +1817,14 @@
             "target": "language-models-transmit-behavioural-traits-through-hidden-signals-in-data"
         },
         {
+            "source": "epilepsy-datasets",
+            "target": "omni-ieeg_-a-large-scale,-comprehensive-ieeg-dataset-and-benchmark-for-epilepsy-research.md"
+        },
+        {
+            "source": "epilepsy-datasets",
+            "target": "omni-ieeg_open-review-a-large-scale,-comprehensive-ieeg-dataset-and-benchmark....md"
+        },
+        {
             "source": "graphs",
             "target": "dirs"
         },
@@ -1703,6 +1917,14 @@
             "target": "timit-acoustic-phonetic-continuous-speech-corpus---linguistic-data-consortium"
         },
         {
+            "source": "pet_-simple-command-line-snippet-manager",
+            "target": "snippets"
+        },
+        {
+            "source": "pet_-simple-command-line-snippet-manager",
+            "target": "snippets"
+        },
+        {
             "source": "README",
             "target": "dirs"
         },
@@ -1776,7 +1998,19 @@
         },
         {
             "source": "stub",
+            "target": "omni-ieeg_-a-large-scale,-comprehensive-ieeg-dataset-and-benchmark-for-epilepsy-research.md"
+        },
+        {
+            "source": "stub",
+            "target": "omni-ieeg_open-review-a-large-scale,-comprehensive-ieeg-dataset-and-benchmark....md"
+        },
+        {
+            "source": "stub",
             "target": "other-note-filename"
+        },
+        {
+            "source": "stub",
+            "target": "snippets"
         },
         {
             "source": "stub",
@@ -1813,6 +2047,7 @@
             "dld",
             "dnn-brain-comparison",
             "ecog",
+            "epilepsy",
             "fmri",
             "gaps",
             "graph",
@@ -1822,10 +2057,12 @@
             "language-models",
             "libribrain",
             "llm",
+            "llms",
             "mechinterp",
             "meg",
             "meg-masc",
             "methods",
+            "ml-theory",
             "mous",
             "music",
             "narrative",
@@ -1840,6 +2077,7 @@
             "rsa",
             "scale",
             "self-supervised",
+            "slides",
             "speech",
             "speech-comprehension",
             "speech-production",

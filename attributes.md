@@ -25,6 +25,7 @@ title: Attributes
 - dld
 - dnn-brain-comparison
 - ecog
+- epilepsy
 - fmri
 - gaps
 - graph
@@ -34,10 +35,12 @@ title: Attributes
 - language-models
 - libribrain
 - llm
+- llms
 - mechinterp
 - meg
 - meg-masc
 - methods
+- ml-theory
 - mous
 - music
 - narrative
@@ -52,6 +55,7 @@ title: Attributes
 - rsa
 - scale
 - self-supervised
+- slides
 - speech
 - speech-comprehension
 - speech-production

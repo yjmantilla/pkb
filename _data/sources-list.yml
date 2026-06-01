@@ -1334,3 +1334,201 @@
   - story
   title: A Matplotlib maintainer closed a pull request made by an AI. The "AI" went
     on to publish a rant-filled blog post about the "human" maintainer.
+- _link: ./../sources/awesome-research-in-brain-decoding-datasets.html
+  author:
+  - '[[NeuSpeech]]'
+  created: 2026-04-30
+  description: collection of awesome research in brain decoding, including interaction
+    with multi-modalities, theories, and foundation models. - NeuSpeech/awesome-brain-decoding
+  source: https://github.com/NeuSpeech/awesome-brain-decoding#brain-to-speech
+  tags:
+  - clippings
+  - speech
+  - speech-representations
+  title: 'NeuSpeech awesome-brain-decoding: collection of awesome research in brain
+    decoding, including interaction with multi-modalities, theories, and foundation
+    models.'
+- _link: ./../sources/agarrharr_awesome-cli-apps_a-curated-list-of-command-line-apps.html
+  author: null
+  created: 2026-05-04
+  description: A curated list of command line apps. Contribute to agarrharr/awesome-cli-apps
+    development by creating an account on GitHub.
+  source: https://github.com/agarrharr/awesome-cli-apps
+  tags:
+  - clippings
+  - tools
+  - repo
+  title: agarrharr awesome-cli-apps A curated list of command line apps
+- _link: ./../sources/mosh_-the-mobile-shell.html
+  author:
+  - '[[Keith Winstein <mosh-devel@mit.edu>]]'
+  created: 2026-05-04
+  description: Mobile shell that supports roaming and intelligent local echo. Like
+    SSH secure shell, but allows mobility and more responsive and robust.
+  source: https://mosh.org/#getting
+  tags:
+  - clippings
+  - tools
+  title: 'Mosh: the mobile shell'
+- _link: ./../sources/10-cli-tools-that-made-the-biggest-impact-on-transforming-my-terminal-based-workflow.html
+  author:
+  - '[[piotr1215]]'
+  created: 2026-05-04
+  description: 'EDIT: Added a companion video https://youtu.be/fU8HB1cvG9w Awesome
+    tools that I learned about from the comments:'
+  published: 2024-08-11
+  source: https://www.reddit.com/r/commandline/comments/1epjppl/10_cli_tools_that_made_the_biggest_impact_on/
+  tags:
+  - clippings
+  - tools
+  title: 10 CLI Tools That Made the Biggest Impact On Transforming My Terminal-Based
+    Workflow
+- _link: ./../sources/microsoft_vibevoice_-open-source-frontier-voice-ai.html
+  author: null
+  created: 2026-05-04
+  description: Open-Source Frontier Voice AI. Contribute to microsoft/VibeVoice development
+    by creating an account on GitHub.
+  source: https://github.com/microsoft/VibeVoice
+  tags:
+  - clippings
+  - repo
+  - speech
+  - speech-representations
+  - ai-model
+  title: microsoft VibeVoice Open-Source Frontier Voice AI
+- _link: ./../sources/using-an-api-to-retrieve-and-process-every-playlist-from-a-youtube-account.html
+  author:
+  - '[[Denis Bélanger 💎⚡✨]]'
+  created: 2026-05-04
+  description: More
+  published: 2025-02-13
+  source: https://medium.com/@python-javascript-php-html-css/using-an-api-to-retrieve-and-process-every-playlist-from-a-youtube-account-b4a4757aa1c0
+  tags:
+  - clippings
+  title: Using an API to Retrieve and Process Every Playlist from a YouTube Account
+- _link: ./../sources/revisiting-the-platonic-representation-hypothesis-an-aristotelian-view.html
+  author: null
+  created: 2026-05-04
+  description: null
+  published: 2026-02-17
+  source: https://brbiclab.epfl.ch/projects/aristotelian/?fbclid=IwY2xjawRlrq5leHRuA2FlbQIxMABicmlkETFWZWY3QkRZYk51S2p0RE40c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHrolzS8TSMC9-2KvC9pNDqD7qqfPgohHoKIUY4Sp-FyQx9FEJu7tBe5OUDCJ_aem_zInzguTofxdXnOcXPmCwUA
+  tags:
+  - clippings
+  - citable
+  - ml-theory
+  title: Revisiting the Platonic Representation Hypothesis An Aristotelian View
+- _link: ./../sources/revisiting-the-platonic-representation-hypothesis-an-aristotelian-view-paper.html
+  author: null
+  created: 2026-05-04
+  description: null
+  source: https://arxiv.org/html/2602.14486v1
+  tags:
+  - clippings
+  - citable
+  - ml-theory
+  title: 'Revisiting the Platonic Representation Hypothesis: An Aristotelian View'
+- _link: ./../sources/angrysearch_-linux-file-search,-instant-results-as-you-type.html
+  author: null
+  created: 2026-05-04
+  description: Linux file search, instant results as you type. Contribute to DoTheEvo/ANGRYsearch
+    development by creating an account on GitHub.
+  source: https://github.com/DoTheEvo/ANGRYsearch
+  tags:
+  - clippings
+  - tools
+  - repo
+  title: 'DoTheEvo/ANGRYsearch: Linux file search, instant results as you type'
+- _link: ./../sources/list-of-markdown-presentation-tools.html
+  author: null
+  created: 2026-05-04
+  description: 'List of markdown presentation tools. GitHub Gist: instantly share
+    code, notes, and snippets.'
+  source: https://gist.github.com/johnloy/27dd124ad40e210e91c70dd1c24ac8c8
+  tags:
+  - clippings
+  - tools
+  - slides
+  title: List of markdown presentation tools
+- _link: ./../sources/marp_-markdown-presentation-ecosystem.html
+  author: null
+  created: 2026-05-04
+  description: Marp (also known as the Markdown Presentation Ecosystem) provides an
+    intuitive experience for creating beautiful slide decks. You only have to focus
+    on writing your story in a Markdown document.
+  source: https://marp.app/
+  tags:
+  - clippings
+  - tools
+  - slides
+  title: 'Marp: Markdown Presentation Ecosystem'
+- _link: ./../sources/omni-ieeg_-a-large-scale,-comprehensive-ieeg-dataset-and-benchmark-for-epilepsy-research.html
+  author:
+  - '[[Omni-iEEG]]'
+  created: 2026-05-11
+  description: <h3 style='color:red'>ICLR 2026</h3>
+  source: https://omni-ieeg.github.io/omni-ieeg/
+  tags:
+  - clippings
+  - datasets
+  - epilepsy
+  - citable
+  title: 'Omni-iEEG: A Large-Scale, Comprehensive iEEG Dataset and Benchmark for Epilepsy
+    Research'
+- _link: ./../sources/omni-ieeg_open-review-a-large-scale,-comprehensive-ieeg-dataset-and-benchmark....html
+  author:
+  - '[[Chenda Duan]]'
+  - '[[Yipeng Zhang]]'
+  - '[[Sotaro Kanai]]'
+  - '[[Yuanyi Ding]]'
+  - '[[Atsuro Daida]]'
+  - '[[Pengyue Yu]]'
+  - '[[Tiancheng Zheng]]'
+  - '[[Naoto Kuroda]]'
+  - '[[Shaun A. Hussain]]'
+  - '[[Eishi Asano]]'
+  - '[[Hiroki Nariai]]'
+  - '[[vwani Roychowdhury]]'
+  created: 2026-05-11
+  description: Epilepsy affects over 50 million people worldwide, and one-third of
+    patients suffer drug-resistant seizures where surgery offers the best chance of
+    seizure freedom. Accurate localization of the...
+  source: https://openreview.net/forum?id=rv9lQpY5cG
+  tags:
+  - clippings
+  - datasets
+  - epilepsy
+  - citable
+  title: Omni-iEEG openreview A Large-Scale, Comprehensive iEEG Dataset and Benchmark...
+- _link: ./../sources/pet_-simple-command-line-snippet-manager.html
+  author: null
+  created: 2026-05-04
+  description: Simple command-line snippet manager. Contribute to knqyf263/pet development
+    by creating an account on GitHub.
+  source: https://github.com/knqyf263/pet#Installation
+  tags:
+  - clippings
+  - tool
+  - repo
+  title: pet Simple command-line snippet manager
+- _link: ./../sources/m-bain_whisperx_-whisperx_--automatic-speech-recognition-with-word-level-timestamps-(&-diarization).html
+  author: null
+  created: 2026-05-14
+  description: 'WhisperX:  Automatic Speech Recognition with Word-level Timestamps
+    (& Diarization) - m-bain/whisperX'
+  source: https://github.com/m-bain/whisperx
+  tags:
+  - clippings
+  - tools
+  - repo
+  title: 'm-bain/whisperX: WhisperX:  Automatic Speech Recognition with Word-level
+    Timestamps (& Diarization)'
+- _link: ./../sources/discoverphysics_-benchmarking-llms-for-out-of-the-box-scientific-thinking.html
+  author: null
+  created: 2026-06-01
+  description: null
+  source: https://arxiv.org/html/2605.26087v1
+  tags:
+  - clippings
+  - citable
+  - llms
+  title: 'DiscoverPhysics: Benchmarking LLMs for Out-of-the-Box Scientific Thinking'
